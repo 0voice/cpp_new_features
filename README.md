@@ -21,7 +21,28 @@
 * 关键字: 新关键字有override、auto等。
 * 新语法: 新语法有范围for、lambda表达式等。
 
-##### C++11 所有细分出来的新特性(95个)
+#### 标准库
+
+
+#### 关键字
+
+```C
+alignas
+alignof
+char16_t
+char32_t
+constexpr
+decltype
+noexcept
+nullptr
+static_assert
+thread_local
+```
+
+#### 新特性
+
+<h5>所有细分出来的新特性(95个)</h5>
+
 
 * [long long 类型](#cpp_11_01)
 * 列表初始化
