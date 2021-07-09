@@ -24,13 +24,12 @@
 ### Headers
 
 #### Utilities library
-
 * <typeindex>
 * <type_traits>
 * <chrono>
 * <initializer_list>
 * <tuple>
-
+ 
 #### Dynamic memory management
 
 * <scoped_allocator>
