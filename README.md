@@ -23,7 +23,7 @@
 
 ### <span style="font-weight: bold;">Language support library</span>
 
-####  Type support  −  traits
+####  Type support
 
 ##### Additional basic types and macros
 
