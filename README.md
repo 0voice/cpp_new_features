@@ -76,13 +76,75 @@
 * &lt;future&gt;
 * &lt;condition_variable&gt;
 
+### Named Requirements
+
+#### Basic
+
+* MoveConstructible
+* MoveAssignable
+
+#### Type properties
+
+* TriviallyCopyable
+* TrivialType
+* StandardLayoutType
+
+#### Library-wide
+
+* Swappable
+* ValueSwappable
+* NullablePointer
+* Hash
+
+#### Container
+
+* AllocatorAwareContainer
+* UnorderedAssociativeContainer
+
+#### Container element
+
+* DefaultInsertable
+* CopyInsertable
+* MoveInsertable
+* EmplaceConstructible
+* Erasable
+
+#### Random Number Generation
+
+* SeedSequence
+* UniformRandomBitGenerator
+* RandomNumberEngine
+* RandomNumberEngineAdaptor
+* RandomNumberDistribution
+
+#### Concurrency
+
+* BasicLockable
+* Lockable
+* TimedLockable
+* Mutex
+* TimedMutex
+
+#### Other
+
+* UnaryTypeTrait
+* BinaryTypeTrait
+* TransformationTrait
+* Clock
+* TrivialClock
+* RegexTraits
+* LiteralType
+
 ### Language support library
 
-* Type support  −  traits
+####  Type support  −  traits
+
+* nullptr_t
   * [C++11新特性](#cpp_11)
 * Program utilities
 * numeric_limits  −  type_info
 * initializer_list
+
 
 ### General utilities library
 
