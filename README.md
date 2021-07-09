@@ -21,7 +21,7 @@
 
 <h2 id="cpp_11">C++11新特性</h2>
 
-### <li><span style="font-weight: bold;">Headers</span></li>
+### <span style="font-weight: bold;">Headers</span>
 
 #### Utilities library
 * &lt;typeindex&gt;
