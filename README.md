@@ -192,7 +192,7 @@
   * is_signed
   * is_unsigned
   
-* Supported operations
+###### Supported operations
 
 * is_constructible
 * is_trivially_constructible
