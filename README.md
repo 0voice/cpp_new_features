@@ -21,24 +21,25 @@
 
 <h2 id="cpp_11">C++11新特性</h2>
 
-### <span style="font-weight: bold;">Language support library</span>
+<br />
+## <span style="font-weight: bold;">Language support library</span>
 
-####  Type support
+###  Type support
 
-##### Additional basic types and macros
+#### Additional basic types and macros
 
 * [nullptr_t](#cpp_11_nullptr_t)
 * [max_align_t](#cpp_11_max_align_t)
 
-##### Runtime type identification
+#### Runtime type identification
 
 * [type_index](#cpp_11_type_index)
 
-#### Type traits
+### Type traits
 
-##### Type properties
+#### Type properties
 
-###### Primary type categories
+##### Primary type categories
 
   * [is_void](#cpp_11_is_void)
   * [is_integral](#cpp_11_is_integral)
@@ -54,7 +55,7 @@
   * [is_member_object_pointer](#cpp_11_is_member_object_pointer)
   * [is_member_function_pointer](#cpp_11_is_member_function_pointer)
 
-###### Composite type categories
+##### Composite type categories
 
   * [is_fundamental](#cpp_11_is_fundamental)
   * [is_arithmetic](#cpp_11_is_arithmetic)
@@ -64,7 +65,7 @@
   * [is_reference](#cpp_11_is_reference)
   * [is_member_pointer](#cpp_11_is_member_pointer)
 
-###### Type properties
+##### Type properties
 
   * [is_const](#cpp_11_is_const)
   * [is_volatile](#cpp_11_is_volatile)
@@ -83,44 +84,28 @@
 * [is_constructible](#cpp_11_is_constructible)
 * [is_trivially_constructible](#cpp_11_is_trivially_constructible)
 * [is_nothrow_constructible](#cpp_11_is_nothrow_constructible)
-<br/>
-
 * [is_default_constructible](#cpp_11_is_default_constructible)
 * [is_trivially_default_constructible](#cpp_11_is_trivially_default_constructible)
 * [is_nothrow_default_constructible](#cpp_11_is_nothrow_default_constructible)
-<br/>
-
 * [is_copy_constructible](#cpp_11_is_copy_constructible)
 * [is_trivially_copy_constructible](#cpp_11_is_trivially_copy_constructible)
 * [is_nothrow_copy_constructible](#cpp_11_is_nothrow_copy_constructible)
-<br/>
-
 * [is_move_constructible](#cpp_11_is_move_constructible)
 * [is_trivially_move_constructible](#cpp_11_is_trivially_move_constructible)
 * [is_nothrow_move_constructible](#cpp_11_is_nothrow_move_constructible)
-<br/>
-
 * [is_assignable](#cpp_11_is_assignable)
 * [is_trivially_assignable](#cpp_11_is_trivially_assignable)
 * [is_nothrow_assignable](#cpp_11_is_nothrow_assignable)
-<br/>
-  
 * [is_copy_assignable](#cpp_11_is_copy_assignable)
 * [is_trivially_copy_assignable](#cpp_11_is_trivially_copy_assignable)
 * [is_nothrow_copy_assignable](#cpp_11_is_nothrow_copy_assignable)
-<br/>
-  
 * [is_move_assignable](#cpp_11_is_move_assignable)
 * [is_trivially_move_assignable](#cpp_11_is_trivially_move_assignable)
 * [is_nothrow_move_assignable](#cpp_11_is_nothrow_move_assignable)
-<br/>
-
 * [is_destructible](#cpp_11_is_destructible)
 * [is_trivially_destructible](#cpp_11_is_trivially_destructible)
 * [is_nothrow_destructible](#cpp_11_is_nothrow_destructible)
-<br/>
- 
- * [has_virtual_destructor](#cpp_11_has_virtual_destructor)
+* [has_virtual_destructor](#cpp_11_has_virtual_destructor)
 
 ##### Property queries
 
@@ -130,11 +115,7 @@
 
 ##### Type relationships
 * [is_same](#cpp_11_is_same)
-<br/>
-
 * [is_base_of](#cpp_11_is_base_of)
-<br/>
-
 * [is_convertible](#cpp_11_is_convertible)
 
 #### Type modifications
@@ -144,39 +125,28 @@
 * [remove_cv](#cpp_11_remove_cv)
 * [remove_const](#cpp_11_remove_const)
 * [remove_volatile](#cpp_11_remove_volatile)
-<br/>
-
 * [add_cv](#cpp_11_add_cv)
 * [add_const](#cpp_11_add_const)
 * [add_volatile](#cpp_11_add_volatile)
-<br/>
 
 ##### References
 * [remove_reference](#cpp_11_remove_reference)
-<br/>
-
 * [add_lvalue_reference](#cpp_11_add_lvalue_reference)
 * [add_rvalue_reference](#cpp_11_add_rvalue_reference)
 
 ##### Pointers
 
 * [remove_pointer](#cpp_11_remove_pointer)
-<br/>
-
 * [add_pointer](#cpp_11_add_pointer)
 
 ##### Sign modifiers
 
 * [make_signed](#cpp_11_add_pointer)
-<br/>
-
 * [make_unsigned](#cpp_11_make_unsigned)
 
 ##### Arrays
 
 * [remove_extent](#cpp_11_remove_extent)
-<br/>
-
 * [remove_all_extents](#cpp_11_remove_all_extents)
 
 #### Miscellaneous transformations
@@ -193,11 +163,17 @@
 
 * [integral_constant](#cpp_11_integral_constant)
 
+#### Program utilities
+
+
+<br />
 ### <span style="font-weight: bold;">General utilities library</span>
 
-Smart pointers and allocators
+#### Program utilities
 unique_ptr
 shared_ptr
+
+
 Date and time
 Function objects  −  hash
 Utility functions
