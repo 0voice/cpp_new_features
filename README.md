@@ -269,13 +269,41 @@
 * [align](#cpp_11_align)
 
 
-#### unique_ptr
-#### shared_ptr
+#### [unique_ptr](#cpp_11_unique_ptr)
+#### [shared_ptr](#cpp_11_shared_ptr)
+
+#### Date and time
+
+##### Clocks
+
+* [system_clock](#cpp_11_system_clock)
+* [steady_clock](#cpp_11_steady_clock)
+  
+##### Time point
+
+* [time_point](#cpp_11_time_point)
+
+##### Duration
+
+* [duration](#cpp_11_duration)
+
+#### Function objects
+
+##### Function wrappers
+
+* [function](#cpp_11_function)
+* [bad_function_call](#cpp_11_bad_function_call)
+* [mem_fn](#cpp_11_mem_fn)
+
+##### Partial function application
+
+* [bind](#cpp_11_bind)
+* [is_bind_expression](#cpp_11_is_bind_expression)
+* [is_placeholder](#cpp_11_is_placeholder)
+* [_1, _2, _3, _4, ...](#cpp_11__1,_2,_3,_4,...)
 
 
-
-
-
+#### hash
 
 
 
