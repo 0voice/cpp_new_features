@@ -152,7 +152,7 @@
 
 ##### Type properties
 
-* Primary type categories
+###### Primary type categories
 
   * is_void
   * is_integral
@@ -168,7 +168,7 @@
   * is_member_object_pointer
   * is_member_function_pointer
 
-* Composite type categories
+###### Composite type categories
 
   * is_fundamental
   * is_arithmetic
@@ -178,7 +178,7 @@
   * is_reference
   * is_member_pointer
 
-* Type properties
+###### Type properties
 
   * is_const
   * is_volatile
