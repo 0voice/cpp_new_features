@@ -3,7 +3,8 @@
 using namespace std;
  
 // 编译选项:g++ -std=c++11 2-2-1.cpp
-int main()<span style="font-family: Arial, Helvetica, sans-serif;">{</span>
+int main()
+{
     long long ll_min = LLONG_MIN;
     long long ll_max = LLONG_MAX;
     unsigned long long ull_max = ULLONG_MAX;
