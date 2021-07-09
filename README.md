@@ -142,7 +142,19 @@ thread_local
 
 ### 1 
 
-#### 1.1 
+函数返回值类型推导
+lambda参数auto
+变量模板
+别名模板
+constexpr的限制
+
+[[deprecated]]标记
+二进制字面量与整形字面量分隔符
+std::make_unique
+std::shared_timed_mutex与std::shared_lock
+std::integer_sequence
+std::exchange
+std::quoted
 
 ##### 1.1.1 
 
