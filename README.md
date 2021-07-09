@@ -154,43 +154,43 @@
 
 ###### Primary type categories
 
-  * is_void
-  * is_integral
-  * is_floating_point
-  * is_array
-  * is_enum
-  * is_union
-  * is_class
-  * is_function
-  * is_pointer
-  * is_lvalue_reference
-  * is_rvalue_reference
-  * is_member_object_pointer
-  * is_member_function_pointer
+  * [is_void](#cpp_11_is_void)
+  * [is_integral](#cpp_11_is_integral)
+  * [is_floating_point](#cpp_11_is_floating_point)
+  * [is_array](#cpp_11_is_array)
+  * [is_enum](#cpp_11_is_enum)
+  * [is_union](#cpp_11_is_union)
+  * [is_class](#cpp_11_is_class)
+  * [is_function](#cpp_11_is_function)
+  * [is_pointer](#cpp_11_is_pointer)
+  * [is_lvalue_reference](#cpp_11_is_lvalue_reference)
+  * [is_rvalue_reference](#cpp_11_is_rvalue_reference)
+  * [is_member_object_pointer](#cpp_11_is_member_object_pointer)
+  * [is_member_function_pointer](#cpp_11_is_member_function_pointer)
 
 ###### Composite type categories
 
-  * is_fundamental
-  * is_arithmetic
-  * is_scalar
-  * is_object
-  * is_compound
-  * is_reference
-  * is_member_pointer
+  * [is_fundamental](#cpp_11_is_fundamental)
+  * [is_arithmetic](#cpp_11_is_arithmetic)
+  * [is_scalar](#cpp_11_is_scalar)
+  * [is_object](#cpp_11_is_object)
+  * [is_compound](#cpp_11_is_compound)
+  * [is_reference](#cpp_11_is_reference)
+  * [is_member_pointer](#cpp_11_is_member_pointer)
 
 ###### Type properties
 
-  * is_const
-  * is_volatile
-  * is_trivial
-  * is_trivially_copyable
-  * is_standard_layout
-  * is_literal_type
-  * is_empty
-  * is_polymorphic
-  * is_abstract
-  * is_signed
-  * is_unsigned
+  * [is_const](#cpp_11_is_const)
+  * [is_volatile](#cpp_11_is_volatile)
+  * [is_trivial](#cpp_11_is_trivial)
+  * [is_trivially_copyable](#cpp_11_is_trivially_copyable)
+  * [is_standard_layout](#cpp_11_is_standard_layout)
+  * [is_literal_type](#cpp_11_is_literal_type)
+  * [is_empty](#cpp_11_is_empty)
+  * [is_polymorphic](#cpp_11_is_polymorphic)
+  * [is_abstract](#cpp_11_is_abstract)
+  * [is_signed](#cpp_11_is_signed)
+  * [is_unsigned](#cpp_11_is_unsigned)
   
 ##### Supported operations
 
