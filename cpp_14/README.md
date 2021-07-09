@@ -369,6 +369,14 @@ int main() {
 }
 ```
 
+编译&输出：
+
+```CPP
+~/test$ g++ test.cc -std=c++14
+~/test$ ./a.out
+hello world
+"hello world"
+```
 
 
 
