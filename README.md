@@ -140,7 +140,7 @@ thread_local
 
 <h2 id="cpp_14">C++14新特性</h2>
 
-* 函数返回值类型推导
+* [函数返回值类型推导](#cpp_14_01)
 * lambda参数auto
 * 变量模板
 * 别名模板
@@ -152,8 +152,6 @@ thread_local
 * std::integer_sequence
 * std::exchange
 * std::quoted
-
-##### 1.1.1 
 
 
 <h2 id="cpp_17">C++17新特性</h2>
