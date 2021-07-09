@@ -36,7 +36,7 @@
 * <scoped_allocator>
 
 #### Numeric limits
-  
+
 * <cstdint>
 * <cinttypes>
 
@@ -45,12 +45,12 @@
 * <system_error>
 
 #### Strings library
-  
+
 * <cuchar>
 * <string_view>
-  
+
 #### Containers library
-  
+
 * <array>
 * <forward_list>
 * <unordered_set>
@@ -76,7 +76,6 @@
 * <mutex>
 * <future>
 * <condition_variable>
-  
 
 ### Language support library
 
