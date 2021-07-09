@@ -148,9 +148,9 @@
 
 * [type_index](#cpp_11_type_index)
 
-##### Type traits
+#### Type traits
 
-###### Type properties
+##### Type properties
 
 * Primary type categories
 
@@ -192,7 +192,7 @@
   * is_signed
   * is_unsigned
   
-###### Supported operations
+##### Supported operations
 
 * is_constructible
 * is_trivially_constructible
@@ -236,13 +236,13 @@
  
  * has_virtual_destructor
 
-###### Property queries
+##### Property queries
 
 * alignment_of
 * rank
 * extent
 
-###### Type relationships
+##### Type relationships
 * is_same
 <br/>
 
@@ -251,9 +251,9 @@
 
 * is_convertible
 
-##### Type modifications
+#### Type modifications
 
-###### Const-volatility specifiers
+##### Const-volatility specifiers
 
 * remove_cv
 * remove_const
@@ -265,35 +265,35 @@
 * add_volatile
 <br/>
 
-###### References
+##### References
 * remove_reference
 <br/>
 
 * add_lvalue_reference
 * add_rvalue_reference
 
-###### Pointers
+##### Pointers
 
 * remove_pointer
 <br/>
 
 * add_pointer
 
-###### Sign modifiers
+##### Sign modifiers
 
 * make_signed
 <br/>
 
 * make_unsigned
 
-###### Arrays
+##### Arrays
 
 * remove_extent
 <br/>
 
 * remove_all_extents
 
-##### Miscellaneous transformations
+#### Miscellaneous transformations
 
 * aligned_storage
 * aligned_union
@@ -303,11 +303,11 @@
 * common_type
 * underlying_type
 
-##### Helper classes
+#### Helper classes
 
 * integral_constant
 
-### General utilities library
+### <span style="font-weight: bold;">General utilities library</span>
 
 Smart pointers and allocators
 unique_ptr
