@@ -302,8 +302,49 @@
 * [is_placeholder](#cpp_11_is_placeholder)
 * [_1, _2, _3, _4, ...](#cpp_11__1,_2,_3,_4,...)
 
+##### Reference wrappers
 
+* [reference_wrapper](#cpp_11_reference_wrapper)
+* [ref](#cpp_11_ref)
+* [cref](#cpp_11_cref)
+
+##### Old binders and adaptors
+
+* [unary_function](#cpp_11_unary_function)
+* [binary_function](#cpp_11_binary_function)
+* [binder1st](#cpp_11_binder1st)
+* [binder2nd](#cpp_11_binder2nd)
+* [bind1st](#cpp_11_bind1st)
+* [bind2nd](#cpp_11_bind2nd)
+* [pointer_to_unary_function](#cpp_11_pointer_to_unary_function)
+* [pointer_to_binary_function](#cpp_11_pointer_to_binary_function)
+* [ptr_fun](#cpp_11_ptr_fun)
+* [mem_fun_t](#cpp_11_mem_fun_t)
+* [mem_fun1_t](#cpp_11_mem_fun1_t)
+* [const_mem_fun_t](#cpp_11_const_mem_fun_t)
+* [const_mem_fun1_t](#cpp_11_const_mem_fun1_t)
+* [mem_fun](#cpp_11_mem_fun)
+* [mem_fun_ref_t](#cpp_11_mem_fun_ref_t)
+* [mem_fun1_ref_t](#cpp_11_mem_fun1_ref_t)
+* [const_mem_fun_ref_t](#cpp_11_const_mem_fun_ref_t)
+* [const_mem_fun1_ref_t](#cpp_11_const_mem_fun1_ref_t)
+* [mem_fun_ref](#cpp_11_mem_fun_ref)
+  
 #### hash
+
+* [std::hash<std::string>](#cpp_11_std::hash<std::string)
+* [std::hash<std::u16string>](#cpp_11_std::hash<std::u16string>)
+* [std::hash<std::u32string>](#cpp_11_std::hash<std::u32string>)
+* [std::hash<std::wstring>](#cpp_11_std::hash<std::wstring>)
+* [std::hash<std::error_code>](#cpp_11_std::hash<std::error_code>)
+* [std::hash<std::bitset>](#cpp_11_std::hash<std::bitset>)
+* [std::hash<std::unique_ptr>](#cpp_11_std::hash<std::unique_ptr>)
+* [std::hash<std::shared_ptr>](#cpp_11_std::hash<std::shared_ptr>)
+* [std::hash<std::type_index>](#cpp_11_std::hash<std::type_index>)
+* [std::hash<std::vector<bool>>](#cpp_11_std::hash<std::vector<bool>>)
+* [std::hash<std::thread::id>](#cpp_11_std::hash<std::thread::id>)
+
+#### Utility functions
 
 
 
