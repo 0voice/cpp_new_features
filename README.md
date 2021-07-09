@@ -24,7 +24,7 @@
 ### Headers
 
 #### Utilities library
-* <typeindex>
+* &lt;typeindex&gt;
 * <type_traits>
 * <chrono>
 * <initializer_list>
