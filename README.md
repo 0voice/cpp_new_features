@@ -76,7 +76,7 @@
 * &lt;future&gt;
 * &lt;condition_variable&gt;
 
-### Named Requirements
+### <span style="font-weight: bold;">Named Requirements</span>
 
 #### Basic
 
@@ -135,16 +135,177 @@
 * RegexTraits
 * LiteralType
 
-### Language support library
+### <span style="font-weight: bold;">Language support library</span>
 
 ####  Type support  −  traits
 
-* nullptr_t
-  * [C++11新特性](#cpp_11)
-* Program utilities
-* numeric_limits  −  type_info
-* initializer_list
+##### Additional basic types and macros
 
+* [nullptr_t](#cpp_11_nullptr_t)
+* [max_align_t](#cpp_11_max_align_t)
+
+##### Runtime type identification
+
+* [type_index](#cpp_11_type_index)
+
+##### Type traits
+
+###### Type properties
+
+* Primary type categories
+
+  * is_void
+  * is_integral
+  * is_floating_point
+  * is_array
+  * is_enum
+  * is_union
+  * is_class
+  * is_function
+  * is_pointer
+  * is_lvalue_reference
+  * is_rvalue_reference
+  * is_member_object_pointer
+  * is_member_function_pointer
+
+* Composite type categories
+
+  * is_fundamental
+  * is_arithmetic
+  * is_scalar
+  * is_object
+  * is_compound
+  * is_reference
+  * is_member_pointer
+
+* Type properties
+
+  * is_const
+  * is_volatile
+  * is_trivial
+  * is_trivially_copyable
+  * is_standard_layout
+  * is_literal_type
+  * is_empty
+  * is_polymorphic
+  * is_abstract
+  * is_signed
+  * is_unsigned
+  
+* Supported operations
+
+* is_constructible
+* is_trivially_constructible
+* is_nothrow_constructible
+<br/>
+
+* is_default_constructible
+* is_trivially_default_constructible
+* is_nothrow_default_constructible
+<br/>
+
+* is_copy_constructible
+* is_trivially_copy_constructible
+* is_nothrow_copy_constructible
+<br/>
+
+* is_move_constructible
+* is_trivially_move_constructible
+* is_nothrow_move_constructible
+<br/>
+
+* is_assignable
+* is_trivially_assignable
+* is_nothrow_assignable
+<br/>
+  
+* is_copy_assignable
+* is_trivially_copy_assignable
+* is_nothrow_copy_assignable
+<br/>
+  
+* is_move_assignable
+* is_trivially_move_assignable
+* is_nothrow_move_assignable
+<br/>
+
+* is_destructible
+* is_trivially_destructible
+* is_nothrow_destructible
+<br/>
+ 
+ * has_virtual_destructor
+
+###### Property queries
+
+* alignment_of
+* rank
+* extent
+
+###### Type relationships
+* is_same
+<br/>
+
+* is_base_of
+<br/>
+
+* is_convertible
+
+##### Type modifications
+
+###### Const-volatility specifiers
+
+* remove_cv
+* remove_const
+* remove_volatile
+<br/>
+
+* add_cv
+* add_const
+* add_volatile
+<br/>
+
+###### References
+* remove_reference
+<br/>
+
+* add_lvalue_reference
+* add_rvalue_reference
+
+###### Pointers
+
+* remove_pointer
+<br/>
+
+* add_pointer
+
+###### Sign modifiers
+
+* make_signed
+<br/>
+
+* make_unsigned
+
+###### Arrays
+
+* remove_extent
+<br/>
+
+* remove_all_extents
+
+##### Miscellaneous transformations
+
+* aligned_storage
+* aligned_union
+* decay
+* enable_if
+* conditional
+* common_type
+* underlying_type
+
+##### Helper classes
+
+* integral_constant
 
 ### General utilities library
 
