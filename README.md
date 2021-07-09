@@ -80,118 +80,118 @@
   
 ##### Supported operations
 
-* is_constructible
-* is_trivially_constructible
-* is_nothrow_constructible
+* [is_constructible](#cpp_11_is_constructible)
+* [is_trivially_constructible](#cpp_11_is_trivially_constructible)
+* [is_nothrow_constructible](#cpp_11_is_nothrow_constructible)
 <br/>
 
-* is_default_constructible
-* is_trivially_default_constructible
-* is_nothrow_default_constructible
+* [is_default_constructible](#cpp_11_is_default_constructible)
+* [is_trivially_default_constructible](#cpp_11_is_trivially_default_constructible)
+* [is_nothrow_default_constructible](#cpp_11_is_nothrow_default_constructible)
 <br/>
 
-* is_copy_constructible
-* is_trivially_copy_constructible
-* is_nothrow_copy_constructible
+* [is_copy_constructible](#cpp_11_is_copy_constructible)
+* [is_trivially_copy_constructible](#cpp_11_is_trivially_copy_constructible)
+* [is_nothrow_copy_constructible](#cpp_11_is_nothrow_copy_constructible)
 <br/>
 
-* is_move_constructible
-* is_trivially_move_constructible
-* is_nothrow_move_constructible
+* [is_move_constructible](#cpp_11_is_move_constructible)
+* [is_trivially_move_constructible](#cpp_11_is_trivially_move_constructible)
+* [is_nothrow_move_constructible](#cpp_11_is_nothrow_move_constructible)
 <br/>
 
-* is_assignable
-* is_trivially_assignable
-* is_nothrow_assignable
+* [is_assignable](#cpp_11_is_assignable)
+* [is_trivially_assignable](#cpp_11_is_trivially_assignable)
+* [is_nothrow_assignable](#cpp_11_is_nothrow_assignable)
 <br/>
   
-* is_copy_assignable
-* is_trivially_copy_assignable
-* is_nothrow_copy_assignable
+* [is_copy_assignable](#cpp_11_is_copy_assignable)
+* [is_trivially_copy_assignable](#cpp_11_is_trivially_copy_assignable)
+* [is_nothrow_copy_assignable](#cpp_11_is_nothrow_copy_assignable)
 <br/>
   
-* is_move_assignable
-* is_trivially_move_assignable
-* is_nothrow_move_assignable
+* [is_move_assignable](#cpp_11_is_move_assignable)
+* [is_trivially_move_assignable](#cpp_11_is_trivially_move_assignable)
+* [is_nothrow_move_assignable](#cpp_11_is_nothrow_move_assignable)
 <br/>
 
-* is_destructible
-* is_trivially_destructible
-* is_nothrow_destructible
+* [is_destructible](#cpp_11_is_destructible)
+* [is_trivially_destructible](#cpp_11_is_trivially_destructible)
+* [is_nothrow_destructible](#cpp_11_is_nothrow_destructible)
 <br/>
  
- * has_virtual_destructor
+ * [has_virtual_destructor](#cpp_11_has_virtual_destructor)
 
 ##### Property queries
 
-* alignment_of
-* rank
-* extent
+* [alignment_of](#cpp_11_alignment_of)
+* [rank](#cpp_11_rank)
+* [extent](#cpp_11_extent)
 
 ##### Type relationships
-* is_same
+* [is_same](#cpp_11_is_same)
 <br/>
 
-* is_base_of
+* [is_base_of](#cpp_11_is_base_of)
 <br/>
 
-* is_convertible
+* [is_convertible](#cpp_11_is_convertible)
 
 #### Type modifications
 
 ##### Const-volatility specifiers
 
-* remove_cv
-* remove_const
-* remove_volatile
+* [remove_cv](#cpp_11_remove_cv)
+* [remove_const](#cpp_11_remove_const)
+* [remove_volatile](#cpp_11_remove_volatile)
 <br/>
 
-* add_cv
-* add_const
-* add_volatile
+* [add_cv](#cpp_11_add_cv)
+* [add_const](#cpp_11_add_const)
+* [add_volatile](#cpp_11_add_volatile)
 <br/>
 
 ##### References
-* remove_reference
+* [remove_reference](#cpp_11_remove_reference)
 <br/>
 
-* add_lvalue_reference
-* add_rvalue_reference
+* [add_lvalue_reference](#cpp_11_add_lvalue_reference)
+* [add_rvalue_reference](#cpp_11_add_rvalue_reference)
 
 ##### Pointers
 
-* remove_pointer
+* [remove_pointer](#cpp_11_remove_pointer)
 <br/>
 
-* add_pointer
+* [add_pointer](#cpp_11_add_pointer)
 
 ##### Sign modifiers
 
-* make_signed
+* [make_signed](#cpp_11_add_pointer)
 <br/>
 
-* make_unsigned
+* [make_unsigned](#cpp_11_make_unsigned)
 
 ##### Arrays
 
-* remove_extent
+* [remove_extent](#cpp_11_remove_extent)
 <br/>
 
-* remove_all_extents
+* [remove_all_extents](#cpp_11_remove_all_extents)
 
 #### Miscellaneous transformations
 
-* aligned_storage
-* aligned_union
-* decay
-* enable_if
-* conditional
-* common_type
-* underlying_type
+* [aligned_storage](#cpp_11_aligned_storage)
+* [aligned_union](#cpp_11_aligned_union)
+* [decay](#cpp_11_decay)
+* [enable_if](#cpp_11_enable_if)
+* [conditional](#cpp_11_conditional)
+* [common_type](#cpp_11_common_type)
+* [underlying_type](#cpp_11_underlying_type)
 
 #### Helper classes
 
-* integral_constant
+* [integral_constant](#cpp_11_integral_constant)
 
 ### <span style="font-weight: bold;">General utilities library</span>
 
