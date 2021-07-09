@@ -25,10 +25,10 @@
 
 #### Utilities library
 * &lt;typeindex&gt;
-* <type_traits>
-* <chrono>
-* <initializer_list>
-* <tuple>
+* &lt;type_traits&gt;
+* &lt;chrono&gt;
+* &lt;initializer_list&gt;
+* &lt;tuple&gt;
  
 #### Dynamic memory management
 
