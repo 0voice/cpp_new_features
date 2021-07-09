@@ -63,15 +63,15 @@
 * <cfenv>
 
 #### Regular Expressions library
-  
+
 * <regex>
-  
+
 #### Atomic Operations library
 
 * <atomic>
-  
+
 #### Thread support library
-  
+
 * <thread>
 * <mutex>
 * <future>
