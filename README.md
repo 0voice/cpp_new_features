@@ -102,6 +102,10 @@
 
 ####  <h5 id="cpp_11_explicit_conversion_operators">显式转换操作符(explicit conversion operators)</h5>
 ####  <h5 id="cpp_11_static_assert">静态断言(static assert)</h5>
+
+* <p>语法：static_assert(常量表达式，"提示字符串")</p>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/002_grammar_static_assert">static_assert</a>
+
 ####  <h5 id="cpp_11_numeric_limits">数字限制(numeric limits)</h5>
 ####  <h5 id="cpp_11_raw_string">原始字符串(raw string)</h5>
 ####  <h5 id="cpp_11_explicit_conversion_operators">显式转换操作符(explicit conversion operators)</h5>
