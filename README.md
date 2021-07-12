@@ -90,7 +90,7 @@
 
 #### <h5 id="cpp_11_cplusplus_macro">C++宏(cplusplus macro)</h5>
 
-* [cplusplus](#cpp_11_cplusplus)
+* [_cplusplus宏](#cpp_11_cplusplus)
 
 #### <h5 id="cpp_11_new_keywords">新的for循环</h5>
 
@@ -98,6 +98,7 @@
 
 ####  <h5 id="cpp_11_alignment_support">对齐支持(alignment support)</h5>
 
+* [alignof查看数据对齐方式](#cpp_11_alignof)
 
 ####  <h5 id="cpp_11_explicit_conversion_operators">显式转换操作符(explicit conversion operators)</h5>
 ####  <h5 id="cpp_11_static_assert">静态断言(static assert)</h5>
@@ -105,6 +106,9 @@
 ####  <h5 id="cpp_11_raw_string">原始字符串(raw string)</h5>
 ####  <h5 id="cpp_11_explicit_conversion_operators">显式转换操作符(explicit conversion operators)</h5>
 ####  <h5 id="cpp_11_trailing_return_type_syntax">追踪返回类型语法(trailing return type syntax)</h5>
+
+* [追踪返回类型语法](#cpp_11_trailing_return_type_syntax)
+
 ####  <h5 id="cpp_11_extended_friend_syntax">扩展的friend语法(extended friend syntax)</h5>
 ####  <h5 id="cpp_11_extended_integer_types">扩展的整型(extended integer types)</h5>
 ####  <h5 id="cpp_11_unrestricted_union">非受限联合体(unrestricted union)</h5>
