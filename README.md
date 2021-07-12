@@ -189,12 +189,23 @@
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/002_grammar_POD.cpp">POD</a>
 							
-				
+####  <h5 id="cpp_11_POD">long long整型</h5>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/002_grammar_long_long.cpp">POD</a>
+	
+####  <h5 id="cpp_11_move_semantics">移动语义(move semantics)</h5>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/002_grammar_move_semantics.cpp">POD</a>
+	
+####  <h5 id="cpp_11_rvalue_reference">右值引用(rvalue reference)</h5>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/002_grammar_rvalue_reference.cpp">POD</a>
 
+####  <h5 id="cpp_11_c99">c99特性(c99)</h5>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/002_grammar_c99.cpp">POD</a>
 
-
-
-
+####  <h5 id="cpp_11_SFINAE">一般化的SFINAE规则(generalized SFINAE rules)</h5>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/002_grammar_SFINAE.cpp">POD</a>
+	
+	
+	
 ### <span style="font-weight: bold;">Language support library</span>
 
 ####  Type support
