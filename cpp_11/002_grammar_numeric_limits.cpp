@@ -2,7 +2,7 @@
 #include <limits>
 #include <iostream>
 
-int test_numeric_limits_1()
+int main()
 {
 	std::cout << std::boolalpha;
 	std::cout << "Minimum value for int: " << std::numeric_limits<int>::min() << std::endl;
