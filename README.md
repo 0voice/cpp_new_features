@@ -28,7 +28,7 @@
     * [内联名字空间(lnline namespace)](#cpp_11_lnline_namespace)
     * [用户定义的字面量(user-defined literals)](#cpp_11_user_defined_literals)
     * [强类型枚举(scoped and strongly typed enums)](#cpp_11_enum_class)
-    * [random device(random device)](#cpp_11_random_device)
+    * [随机装置(random device)](#cpp_11_random_device)
     * [std::ref和std::cref](#cpp_11_stdref_std_cref)
     * [常量表达式(constexpr)](#cpp_11_constexpr)
     * [lamda表达式](#cpp_11_lamda)
@@ -152,7 +152,7 @@
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/002_grammar_scoped_and_strongly_typed_enums.cpp">强类型枚举</a>
 
-####  <h5 id="cpp_11_random_device">random device(random device)</h5>
+####  <h5 id="cpp_11_random_device">随机装置(random device)</h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/002_grammar_random_device.cpp">random device</a>
 
