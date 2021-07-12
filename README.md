@@ -94,19 +94,25 @@
 
 #### <h5 id="cpp_11_new_keywords">新的for循环</h5>
 
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/002_grammar_for_loop">for(x:range)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/002_grammar_for_loop">for循环 for(x:range)</a>
 
 ####  <h5 id="cpp_11_alignment_support">对齐支持(alignment support)</h5>
 
-* [alignof查看数据对齐方式](#cpp_11_alignof)
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/002_grammar_alignof.cpp">alignof查看数据对齐方式</a>
 
 ####  <h5 id="cpp_11_explicit_conversion_operators">显式转换操作符(explicit conversion operators)</h5>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/002_grammar_explicit.cpp">explicit关键字</a>
+
 ####  <h5 id="cpp_11_static_assert">静态断言(static assert)</h5>
 
 * <p>语法：static_assert(常量表达式，"提示字符串")</p>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/002_grammar_static_assert">static_assert</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/002_grammar_static_assert.cpp">static assert</a>
 
 ####  <h5 id="cpp_11_numeric_limits">数字限制(numeric limits)</h5>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/002_grammar_static_assert.cpp">数字限制</a>
+
 ####  <h5 id="cpp_11_raw_string">原始字符串(raw string)</h5>
 ####  <h5 id="cpp_11_explicit_conversion_operators">显式转换操作符(explicit conversion operators)</h5>
 ####  <h5 id="cpp_11_trailing_return_type_syntax">追踪返回类型语法(trailing return type syntax)</h5>
