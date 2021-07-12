@@ -87,7 +87,7 @@
 
 #### <h5 id="cpp_11_new_pretreatment">预处理</h5>
 
- <p>语法：__pragma(字符串字面量)</p>
+<p>语法：__pragma(字符串字面量)</p>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/002_grammar_pragma.cpp">_Pragma运算符</a>
 
 #### <h5 id="cpp_11_cplusplus_macro">C++宏(cplusplus macro)</h5>
