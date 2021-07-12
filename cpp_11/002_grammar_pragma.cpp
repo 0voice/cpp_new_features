@@ -1,3 +1,1 @@
-int main() { 
-
-}
+__pragma("once")
