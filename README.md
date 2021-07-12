@@ -11,7 +11,7 @@
     * [含义变化或者新增含义关键字](#cpp_11_meaning_changed__OR__new_meaning_added)
   * [新语法](#cpp_11_new_grammar)
     * [预处理](#cpp_11_new_pretreatment)
-      * [_Pragma运算符](#cpp_11__Pragma运算符)
+      * [_Pragma运算符](#cpp_11__Pragma)
     * [C++宏(cplusplus macro)](#cpp_11_cplusplus_macro)
     * [新的for循环](#cpp_11_for)
       * [for(x:range)](#cpp_11_for_range)
@@ -27,12 +27,16 @@
     * [非受限联合体(unrestricted union)](#cpp_11_unrestricted_union)
     * [内联名字空间(lnline namespace)](#cpp_11_lnline_namespace)
     * [用户定义的字面量(user-defined literals)](#cpp_11_user_defined_literals)
-    
-    											
-    																						
-							
-    
-__mindmap__topic新的for循环for(x:range)
+    * [强类型枚举(scoped and strongly typed enums)](#cpp_11_enum_class)
+    * [random device(random device)](#cpp_11_random_device)
+    * [std::ref和std::cref](#cpp_11_stdref_std_cref)
+    * [常量表达式(constexpr)](#cpp_11_constexpr)
+    * [lamda表达式](#cpp_11_lamda)
+    * [指针空值(nullptr)](#cpp_11_nullptr)
+    * [防止类型收窄(Preventing narrowing)](#cpp_11_preventing_narrowing)
+    * [初始化列表(initializer lists)](#cpp_11_initializer_lists)
+
+
 * [C++14新特性](#cpp_14)
 * [C++17新特性](#cpp_17)
 * [C++20新特性](#cpp_20)
@@ -79,7 +83,42 @@ __mindmap__topic新的for循环for(x:range)
 
 <br />
 ### <h3 id="cpp_11_keywords">新语法</h3>
-####  Type support
+
+#### <h5 id="cpp_11_new_pretreatment">预处理</h5>
+
+* [_Pragma运算符](#cpp_11__Pragma)
+
+#### <h5 id="cpp_11_cplusplus_macro">C++宏(cplusplus macro)</h5>
+
+* [cplusplus](#cpp_11_cplusplus)
+
+#### <h5 id="cpp_11_new_keywords">新的for循环</h5>
+
+* [for(x:range)](#cpp_11_for_range)
+
+####  <h5 id="cpp_11_alignment_support">对齐支持(alignment support)</h5>
+
+
+####  <h5 id="cpp_11_explicit_conversion_operators">显式转换操作符(explicit conversion operators)</h5>
+####  <h5 id="cpp_11_static_assert">静态断言(static assert)</h5>
+####  <h5 id="cpp_11_numeric_limits">数字限制(numeric limits)</h5>
+####  <h5 id="cpp_11_raw_string">原始字符串(raw string)</h5>
+####  <h5 id="cpp_11_explicit_conversion_operators">显式转换操作符(explicit conversion operators)</h5>
+####  <h5 id="cpp_11_trailing_return_type_syntax">追踪返回类型语法(trailing return type syntax)</h5>
+####  <h5 id="cpp_11_extended_friend_syntax">扩展的friend语法(extended friend syntax)</h5>
+####  <h5 id="cpp_11_extended_integer_types">扩展的整型(extended integer types)</h5>
+####  <h5 id="cpp_11_unrestricted_union">非受限联合体(unrestricted union)</h5>
+####  <h5 id="cpp_11_lnline_namespace">内联名字空间(lnline namespace)</h5>
+####  <h5 id="cpp_11_user_defined_literals">用户定义的字面量(user-defined literals)</h5>
+####  <h5 id="cpp_11_enum_class">强类型枚举(scoped and strongly typed enums)</h5>
+####  <h5 id="cpp_11_random_device">random device(random device)</h5>
+####  <h5 id="cpp_11_stdref_std_cref">std::ref和std::cref</h5>
+####  <h5 id="cpp_11_constexpr">常量表达式(constexpr)</h5>
+####  <h5 id="cpp_11_lamda">lamda表达式</h5>
+####  <h5 id="cpp_11_nullptr">指针空值(nullptr)</h5>
+####  <h5 id="cpp_11_preventing_narrowing">防止类型收窄(Preventing narrowing)</h5>
+####  <h5 id="cpp_11_initializer_lists">初始化列表(initializer lists)</h5>
+
 
 
 ### <span style="font-weight: bold;">Language support library</span>
