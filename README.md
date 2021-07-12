@@ -90,7 +90,7 @@
 
 #### <h5 id="cpp_11_cplusplus_macro">C++宏(cplusplus macro)</h5>
 
-* [_cplusplus宏](#https://github.com/0voice/cpp_new_features/blob/main/cpp_11/002_grammar_cpluscplus.h#)
+* [cplusplus宏](#https://github.com/0voice/cpp_new_features/blob/main/cpp_11/002_grammar_cpluscplus.h#)
 
 #### <h5 id="cpp_11_new_keywords">新的for循环</h5>
 
