@@ -37,7 +37,6 @@
     * [防止类型收窄(Preventing narrowing)](#cpp_11_preventing_narrowing)
     * [初始化列表(initializer lists)](#cpp_11_initializer_lists)
 -->
-
 * [C++14新特性](#cpp_14)
 * [C++17新特性](#cpp_17)
 * [C++20新特性](#cpp_20)
