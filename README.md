@@ -94,7 +94,7 @@
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/002_grammar_cpluscplus.h">_cplusplus宏</a>
 
-#### <h5 id="cpp_11_new_keywords">新的for循环</h5>
+#### <h5 id="cpp_11_for">新的for循环</h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/002_grammar_for_loop.cpp">for循环 for(x:range)</a>
 
