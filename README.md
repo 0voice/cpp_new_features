@@ -6,6 +6,9 @@
 # C++新特性
 
 * [C++11新特性](#cpp_11)
+  * [关键字](#cpp_11_keywords)
+    * [新增关键字](#cpp_11_new_keywords)
+    * [含义变化或者新增含义关键字](#cpp_11_meaning_changed__OR__new_meaning_added)
 * [C++14新特性](#cpp_14)
 * [C++17新特性](#cpp_17)
 * [C++20新特性](#cpp_20)
@@ -20,6 +23,34 @@
 <br/>
 
 ## <h2 id="cpp_11">C++11新特性</h2>
+### <h3 id="cpp_11_keywords">关键字</h2>
+
+#### <h3 id="cpp_11_new_keywords">新增关键字</h2>
+
+* thread_local
+* static_assert
+* nullptr
+* noexcept
+* decltype
+* constexpr
+* char32_t
+* char16_t
+* alignof
+* alignas
+
+#### <h3 id="cpp_11_meaning_changed__OR__new_meaning_added">含义变化或者新增含义关键字（meaning changed or new meaning added）</h2>
+
+* auto
+* class
+* default
+* delete
+* export
+* extern
+* inline
+* mutable
+* sizeof
+* struct
+* using
 
 <br />
 ### <span style="font-weight: bold;">Language support library</span>
