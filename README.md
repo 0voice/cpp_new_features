@@ -90,14 +90,11 @@
 
 #### <h5 id="cpp_11_cplusplus_macro">C++宏(cplusplus macro)</h5>
 
-
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/002_grammar_cpluscplus.h">_cplusplus宏</a>
-* <br/>
-* [_cplusplus宏](#https://github.com/0voice/cpp_new_features/blob/main/cpp_11/002_grammar_cpluscplus.h)
 
 #### <h5 id="cpp_11_new_keywords">新的for循环</h5>
 
-* [for(x:range)](#cpp_11_for_range)
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/002_grammar_for_loop">for(x:range)</a>
 
 ####  <h5 id="cpp_11_alignment_support">对齐支持(alignment support)</h5>
 
