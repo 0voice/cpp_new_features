@@ -9,6 +9,30 @@
   * [关键字](#cpp_11_keywords)
     * [新增关键字](#cpp_11_new_keywords)
     * [含义变化或者新增含义关键字](#cpp_11_meaning_changed__OR__new_meaning_added)
+  * [新语法](#cpp_11_new_grammar)
+    * [预处理](#cpp_11_new_pretreatment)
+      * [_Pragma运算符](#cpp_11__Pragma运算符)
+    * [C++宏(cplusplus macro)](#cpp_11_cplusplus_macro)
+    * [新的for循环](#cpp_11_for)
+      * [for(x:range)](#cpp_11_for_range)
+    * [对齐支持(alignment support)](#cpp_11_alignment_support)
+    * [显式转换操作符(explicit conversion operators)](#cpp_11_explicit_conversion_operators)
+    * [静态断言(static assert)](#cpp_11_static_assert)
+    * [数字限制(numeric limits)](#cpp_11_numeric_limits)
+    * [原始字符串(raw string)](#cpp_11_raw_string)
+    * [显式转换操作符(explicit conversion operators)](#cpp_11_explicit_conversion_operators)
+    * [追踪返回类型语法(trailing return type syntax)](#cpp_11_trailing_return_type_syntax)
+    * [扩展的friend语法(extended friend syntax)](#cpp_11_extended_friend_syntax)
+    * [扩展的整型(extended integer types)](#cpp_11_extended_integer_types)
+    * [非受限联合体(unrestricted union)](#cpp_11_unrestricted_union)
+    * [内联名字空间(lnline namespace)](#cpp_11_lnline_namespace)
+    * [用户定义的字面量(user-defined literals)](#cpp_11_user_defined_literals)
+    
+    											
+    																						
+							
+    
+__mindmap__topic新的for循环for(x:range)
 * [C++14新特性](#cpp_14)
 * [C++17新特性](#cpp_17)
 * [C++20新特性](#cpp_20)
@@ -54,6 +78,10 @@
 * [using](#cpp_11_using)
 
 <br />
+### <h3 id="cpp_11_keywords">新语法</h3>
+####  Type support
+
+
 ### <span style="font-weight: bold;">Language support library</span>
 
 ####  Type support
