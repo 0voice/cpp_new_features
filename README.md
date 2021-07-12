@@ -13,7 +13,7 @@
     * [预处理](#cpp_11_new_pretreatment)
       * [_Pragma运算符](#cpp_11__Pragma)
     * [C++宏(cplusplus macro)](#cpp_11_cplusplus_macro)
-    * [新的for循环](#cpp_11_for)
+    * [基于范围的for语句](#cpp_11_for)
       * [for(x:range)](#cpp_11_for_range)
     * [对齐支持(alignment support)](#cpp_11_alignment_support)
     * [显式转换操作符(explicit conversion operators)](#cpp_11_explicit_conversion_operators)
@@ -94,7 +94,7 @@
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/002_grammar_cpluscplus.h">_cplusplus宏</a>
 
-#### <h5 id="cpp_11_for">新的for循环</h5>
+#### <h5 id="cpp_11_for">基于范围的for语句</h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/002_grammar_for_loop.cpp">for循环 for(x:range)</a>
 
