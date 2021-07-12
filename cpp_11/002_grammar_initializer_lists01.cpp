@@ -5,6 +5,8 @@
 
 using namespace std;
 
+//初始化列表
+
 int main(int argc, char *argv[])
 {
     vector<int> iv = {1,2,3,4,5};
