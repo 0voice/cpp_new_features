@@ -101,6 +101,10 @@
 ####  <h5 id="cpp_11_alignment_support">对齐支持(alignment support)</h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/002_grammar_alignof.cpp">alignof查看数据对齐方式</a>
+std::alignment_of
+std::aligned_storage
+std::max_align_t
+std::align
 
 ####  <h5 id="cpp_11_explicit_conversion_operators">显式转换操作符(explicit conversion operators)</h5>
 
