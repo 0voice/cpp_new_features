@@ -1,6 +1,6 @@
 #### <h2 id="cpp_11_new_keywords">C++11新增关键字</h2>
 
-##### <h4 id="cpp_11_new_keywords">thread_local</h4>
+##### <h4 id="thread_local">thread_local</h4>
 
 thread_local是C++11增加的存储类指定符
 
@@ -72,7 +72,7 @@ int main() {
 
 <br/>
 
-##### <h4 id="cpp_11_new_keywords">static_assert</h4>
+##### <h4 id="static_assert">static_assert</h4>
 
 ```C++
 struct MyClass
@@ -122,7 +122,7 @@ template class MyTemplate<MyClass, MyEmptyClass, std::allocator<MyClass>>;
 
 <br/>
 
-##### <h4 id="cpp_11_new_keywords">nullptr</h4>
+##### <h4 id="nullptr">nullptr</h4>
 
 nullptr关键字用于标识空指针，是std::nullptr_t类型的（constexpr）变量。它可以转换成任何指针类型和bool布尔类型（主要是为了兼容普通指针可以作为条件判断语句的写法），但是不能被转换为整数。
 ```C++
@@ -134,7 +134,7 @@ int a = nullptr;        // error
 
 <br/>
 
-##### <h4 id="cpp_11_new_keywords">noexcept</h4>
+##### <h4 id="noexcept">noexcept</h4>
 
 noexcept有两类作用：noexcept指定符和noexcept运算符
 
@@ -228,7 +228,7 @@ int main()
 
 <br/>
 
-##### <h4 id="cpp_11_new_keywords">decltype</h4>
+##### <h4 id="decltype">decltype</h4>
 
 decltype类型说明符，它的作用是选择并返回操作数的数据类型，在此过程中，编译器分析表达式并得到它的类型，却不实际计算表达式的值。
 decltype用法
@@ -317,7 +317,7 @@ decltype和auto都可以用来推断类型，但是二者有几处明显的差�
 
 <br/>
 
-##### <h4 id="cpp_11_new_keywords">constexpr</h4>
+##### <h4 id="constexpr">constexpr</h4>
 
 constexpr意义
 将变量声明为constexpr类型以便由编译器来验证变量是否是一个常量表达式（不会改变，在编译过程中就能得到计算结果的表达式）。是一种比const更强的约束，这样可以得到更好的效率和安全性。
