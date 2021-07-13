@@ -69,6 +69,20 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_std_get.cpp">std::get</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_std_tie.cpp">std::tie</a>
 
+#### <h5 id="cpp_11_hash">hash</h5>
+
+* [std::hash<std::string>](#cpp_11_std::hash<std::string)
+* [std::hash<std::u16string>](#cpp_11_std::hash<std::u16string>)
+* [std::hash<std::u32string>](#cpp_11_std::hash<std::u32string>)
+* [std::hash<std::wstring>](#cpp_11_std::hash<std::wstring>)
+* [std::hash<std::error_code>](#cpp_11_std::hash<std::error_code>)
+* [std::hash<std::bitset>](#cpp_11_std::hash<std::bitset>)
+* [std::hash<std::unique_ptr>](#cpp_11_std::hash<std::unique_ptr>)
+* [std::hash<std::shared_ptr>](#cpp_11_std::hash<std::shared_ptr>)
+* [std::hash<std::type_index>](#cpp_11_std::hash<std::type_index>)
+* [std::hash<std::vector<bool>>](#cpp_11_std::hash<std::vector<bool>>)
+* [std::hash<std::thread::id>](#cpp_11_std::hash<std::thread::id>)
+
 <br />
 
 ### <h3 id="cpp_11_smart_pointer">智能指针</h3>
