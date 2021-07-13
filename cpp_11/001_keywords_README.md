@@ -70,6 +70,7 @@ int main() {
 }
 ```
 
+<br/>
 
 ##### static_assert
 
@@ -119,6 +120,8 @@ class MyTemplate
 template class MyTemplate<MyClass, MyEmptyClass, std::allocator<MyClass>>;
 ```
 
+<br/>
+
 ##### nullptr
 
 nullptr关键字用于标识空指针，是std::nullptr_t类型的（constexpr）变量。它可以转换成任何指针类型和bool布尔类型（主要是为了兼容普通指针可以作为条件判断语句的写法），但是不能被转换为整数。
@@ -128,6 +131,8 @@ int  *p2 = nullptr;     // 正确
 bool b = nullptr;       // 正确. if(b)判断为false
 int a = nullptr;        // error
 ```
+
+<br/>
 
 ##### noexcept
 
@@ -221,14 +226,27 @@ int main()
 }
 ```
 
+<br/>
+
 ##### decltype
+
+<br/>
 
 ##### constexpr
 
+<br/>
+
 ##### char32_t
+
+<br/>
 
 ##### char16_t
 
+<br/>
+
 ##### alignof
 
+<br/>
+
 ##### alignas
+
