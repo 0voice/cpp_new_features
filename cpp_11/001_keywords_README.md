@@ -12,11 +12,13 @@ C++中有4种存储周期：
 
 有且只有thread_local关键字修饰的变量具有线程周期(thread duration)，这些变量(或者说对象）在线程开始的时候被生成(allocated)，在线程结束的时候被销毁(deallocated)。并且每 一个线程都拥有一个独立的变量实例(Each thread has its own instance of the object)。thread_local 可以和static 与 extern关键字联合使用，这将影响变量的链接属性(to adjust linkage)。
 
-那么，哪些变量可以被声明为thread_local？以下3类都是ok的
+那么，哪些变量可以被声明为thread_local？可以是以下3类：
 
   * 命名空间下的全局变量
   * 类的static成员变量
   * 本地变量
+
+thread_local案例
 
 ```C
 #include <iostream>
