@@ -48,7 +48,7 @@
 
 ### <h3 id="cpp_11_RTTI">类型支持（基本类型、RTTI、类型特性）</h3>
 
-###### Primary type categories
+#### <h5 id="cpp_11_RTTI_Primary_type_categories">Primary type categories</h5>
 
 * [is_void](#cpp_11_is_void)
 * [is_integral](#cpp_11_is_integral)
@@ -64,7 +64,7 @@
 * [is_member_object_pointer](#cpp_11_is_member_object_pointer)
 * [is_member_function_pointer](#cpp_11_is_member_function_pointer)
 
-###### Composite type categories
+#### <h5 id="cpp_11_RTTI_Composite_type_categories">Composite type categories</h5>
 
 * [is_fundamental](#cpp_11_is_fundamental)
 * [is_arithmetic](#cpp_11_is_arithmetic)
@@ -74,7 +74,7 @@
 * [is_reference](#cpp_11_is_reference)
 * [is_member_pointer](#cpp_11_is_member_pointer)
 
-###### Type properties
+#### <h5 id="cpp_11_RTTI_Type_categories">Type categories</h5>
 
 * [is_const](#cpp_11_is_const)
 * [is_volatile](#cpp_11_is_volatile)
@@ -87,8 +87,8 @@
 * [is_abstract](#cpp_11_is_abstract)
 * [is_signed](#cpp_11_is_signed)
 * [is_unsigned](#cpp_11_is_unsigned)
-  
-###### Supported operations
+
+#### <h5 id="cpp_11_RTTI_Supported_operations">Supported operations</h5>
 
 * [is_constructible](#cpp_11_is_constructible)
 * [is_trivially_constructible](#cpp_11_is_trivially_constructible)
