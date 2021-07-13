@@ -73,6 +73,52 @@ int main() {
 
 ##### static_assert
 
+```C++
+struct MyClass
+{
+    char m_value;
+};
+
+struct MyEmptyClass
+{
+    void func();
+};
+
+// 确保MyEmptyClass是一个空类（没有任何非静态成员变量，也没有虚函数）
+static_assert(std::is_empty<MyEmptyClass>::value, "empty class needed");
+
+//确保MyClass是一个非空类
+static_assert(!std::is_empty<MyClass>::value, "non-empty class needed");
+
+template <typename T, typename U, typename V>
+class MyTemplate
+{
+    // 确保模板参数T是一个非空类
+    static_assert(
+        !std::is_empty<T>::value,
+        "T should be n non-empty class"
+    );
+
+    // 确保模板参数U是一个空类
+    static_assert(
+        std::is_empty<U>::value,
+        "U should be an empty class"
+    );
+
+    // 确保模板参数V是从std::allocator<T>直接或间接派生而来，
+    // 或者V就是std::allocator<T>
+    static_assert(
+        std::is_base_of<std::allocator<T>, V>::value,
+        "V should inherit from std::allocator<T>"
+    );
+
+};
+
+// 仅当模板实例化时，MyTemplate里面的那三个static_assert才会真正被演算，
+// 藉此检查模板参数是否符合期望
+template class MyTemplate<MyClass, MyEmptyClass, std::allocator<MyClass>>;
+```
+
 ##### nullptr
 
 ##### noexcept
