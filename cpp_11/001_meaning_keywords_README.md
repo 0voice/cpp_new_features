@@ -27,6 +27,13 @@ auto d = 1.2e12L;//自动推断类型，d 是 long double
 
 ##### <h4 id="clazz">class</h4>
 
+C++11中对类(class)新增的特性：
+* default/delete 控制默认函数
+* override /final 强制重写/禁止重写虚函数
+* 委托构造函数 Delegating constructors
+* 继承的构造函数 Inheriting constructors
+* 类内部成员的初始化 Non-static data member initializers
+* 移动构造和移动赋值
 
 <br />
 
