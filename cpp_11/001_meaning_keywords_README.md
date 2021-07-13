@@ -13,6 +13,7 @@ static int c = 30 ;//延长了生命期
 ```
 
 C++11 auto
+
 auto可以在声明变量的时候根据变量初始值的类型自动为此变量选择匹配的类型，类似的关键字还有decltype。
 
 ```C++
@@ -74,7 +75,49 @@ auto d = 1.2e12L;//自动推断类型，d 是 long double
 
 ##### <h4 id="using">using</h4>
 
+* using 在 C++11之前主要用于名字空间、类型、函数与对象的引入，实际上是去除作用域的限制。
+```C++
+//引入名字空间
+using namespace std;
+//引入类型
+using std::iostream;
+//引入函数
+using std::to_string;
+//引入对象
+using std::cout;
+```
 
+* 通过using引入函数可以解除函数隐藏
+“隐藏”是指派生类的函数屏蔽了与其同名的基类函数，规则如下：
+1）如果派生类的函数与基类的函数同名，但是参数不同。此时，不论有无virtual关键字，基类的函数将被隐藏（注意别与重载混淆）
+2）如果派生类的函数与基类的函数同名，并且参数也相同，但是基类函数没有virtual关键字。此时，基类的函数被隐藏（注意别与覆盖混淆）
+使用了using关键字，就可以避免1的情况，是的父类同名函数在子类中得以重载，不被隐藏
+```C++
+class Base{
+public:
+  void func()	{ cout << "in Base::func()" << endl; }
+  void func(int n) { cout << "in Base::func(int)" << endl;}
+};
+
+class Sub : public Base {
+public:
+  using Base::func;	//引入父类所有同名函数func，解除函数隐藏
+  void func()	{ cout<<"in Sub::func()"<<endl;}
+};
+
+int main() {
+  Sub s;
+  s.func();
+  s.func(1); // Success!
+}
+```
+
+* 使用 using 代替 typedef，给类型命名
+```C++
+using uint8=unsigned char; //等价于typedef unsigned char uint8;
+using FunctionPtr = void (*)(); //等价于typedef void (FunctionPtr)();
+template using MapString = std::map<T, char>; //定义模板别名，注意typedef无法定义模板别名，因为typedef只能作用于具体类型而非模板
+```
 
 <br />
 
