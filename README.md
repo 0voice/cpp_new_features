@@ -46,6 +46,78 @@
 
 <br />
 
+### <h3 id="cpp_11_RTTI">类型支持（基本类型、RTTI、类型特性）</h3>
+
+###### Primary type categories
+
+* [is_void](#cpp_11_is_void)
+* [is_integral](#cpp_11_is_integral)
+* [is_floating_point](#cpp_11_is_floating_point)
+* [is_array](#cpp_11_is_array)
+* [is_enum](#cpp_11_is_enum)
+* [is_union](#cpp_11_is_union)
+* [is_class](#cpp_11_is_class)
+* [is_function](#cpp_11_is_function)
+* [is_pointer](#cpp_11_is_pointer)
+* [is_lvalue_reference](#cpp_11_is_lvalue_reference)
+* [is_rvalue_reference](#cpp_11_is_rvalue_reference)
+* [is_member_object_pointer](#cpp_11_is_member_object_pointer)
+* [is_member_function_pointer](#cpp_11_is_member_function_pointer)
+
+###### Composite type categories
+
+* [is_fundamental](#cpp_11_is_fundamental)
+* [is_arithmetic](#cpp_11_is_arithmetic)
+* [is_scalar](#cpp_11_is_scalar)
+* [is_object](#cpp_11_is_object)
+* [is_compound](#cpp_11_is_compound)
+* [is_reference](#cpp_11_is_reference)
+* [is_member_pointer](#cpp_11_is_member_pointer)
+
+###### Type properties
+
+* [is_const](#cpp_11_is_const)
+* [is_volatile](#cpp_11_is_volatile)
+* [is_trivial](#cpp_11_is_trivial)
+* [is_trivially_copyable](#cpp_11_is_trivially_copyable)
+* [is_standard_layout](#cpp_11_is_standard_layout)
+* [is_literal_type](#cpp_11_is_literal_type)
+* [is_empty](#cpp_11_is_empty)
+* [is_polymorphic](#cpp_11_is_polymorphic)
+* [is_abstract](#cpp_11_is_abstract)
+* [is_signed](#cpp_11_is_signed)
+* [is_unsigned](#cpp_11_is_unsigned)
+  
+###### Supported operations
+
+* [is_constructible](#cpp_11_is_constructible)
+* [is_trivially_constructible](#cpp_11_is_trivially_constructible)
+* [is_nothrow_constructible](#cpp_11_is_nothrow_constructible)
+* [is_default_constructible](#cpp_11_is_default_constructible)
+* [is_trivially_default_constructible](#cpp_11_is_trivially_default_constructible)
+* [is_nothrow_default_constructible](#cpp_11_is_nothrow_default_constructible)
+* [is_copy_constructible](#cpp_11_is_copy_constructible)
+* [is_trivially_copy_constructible](#cpp_11_is_trivially_copy_constructible)
+* [is_nothrow_copy_constructible](#cpp_11_is_nothrow_copy_constructible)
+* [is_move_constructible](#cpp_11_is_move_constructible)
+* [is_trivially_move_constructible](#cpp_11_is_trivially_move_constructible)
+* [is_nothrow_move_constructible](#cpp_11_is_nothrow_move_constructible)
+* [is_assignable](#cpp_11_is_assignable)
+* [is_trivially_assignable](#cpp_11_is_trivially_assignable)
+* [is_nothrow_assignable](#cpp_11_is_nothrow_assignable)
+* [is_copy_assignable](#cpp_11_is_copy_assignable)
+* [is_trivially_copy_assignable](#cpp_11_is_trivially_copy_assignable)
+* [is_nothrow_copy_assignable](#cpp_11_is_nothrow_copy_assignable)
+* [is_move_assignable](#cpp_11_is_move_assignable)
+* [is_trivially_move_assignable](#cpp_11_is_trivially_move_assignable)
+* [is_nothrow_move_assignable](#cpp_11_is_nothrow_move_assignable)
+* [is_destructible](#cpp_11_is_destructible)
+* [is_trivially_destructible](#cpp_11_is_trivially_destructible)
+* [is_nothrow_destructible](#cpp_11_is_nothrow_destructible)
+* [has_virtual_destructor](#cpp_11_has_virtual_destructor)
+
+<br />
+
 ### <h3 id="cpp_11_stl">STL容器</h3>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_std_array.cpp">std::array</a>
