@@ -25,6 +25,11 @@ auto d = 1.2e12L;//自动推断类型，d 是 long double
 
 <br />
 
+##### <h4 id="clazz">class</h4>
+
+
+<br />
+
 ##### <h4 id="default">default</h4>
 
 在C+11中，对于defaulted函数，编译器会为其自动生成默认的函数定义体，从而获得更高的代码执行效率，也可免除程序员手动定义该函数的工作量。
