@@ -197,9 +197,6 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_class_type_alias.cpp">继承构造函数</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_class_type_alias.cpp">移动构造函数</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_class_type_alias.cpp">移动赋值运算符</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_class_type_alias.cpp">显式默认和删除的函数</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_class_type_alias.cpp">并行动态初始化和析构</a>
-
 <br />
 
 ### <h3 id="cpp_11_template">模板</h3>
