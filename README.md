@@ -71,17 +71,17 @@
 
 #### <h5 id="cpp_11_hash">hash</h5>
 
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash<std::string></a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash<std::u16string></a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash<std::u32string></a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash<std::wstring></a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash<std::error_code></a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash<std::bitset></a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash<std::unique_ptr></a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash<std::shared_ptr></a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash<std::type_index></a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash<std::vector<bool>></a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash<std::thread::id></a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash&lt;std::string&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash&lt;std::u16string&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash&lt;std::u32string&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash&lt;std::wstring&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash&lt;std::error_code&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash&lt;std::bitset&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash&lt;std::unique_ptr&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash&lt;std::shared_ptr&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash&lt;std::type_index&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash&lt;std::vector&lt;bool&gt;&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash&lt;std::thread::id&gt;</a>
 
 <br />
 
