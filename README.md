@@ -118,6 +118,16 @@
 
 <br />
 
+### <h3 id="cpp_11_template">模板</h3>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">尖括号“>”</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">别名模板</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">外部模板</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">可变参数模板</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">默认模板参数</a>
+
+<br />
+
 ### <h3 id="cpp_11_keywords">新语法</h3>
 
 #### <h5 id="cpp_11_new_pretreatment">预处理</h5>
