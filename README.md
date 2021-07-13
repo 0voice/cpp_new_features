@@ -11,12 +11,6 @@
 * [C++20新特性](#cpp_20)
 * [C++23新特性](#cpp_23)
 
-<!--
-# C++关键字
- <img src="https://www.0voice.com/uiwebsite/cpp_new_features/cpp_keywords.png"  alt="C++关键字" />
--->
-
-<br/>
 <br/>
 
 ## <h1 id="cpp_11">C++11新特性</h1>
@@ -175,12 +169,7 @@
 	
 	
 	
-
-
-
-
-
-
+<br/>
 
 <h1 id="cpp_14">C++14新特性</h1>
 
