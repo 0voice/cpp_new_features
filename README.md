@@ -88,6 +88,22 @@
 
 <br />
 
+### <h3 id="cpp_11_function">函数</h3>
+
+#### <h5 id="cpp_11_function_nonstatic">非静态成员函数</h5>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_std_shared_ptr.cpp">cv限定函数</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_std_weak_ptr.cpp">引用限定</a>
+
+#### <h5 id="cpp_11_function_template">函数对象模板</h5>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_std_unique_ptr.cpp">std::function</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_std_unique_ptr.cpp">std::bind</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_std_unique_ptr.cpp">std::bad_function_call</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_std_unique_ptr.cpp">mem_fn</a>
+
+<br />
+
 ### <h3 id="cpp_11_keywords">新语法</h3>
 
 #### <h5 id="cpp_11_new_pretreatment">预处理</h5>
