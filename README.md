@@ -56,18 +56,18 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_container_init.cpp">容器初始化</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_emplace.cpp">emplace</a>
 
-#### <h5 id="cpp_11_new_unordered_containers">无序容器</h5>
+#### <h5 id="cpp_11_unordered_containers">无序容器</h5>
 
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_std_unordered_map.cpp">std::unordered_map</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_std_unordered_multimap.cpp">std::unordered_multimap</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_std_unordered_set.cpp">std::unordered_set</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_std_unordered_multiset.cpp">std::unordered_multiset</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_unordered_map.cpp">std::unordered_map</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_unordered_multimap.cpp">std::unordered_multimap</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_unordered_set.cpp">std::unordered_set</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_unordered_multiset.cpp">std::unordered_multiset</a>
 
 #### <h5 id="cpp_11_tuple">元组std::tuple</h5>
 
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_std_make_tuple.cpp">std::make_tuple</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_std_get.cpp">std::get</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_std_tie.cpp">std::tie</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_tuple_make_tuple.cpp">std::make_tuple</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_tuple_get.cpp">std::get</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_tuple_tie.cpp">std::tie</a>
 
 #### <h5 id="cpp_11_hash">hash</h5>
 
@@ -77,8 +77,6 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_wstring.cpp">std::hash&lt;std::wstring&gt;</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_error_code.cpp">std::hash&lt;std::error_code&gt;</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_bitset.cpp">std::hash&lt;std::bitset&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_unique_ptr.cpp">std::hash&lt;std::unique_ptr&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_shared_ptr.cpp">std::hash&lt;std::shared_ptr&gt;</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_type_index.cpp">std::hash&lt;std::type_index&gt;</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_vector.cpp">std::hash&lt;std::vector&lt;bool&gt;&gt;</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_thread_id.cpp">std::hash&lt;std&#58;&#58;thread&#58;&#58;id&gt;</a>
