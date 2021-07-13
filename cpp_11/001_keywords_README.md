@@ -20,7 +20,7 @@ C++中有4种存储周期：
 
 thread_local案例
 
-```C
+```C++
 #include <iostream>
 #include <mutex>
 #include <string>
