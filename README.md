@@ -1,5 +1,5 @@
 # cpp_new_features
-2021年最新整理，500个c++11/14/17/20的新特性代码案例，包含lambda匿名函数，右值引用，auto，coroutine库，synchronization库
+2021年最新整理，500个c++11/14/17/20的新特性代码案例，包含lambda匿名函数，右值引用，auto，coroutine库，synchronization库，持续更新中......
 
 -----------
 
@@ -71,17 +71,17 @@
 
 #### <h5 id="cpp_11_hash">hash</h5>
 
-* [std::hash<std::string>](#cpp_11_std::hash<std::string)
-* [std::hash<std::u16string>](#cpp_11_std::hash<std::u16string>)
-* [std::hash<std::u32string>](#cpp_11_std::hash<std::u32string>)
-* [std::hash<std::wstring>](#cpp_11_std::hash<std::wstring>)
-* [std::hash<std::error_code>](#cpp_11_std::hash<std::error_code>)
-* [std::hash<std::bitset>](#cpp_11_std::hash<std::bitset>)
-* [std::hash<std::unique_ptr>](#cpp_11_std::hash<std::unique_ptr>)
-* [std::hash<std::shared_ptr>](#cpp_11_std::hash<std::shared_ptr>)
-* [std::hash<std::type_index>](#cpp_11_std::hash<std::type_index>)
-* [std::hash<std::vector<bool>>](#cpp_11_std::hash<std::vector<bool>>)
-* [std::hash<std::thread::id>](#cpp_11_std::hash<std::thread::id>)
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash<std::string></a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash<std::u16string></a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash<std::u32string></a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash<std::wstring></a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash<std::error_code></a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash<std::bitset></a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash<std::unique_ptr></a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash<std::shared_ptr></a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash<std::type_index></a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash<std::vector<bool>></a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash<std::thread::id></a>
 
 <br />
 
