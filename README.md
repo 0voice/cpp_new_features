@@ -79,7 +79,7 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_bitset.cpp">std::hash&lt;std::bitset&gt;</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_type_index.cpp">std::hash&lt;std::type_index&gt;</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_vector.cpp">std::hash&lt;std::vector&lt;bool&gt;&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_thread_id.cpp">std::hash&lt;std::thread::id&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_thread_id.cpp">std::hash&lt;std::thread&gt;</a>
 
 <br />
 
