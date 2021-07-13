@@ -81,7 +81,7 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash&lt;std::shared_ptr&gt;</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash&lt;std::type_index&gt;</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp">std::hash&lt;std::vector&lt;bool&gt;&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp"><p>std::hash&lt;std：：thread：：id&gt;</p></a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_string.cpp"><p>std::hash&lt;std&#58;&#58;thread&#58;&#58;id&gt;</p></a>
 
 <br />
 
