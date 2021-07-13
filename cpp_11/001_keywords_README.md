@@ -457,17 +457,109 @@ int main(void)
 
 <br/>
 
-##### char32_t
+##### char16_t和char32_t
+
+char16_t和char32_t:
+
+产生原因：
+随着编程人员日益的熟悉Unicode，类型wchar_t显然已经满足不了需求，在计算机系统上进行的编码字符和字符串编码时，仅仅使用Unicode码点显然是不够的。
+比如：如果在进行字符串编码时，如果有特定长度和符号特征的类型将很有帮助，而类型wchar_t的长度和符号特征随实现而已。
+因此C++11新增了类型char16_t,,char32_t。
+
+char16_t:无符号类型，长16位，
+char32_t无符号类型，长32位
+
+C++11使用前缀u表示char16_t字符常量和字符串常量如：u‘L’；u“lilili”;
+C++11使用前缀U表示char32_t字符常量和字符串常量如：U'L';U"lilili";
+
+类型char16_t与/u00F6形式的通用字符名匹配，
+类型char32_t与/U0000222B形式的通用字符名匹配。
+前缀u和U分别指出字符字面值的类型为char16_t和char32_t。
+
+注意：
+如果你在VS中使用char16_t或者char32_t的话，不要加前缀u或者U只能加前缀L.
 
 <br/>
 
-##### char16_t
+##### alignof和alignas
 
-<br/>
+C++11新引入操作符alignof， 对齐描述符alignas，基本对齐值 alignof(std::max_align_t)
 
-##### alignof
+alignas可以接受常量表达式和类型作为参数，可以修饰变量、类的数据成员等，不能修饰位域和用register申明的变量。一般往大对齐。
 
-<br/>
+```C++
+struct s3
+{
+    char s;
+    double d;
+    int i;
+};
+ 
+ 
+struct s11
+{
+    alignas(16) char s;
+    int i;
+};
+ 
+struct s12
+{
+    alignas(16) char s;
+    int i;
+};
+ 
+ 
+// alignof
+cout << "-------------------alignof---------------------" << endl;
+// 基本对齐值
+cout << "alignof(std::max_align_t)	" << alignof(std::max_align_t) << endl;
+cout << endl;
+cout << "-------basic type" << endl;
+cout << "alignof(char)		" << alignof(char) << endl;
+cout << "alignof(int)		" << alignof(int) << endl;
+cout << "alignof(double)	" << alignof(double) << endl;
+ 
+cout << endl;
+cout << "-------struct" << endl;
+cout << "alignof(s1)		" << alignof(s1) << endl;
+cout << "alignof(s2)		" << alignof(s2) << endl;
+cout << "alignof(s3)		" << alignof(s3) << endl;
+ 
+cout << endl;
+cout << endl;
+ 
+// alignas
+cout << "-------------------alignas---------------------" << endl;
+cout << "alignof(s1)		" << alignof(s1) << endl;
+cout << "alignof(s11)		" << alignof(s11) << endl;
+cout << "alignof(s12)		" << alignof(s12) << endl;
+ 
+cout << "sizeof(s1)    	" << sizeof(s1) << endl;
+cout << "sizeof(s11)	" << sizeof(s11) << endl;
+cout << "sizeof(s12)	" << sizeof(s12) << endl;
+```
 
-##### alignas
+//结果如下：
+```C++
+-------------------alignof---------------------
+alignof(std::max_align_t)	8
 
+-------basic type
+alignof(char)	1
+alignof(int)	4
+alignof(double)	8
+
+-------struct
+alignof(s1)	4
+alignof(s2)	8
+alignof(s3)	8
+
+
+-------------------alignas---------------------
+alignof(s1)	4
+alignof(s11)	16
+alignof(s12)	16
+sizeof(s1)	4
+sizeof(s11)	16
+sizeof(s12)	16
+```
