@@ -164,6 +164,40 @@
 
 <br />
 
+### <h3 id="cpp_11_exception">异常</h3>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_exception_std_exception_ptr.cpp">std::exception_ptr</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_exception_std_make_exception_ptr.cpp">std::make_exception_ptr</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_exception_std_current_exception.cpp">std::current_exception</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_exception_std_rethrow_exception.cpp">std::rethrow_exception</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_exception_std_nested_exception.cpp">std::nested_exception</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_exception_std_throw_with_nested.cpp">std::throw_with_nested</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_exception_std_rethrow_if_nested.cpp">std::rethrow_if_nested</a>
+<!--
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_exception_std_noexcept.cpp">std::noexcept</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_exception_std_terminate_handler.cpp">std::terminate_handler</a>
+-->
+<br />
+
+### <h3 id="cpp_11_error">错误</h3>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_error_std_error_category.cpp">std::error_category</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_error_std_generic_category.cpp">std::generic_category</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_error_std_error_condition.cpp">std::error_condition</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_error_std_errc.cpp">std::errc</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_error_std_error_code.cpp">std::error_code</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_error_std_system_error.cpp">std::system_error</a>
+<!-- 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">错误类别的基类</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">鉴别通用错误类别</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">鉴别操作系统错误类别</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">保有可移植的错误码</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">列出所有标准<cerrno>宏常量的std::error_condition枚举</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::condition_variable</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">保有依赖于平台的错误码</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">用于报告拥有error_code的错误条件的异常类</a>
+-->
+<br />
 
 ### <h3 id="cpp_11_keywords">新语法</h3>
 
