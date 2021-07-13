@@ -230,9 +230,230 @@ int main()
 
 ##### decltype
 
+decltype类型说明符，它的作用是选择并返回操作数的数据类型，在此过程中，编译器分析表达式并得到它的类型，却不实际计算表达式的值。
+decltype用法
+* 基本用法
+```C++
+int getSize();
+
+int main(void)
+{
+    int tempA = 2;
+    
+    /*1.dclTempA为int*/
+    decltype(tempA) dclTempA;
+    /*2.dclTempB为int，对于getSize根本没有定义，但是程序依旧正常，因为decltype只做分析，并不调用getSize，*/
+    decltype(getSize()) dclTempB;
+
+    return 0;
+}
+```
+
+* 与const结合
+```C++
+double tempA = 3.0;
+    const double ctempA = 5.0;
+    const double ctempB = 6.0；
+    const double *const cptrTempA = &ctempA;
+    
+    /*1.dclTempA推断为const double（保留顶层const，此处与auto不同）*/
+    decltype(ctempA) dclTempA = 4.1;
+    /*2.dclTempA为const double，不能对其赋值，编译不过*/
+    dclTempA = 5;
+    /*3.dclTempB推断为const double * const*/
+    decltype(cptrTempA) dclTempB = &ctempA;
+    /*4.输出为4（32位计算机）和5*/
+    cout<<sizeof(dclTempB)<<"    "<<*dclTempB<<endl;
+    /*5.保留顶层const，不能修改指针指向的对象，编译不过*/
+    dclTempB = &ctempB;
+    /*6.保留底层const，不能修改指针指向的对象的值，编译不过*/
+    *dclTempB = 7.0;
+```C
+
+* 与引用结合
+```C
+int tempA = 0, &refTempA = tempA;
+
+    /*1.dclTempA为引用，绑定到tempA*/
+    decltype(refTempA) dclTempA = tempA;
+    /*2.dclTempB为引用，必须绑定到变量，编译不过*/
+    decltype(refTempA) dclTempB = 0;
+    /*3.dclTempC为引用，必须初始化，编译不过*/
+    decltype(refTempA) dclTempC;
+    /*4.双层括号表示引用，dclTempD为引用，绑定到tempA*/
+    decltype((tempA)) dclTempD = tempA;
+    
+    const int ctempA = 1, &crefTempA = ctempA;
+    
+    /*5.dclTempE为常量引用，可以绑定到普通变量tempA*/
+    decltype(crefTempA) dclTempE = tempA;
+    /*6.dclTempF为常量引用，可以绑定到常量ctempA*/
+    decltype(crefTempA) dclTempF = ctempA;
+    /*7.dclTempG为常量引用，绑定到一个临时变量*/
+    decltype(crefTempA) dclTempG = 0;
+    /*8.dclTempH为常量引用，必须初始化，编译不过*/
+    decltype(crefTempA) dclTempH;
+    /*9.双层括号表示引用,dclTempI为常量引用，可以绑定到普通变量tempA*/
+    decltype((ctempA))  dclTempI = ctempA;
+```
+
+* 与指针结合
+```C++
+int tempA = 2;
+int *ptrTempA = &tempA;
+/*1.常规使用dclTempA为一个int *的指针*/
+decltype(ptrTempA) dclTempA;
+/*2.需要特别注意，表达式内容为解引用操作，dclTempB为一个引用，引用必须初始化，故编译不过*/
+decltype(*ptrTempA) dclTempB;
+```
+
+decltype总结
+decltype和auto都可以用来推断类型，但是二者有几处明显的差异：
+1.auto忽略顶层const，decltype保留顶层const；
+2.对引用操作，auto推断出原有类型，decltype推断出引用；
+3.对解引用操作，auto推断出原有类型，decltype推断出引用；
+4.auto推断时会实际执行，decltype不会执行，只做分析。
+总之在使用中过程中和const、引用和指针结合时需要特别小心。
+
 <br/>
 
 ##### constexpr
+
+* constexpr意义
+将变量声明为constexpr类型以便由编译器来验证变量是否是一个常量表达式（不会改变，在编译过程中就能得到计算结果的表达式）。是一种比const更强的约束，这样可以得到更好的效率和安全性。
+
+* constexpr用法
+  * 修饰函数
+```C++
+/*1.如果size在编译时能确定，那么返回值就可以是constexpr,编译通过*/
+constexpr int getSizeA(int size)
+{
+    return 4*size;
+}
+/*2.编译通过，有告警：在constexpr中定义变量*/
+constexpr int getSizeB(int size)
+{
+    int index = 0;
+    return 4;
+}
+/*3.编译通过，有告警：在constexpr中定义变量（这个有点迷糊）*/
+constexpr int getSizeC(int size)
+{
+    constexpr int index = 0;
+    return 4;
+}
+/*4.编译通过，有告警：使用了if语句（使用switch也会告警）*/
+constexpr int getSizeD(int size)
+{
+    if(0)
+    {}
+    return 4;
+}
+/*5.定义变量并且没有初始化，编译不过*/
+constexpr int getSizeE(int size)
+{
+    int index;
+    return 4;
+}
+/*6.rand()为运行期函数，不能在编译期确定，编译不过*/
+constexpr int getSizeF(int size)
+{
+    return 4*rand();
+}
+/*7.使用了for，编译不过*/
+constexpr int getSizeG(int size)
+{
+    for(;0;)
+    {}
+    return 4*rand();
+}
+```
+
+  * 修改类型
+```C++
+int tempA;
+cin>>tempA;
+
+const int ctempA = 4;
+const int ctempB = tempA;
+/*1.可以再编译器确定，编译通过*/
+constexpr int conexprA = 4;
+constexpr int conexprB = conexprA + 1;
+constexpr int conexprC = getSizeA(conexprA);
+constexpr int conexprD = ctempA;
+/*2.不能在编译期决定，编译不过*/
+constexpr int conexprE = tempA;
+constexpr int conexprF = ctempB;
+```
+
+  * 修饰指针
+```C++
+int g_tempA = 4;
+const int g_conTempA = 4;
+constexpr int g_conexprTempA = 4;
+
+int main(void)
+{
+    int tempA = 4;
+    const int conTempA = 4;
+    constexpr int conexprTempA = 4;
+    
+    /*1.正常运行,编译通过*/
+    const int *conptrA = &tempA;
+    const int *conptrB = &conTempA;
+    const int *conptrC = &conexprTempA;
+    /*2.局部变量的地址要运行时才能确认，故不能在编译期决定，编译不过*/
+    constexpr int *conexprPtrA = &tempA;
+    constexpr int *conexprPtrB = &conTempA
+    constexpr int *conexprPtrC = &conexprTempA;
+    /*3.第一个通过，后面两个不过,因为constexpr int *所限定的是指针是常量，故不能将常量的地址赋给顶层const*/
+    constexpr int *conexprPtrD = &g_tempA;
+    constexpr int *conexprPtrE = &g_conTempA
+    constexpr int *conexprPtrF = &g_conexprTempA;
+    /*4.局部变量的地址要运行时才能确认，故不能在编译期决定，编译不过*/
+    constexpr const int *conexprConPtrA = &tempA;
+    constexpr const int *conexprConPtrB = &conTempA;
+    constexpr const int *conexprConPtrC = &conexprTempA;
+    /*5.正常运行，编译通过*/
+    constexpr const int *conexprConPtrD = &g_tempA;
+    constexpr const int *conexprConPtrE = &g_conTempA;
+    constexpr const int *conexprConPtrF = &g_conexprTempA;
+
+    return 0;
+}
+ ```
+ 
+   * 修饰引用
+```C++
+int g_tempA = 4;
+const int g_conTempA = 4;
+constexpr int g_conexprTempA = 4;
+
+int main(void)
+{
+    int tempA = 4;
+    const int conTempA = 4;
+    constexpr int conexprTempA = 4;
+    /*1.正常运行，编译通过*/
+    const int &conptrA = tempA;
+    const int &conptrB = conTempA;
+    const int &conptrC = conexprTempA;
+    /*2.有两个问题：一是引用到局部变量，不能再编译器确定；二是conexprPtrB和conexprPtrC应该为constexpr const类型，编译不过*/
+    constexpr int &conexprPtrA = tempA;
+    constexpr int &conexprPtrB = conTempA 
+    constexpr int &conexprPtrC = conexprTempA;
+    /*3.第一个编译通过，后两个不通过，原因是因为conexprPtrE和conexprPtrF应该为constexpr const类型*/
+    constexpr int &conexprPtrD = g_tempA;
+    constexpr int &conexprPtrE = g_conTempA;
+    constexpr int &conexprPtrF = g_conexprTempA;
+    /*4.正常运行，编译通过*/
+    constexpr const int &conexprConPtrD = g_tempA;
+    constexpr const int &conexprConPtrE = g_conTempA;
+    constexpr const int &conexprConPtrF = g_conexprTempA;
+
+    return 0;
+}
+```
 
 <br/>
 
