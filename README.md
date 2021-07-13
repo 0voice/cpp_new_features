@@ -6,37 +6,6 @@
 # C++新特性
 
 * [C++11新特性](#cpp_11)
-<!--
-  * [关键字](#cpp_11_keywords)
-    * [新增关键字](#cpp_11_new_keywords)
-    * [含义变化或者新增含义关键字](#cpp_11_meaning_changed__OR__new_meaning_added)
-  * [新语法](#cpp_11_new_grammar)
-    * [预处理](#cpp_11_new_pretreatment)
-      * [_Pragma运算符](#cpp_11__Pragma)
-    * [C++宏(cplusplus macro)](#cpp_11_cplusplus_macro)
-    * [基于范围的for语句](#cpp_11_for)
-      * [for(x:range)](#cpp_11_for_range)
-    * [对齐支持(alignment support)](#cpp_11_alignment_support)
-    * [显式转换操作符(explicit conversion operators)](#cpp_11_explicit_conversion_operators)
-    * [静态断言(static assert)](#cpp_11_static_assert)
-    * [数字限制(numeric limits)](#cpp_11_numeric_limits)
-    * [原始字符串(raw string)](#cpp_11_raw_string)
-    * [显式转换操作符(explicit conversion operators)](#cpp_11_explicit_conversion_operators)
-    * [追踪返回类型语法(trailing return type syntax)](#cpp_11_trailing_return_type_syntax)
-    * [扩展的friend语法(extended friend syntax)](#cpp_11_extended_friend_syntax)
-    * [扩展的整型(extended integer types)](#cpp_11_extended_integer_types)
-    * [非受限联合体(unrestricted union)](#cpp_11_unrestricted_union)
-    * [内联名字空间(lnline namespace)](#cpp_11_lnline_namespace)
-    * [用户定义的字面量(user-defined literals)](#cpp_11_user_defined_literals)
-    * [强类型枚举(scoped and strongly typed enums)](#cpp_11_enum_class)
-    * [随机装置(random device)](#cpp_11_random_device)
-    * [std::ref和std::cref](#cpp_11_stdref_std_cref)
-    * [常量表达式(constexpr)](#cpp_11_constexpr)
-    * [lamda表达式](#cpp_11_lamda)
-    * [指针空值(nullptr)](#cpp_11_nullptr)
-    * [防止类型收窄(Preventing narrowing)](#cpp_11_preventing_narrowing)
-    * [初始化列表(initializer lists)](#cpp_11_initializer_lists)
--->
 * [C++14新特性](#cpp_14)
 * [C++17新特性](#cpp_17)
 * [C++20新特性](#cpp_20)
@@ -592,3 +561,5 @@ set  −  unordered_set (C++11)
 
 <h1 id="cpp_20">C++20新特性</h1>
 
+<h1 id="cpp_23">C++23新特性</h1>
+	
