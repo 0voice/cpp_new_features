@@ -24,10 +24,10 @@
 * [noexcept](https://github.com/0voice/cpp_new_features/blob/main/cpp_11/001_keywords_README.md#noexcept)
 * [decltype](https://github.com/0voice/cpp_new_features/blob/main/cpp_11/001_keywords_README.md#decltype)
 * [constexpr](https://github.com/0voice/cpp_new_features/blob/main/cpp_11/001_keywords_README.md#constexpr)
-* [char32_t](https://github.com/0voice/cpp_new_features/blob/main/cpp_11/001_keywords_README.md#char32_t)
 * [char16_t](https://github.com/0voice/cpp_new_features/blob/main/cpp_11/001_keywords_README.md#char16_t)
+* [char32_t](https://github.com/0voice/cpp_new_features/blob/main/cpp_11/001_keywords_README.md#char16_t)
 * [alignof](https://github.com/0voice/cpp_new_features/blob/main/cpp_11/001_keywords_README.md#alignof)
-* [alignas](https://github.com/0voice/cpp_new_features/blob/main/cpp_11/001_keywords_README.md#alignas)
+* [alignas](https://github.com/0voice/cpp_new_features/blob/main/cpp_11/001_keywords_README.md#alignof)
 
 
 #### <h5 id="cpp_11_meaning_changed__OR__new_meaning_added">含义变化或者新增含义关键字（meaning changed or new meaning added）</h5>
