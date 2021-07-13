@@ -121,7 +121,105 @@ template class MyTemplate<MyClass, MyEmptyClass, std::allocator<MyClass>>;
 
 ##### nullptr
 
+nullptr关键字用于标识空指针，是std::nullptr_t类型的（constexpr）变量。它可以转换成任何指针类型和bool布尔类型（主要是为了兼容普通指针可以作为条件判断语句的写法），但是不能被转换为整数。
+```C++
+char *p1 = nullptr;     // 正确
+int  *p2 = nullptr;     // 正确
+bool b = nullptr;       // 正确. if(b)判断为false
+int a = nullptr;        // error
+```
+
 ##### noexcept
+
+noexcept有两类作用：noexcept指定符和noexcept运算符
+
+* noexcept 指定符
+```C++
+void f() noexcept;  // 函数 f() 不抛出
+void (*fp)() noexcept(false); // fp 指向可能抛出的函数
+void g(void pfa() noexcept);  // g 接收指向不抛出的函数的指针
+// typedef int (*pf)() noexcept; // 错误
+```
+
+* noexcept运算符
+```C++
+#include <iostream>
+#include <utility>
+#include <vector>
+ 
+// noexcept 运算符 
+void may_throw() {};
+void no_throw() noexcept {};
+auto lmay_throw = [] {};
+auto lno_throw = []() noexcept {};
+ 
+class T {
+};
+class T1 {
+public:
+  ~T1() {}
+};
+class T2 {
+public:
+  ~T2() {}
+  int v;
+};
+class T3 {
+public:
+  ~T3() {}
+  std::vector<int> v;
+};
+class T4 {
+public:
+  std::vector<int> v;
+};
+ 
+int main()
+{
+  T t;
+  T1 t1;
+  T2 t2;
+  T3 t3;
+  T4 t4;
+ 
+  std::vector<int> vc;
+ 
+  std::cout << std::boolalpha
+    << "Is may_throw() noexcept? " << noexcept(may_throw()) << '\n'
+    << "Is no_throw() noexcept? " << noexcept(no_throw()) << '\n'
+    << "Is lmay_throw() noexcept? " << noexcept(lmay_throw()) << '\n'
+    << "Is lno_throw() noexcept? " << noexcept(lno_throw()) << '\n'
+    << "Is ~T1() noexcept? " << noexcept(std::declval<T1>().~T1()) << '\n'
+    << '\n'
+    << '\n'
+ 
+    << "Is T(rvalue T) noexcept? " << noexcept(T(std::declval<T>())) << '\n'
+    << "Is T(lvalue T) noexcept? " << noexcept(T(t)) << '\n'
+    << '\n'
+ 
+    << "Is T1(rvalue T1) noexcept? " << noexcept(T1(std::declval<T1>())) << '\n'
+    << "Is T1(lvalue T1) noexcept? " << noexcept(T1(t1)) << '\n'
+    << '\n'
+ 
+    << "Is T2(rvalue T2) noexcept? " << noexcept(T2(std::declval<T2>())) << '\n'
+    << "Is T2(lvalue T2) noexcept? " << noexcept(T2(t2)) << '\n'
+    << '\n'
+ 
+    << "Is T3(rvalue T3) noexcept? " << noexcept(T3(std::declval<T3>())) << '\n'
+    << "Is T3(lvalue T3) noexcept? " << noexcept(T3(t3)) << '\n'
+    << '\n'
+ 
+    << "Is T4(rvalue T4) noexcept? " << noexcept(T4(std::declval<T4>())) << '\n'
+    << "Is T4(lvalue T4) noexcept? " << noexcept(T4(t4)) << '\n'
+    << '\n'
+ 
+    << "Is std::vector<int>(rvalue std::vector<int>) noexcept? " << noexcept(std::vector<int>(std::declval<std::vector<int>>())) << '\n'
+    << "Is std::vector<int>(lvalue std::vector<int>) noexcept? " << noexcept(std::vector<int>(vc)) << '\n';
+ 
+  system("pause");
+  return 0;
+}
+```
 
 ##### decltype
 
