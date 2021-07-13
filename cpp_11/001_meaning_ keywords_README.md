@@ -1,13 +1,63 @@
 #### <h2 id="cpp_11_new_keywords">C++11新增关键字</h2>
 
-##### <h4 id="cpp_11_new_keywords">thread_local</h4>
+##### <h4 id="auto">auto</h4>
 
-thread_local是C++11增加的存储类指定符
 
-C++中有4种存储周期：
-  * automatic
-  * static
-  * dynamic
-  * thread
 
-有且只有thread_local关
+<br />
+
+##### <h4 id="default">default</h4>
+
+
+
+<br />
+
+##### <h4 id="delete">delete</h4>
+
+
+
+<br />
+
+##### <h4 id="export">export</h4>
+
+
+
+<br />
+
+##### <h4 id="extern">extern</h4>
+
+
+
+<br />
+
+##### <h4 id="inline">inline</h4>
+
+
+
+<br />
+
+##### <h4 id="mutable">mutable</h4>
+
+
+
+<br />
+
+##### <h4 id="sizeof">sizeof</h4>
+
+
+
+<br />
+
+##### <h4 id="struct">struct</h4>
+
+
+
+<br />
+
+##### <h4 id="using">using</h4>
+
+
+
+<br />
+
+
