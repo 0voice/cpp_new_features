@@ -567,7 +567,22 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">empty(检查容器是否为空)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">data(获得指向底层数组的指针)</a>
 
+### <h3 id="cpp_17_Containers_library">容器库</h3>
+### <h5 id="cpp_headfile_map">定义于头文件<map></h5>
 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">insert_or_assign(插入元素，或若键已存在则赋值给当前元素)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">try_emplace(若键不存在则原位插入，若键存在则不做任何事)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">extract(从另一容器释出结点)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">merge(从另一容器接合结点)</a>
+
+### <h5 id="cpp_headfile_unordered_map">定义于头文件<unordered_map></h5>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">insert_or_assign(插入元素，或若键已存在则赋值给当前元素)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">try_emplace(若键不存在则原位插入，若键存在则不做任何事)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">extract(从另一容器释出结点)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">merge(从另一容器接合结点)</a>
+
+	
 <br/>
 
 ## <h1 id="cpp_20">C++20新特性</h1>
@@ -849,9 +864,38 @@
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">mbrtoc8(转换窄多字节字符为 UTF-8 编码)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">c8rtomb(转换 UTF-8 字符串为窄多字节编码)</a>	
-	
-	
 
+### <h3 id="cpp_20_Containers_library">容器库</h3>
+
+### <h5 id="cpp_headfile_array">定义于头文件<array></h5>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">to_array(从内建数组创建 std::array 对象)</a>
+
+### <h5 id="cpp_headfile_vector">定义于头文件<vector></h5>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">erase(std::vector)(擦除所有满足特定判别标准的元素)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">erase_if(std::vector)(擦除所有满足特定判别标准的元素)</a>
+
+### <h5 id="cpp_headfile_map">定义于头文件<map></h5>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">contains(检查容器是否含有带特定键的元素)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">erase_if(std::map)(擦除所有满足特定判别标准的元素)</a>
+
+### <h5 id="cpp_headfile_unordered_map">定义于头文件<unordered_map></h5>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">contains(检查容器是否含有带特定键的元素)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">erase_if(std::unordered_map)(擦除所有满足特定判别标准的元素)</a>
+
+### <h5 id="cpp_headfile_span">定义于头文件<span></h5>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">begin(返回指向起始的迭代器)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">end(返回指向末尾的迭代器)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">rbegin(返回指向起始的逆向迭代器)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">rend(返回指向末尾的逆向迭代器)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">front(访问第一个元素)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">back(访问最后一个元素)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">dynamic_extent(size_t 类型常量，指明 span 拥有动态长度)</a>
+	
 <br/>
 
 ## <h1 id="cpp_23">C++23新特性</h1>
