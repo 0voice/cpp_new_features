@@ -151,7 +151,7 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_bitset.cpp">std::hash&lt;std::bitset&gt;</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_type_index.cpp">std::hash&lt;std::type_index&gt;</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_vector.cpp">std::hash&lt;std::vector&lt;bool&gt;&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_thread_id.cpp">std::hash&lt;std::thread&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_hash_std_thread_id.cpp">std::hash&lt;std::thread::id&gt;</a>
 
 <br />
 
@@ -548,7 +548,7 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">variant_size_v(在编译时获得 variant 可选项列表的大小)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">variant_alternative(在编译时获得以其下标指定的可选项的类型)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">variant_alternative_t(在编译时获得以其下标指定的可选项的类型)</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">std::hash<std::variant>(特化 std::hash 算法)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">std::hash&lt;std::variant&gt;(特化 std::hash 算法)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">variant_npos(非法状态的 variant 的下标)</a>
 	
 ### <h5 id="cpp_headfile_any">定义于头文件&lt;any&gt;</h5>
