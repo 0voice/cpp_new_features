@@ -1,5 +1,5 @@
-
-### 2021年最新整理，500个c++11/14/17/20/23的新特性代码案例，包含lambda匿名函数，右值引用，auto，coroutine库，synchronization库，持续更新中......
+# cpp_new_features
+2021年最新整理，500个c++11/14/17/20/23的新特性代码案例，包含lambda匿名函数，右值引用，auto，coroutine库，synchronization库，持续更新中......
 
 -----------
 
@@ -435,8 +435,14 @@
 	
 <br/>
 
-<h1 id="cpp_14">C++14新特性</h1>
+## <h1 id="cpp_14">C++14新特性</h1>
 
+### <h3 id="cpp_14_RTTI">类型支持（基本类型、RTTI、类型特性）</h3>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_null_pointer.cpp">检查类型是否为 std::nullptr_t</a>
+
+
+	
 * [函数返回值类型推导](https://github.com/0voice/cpp_new_features/blob/main/cpp_14/README.md#cpp_14_01)
 * [lambda参数auto](https://github.com/0voice/cpp_new_features/blob/main/cpp_14/README.md#cpp_14_02)
 * [变量模板](https://github.com/0voice/cpp_new_features/blob/main/cpp_14/README.md#cpp_14_03)
@@ -449,9 +455,44 @@
 * [std::exchange](https://github.com/0voice/cpp_new_features/blob/main/cpp_14/README.md#cpp_14_10)
 * [std::quoted](https://github.com/0voice/cpp_new_features/blob/main/cpp_14/README.md#cpp_14_11)
 
-<h1 id="cpp_17">C++17新特性</h1>
-正在抓紧整理中......
-<h1 id="cpp_20">C++20新特性</h1>
-正在抓紧整理中......
+	
+<br/>
+
+## <h1 id="cpp_17">C++17新特性</h1>
+
+### <h3 id="cpp_17_keywords">关键字</h3>
+
+#### <h5 id="cpp_17_meaning_changed__OR__new_meaning_added">含义变化或者新增含义关键字（meaning changed or new meaning added）</h5>
+
+* [register](https://github.com/0voice/cpp_new_features/blob/main/cpp_17/001_meaning_keywords_README.md#register)
+	
+### <h3 id="cpp_17_RTTI">类型支持（基本类型、RTTI、类型特性）</h3>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_byte.cpp">byte(字节类型)</a>
+
+<br/>
+
+## <h1 id="cpp_20">C++20新特性</h1>
+	
+### <h3 id="cpp_20_keywords">关键字</h3>
+
+#### <h5 id="cpp_20_new_keywords">新增关键字</h5>
+
+* [char8_t](https://github.com/0voice/cpp_new_features/blob/main/cpp_20/001_new_keywords_README.md#char8_t)
+* [concept](https://github.com/0voice/cpp_new_features/blob/main/cpp_20/001_new_keywords_README.md#concept)
+* [consteval](https://github.com/0voice/cpp_new_features/blob/main/cpp_20/001_new_keywords_README.md#consteval)
+* [co_await](https://github.com/0voice/cpp_new_features/blob/main/cpp_20/001_new_keywords_README.md#co_await)
+* [co_return](https://github.com/0voice/cpp_new_features/blob/main/cpp_20/001_new_keywords_README.md#co_return)
+* [co_yield](https://github.com/0voice/cpp_new_features/blob/main/cpp_20/001_new_keywords_README.md#co_yield)
+* [requires](https://github.com/0voice/cpp_new_features/blob/main/cpp_20/001_new_keywords_README.md#requires)
+	
+#### <h5 id="cpp_20_meaning_changed__OR__new_meaning_added">含义变化或者新增含义关键字（meaning changed or new meaning added）</h5>
+
+* [export](https://github.com/0voice/cpp_new_features/blob/main/cpp_20/001_meaning_keywords_README.md#export)
+	
+### <h3 id="cpp_20_RTTI">类型支持（基本类型、RTTI、类型特性）</h3>
+
+#### <h5 id="cpp_20_RTTI_Primary_type_categories">Primary type categories</h5>
+
 <h1 id="cpp_23">C++23新特性</h1>
 正在抓紧整理中......
