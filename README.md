@@ -514,7 +514,6 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">in_place_t(原位构造标签)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">in_place_type_t(原位构造标签)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">in_place_index_t(原位构造标签)</a>
-
 	
 ### <h5 id="cpp_headfile_tuple">定义于头文件 <tuple></h5>
 	
@@ -523,12 +522,41 @@
 
 ### <h5 id="cpp_headfile_optional">定义于头文件 <optional></h5>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">optional(可能或可能不保有一个对象的包装器)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">make_optional(创建一个 optional 对象)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">std::swap(std::optional)(特化 std::swap 算法)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">std::hash<std::optional>(特化 std::hash 算法)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">nullopt_t(带未初始化状态的 optional 类型的指示器)</a>	
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">bad_optional_access(指示进行了到不含值的 optional 的有检查访问的异常)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">nullopt(nullopt_t 类型对象)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">in_place(原位构造标签)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">in_place_type(原位构造标签)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">in_place_index(原位构造标签)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">in_place_t(原位构造标签)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">in_place_type_t(原位构造标签)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">in_place_index_t(原位构造标签)</a>
 	
-### <h5 id="cpp_headfile_variant">定义于头文件 <variant></h5>
+### <h5 id="cpp_headfile_variant">定义于头文件<variant></h5>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">variant(类型安全的可辨识联合体)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">visit(以一或多个 variant 所保有的各实参调用所提供的函数对象)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">holds_alternative(检查某个 variant 是否当前持有某个给定类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">std::get(std::variant)(以给定索引或类型（若类型唯一）读取 variant 的值，错误时抛出异常)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">get_if(以给定索引或类型（若其唯一），获得指向被指向的 variant 的值的指针，错误时返回空指针)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">std::swap(std::variant)(特化 std::swap 算法)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">monostate(用作非可默认构造类型的 variant 的首个可选项的占位符类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">bad_variant_access(非法地访问 variant 的值时抛出的异常)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">variant_size(在编译时获得 variant 可选项列表的大小)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">variant_size_v(在编译时获得 variant 可选项列表的大小)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">variant_alternative(在编译时获得以其下标指定的可选项的类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">variant_alternative_t(在编译时获得以其下标指定的可选项的类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">std::hash<std::variant>(特化 std::hash 算法)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">variant_npos(非法状态的 variant 的下标)</a>
 	
 ### <h5 id="cpp_headfile_any">定义于头文件 <any></h5>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">any(可保有任何可复制构造 (CopyConstructible) 类型的实例的对象)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">std::swap(std::any)(特化 std::swap 算法)</a>	
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">any_cast(对被容纳对象的类型安全访问)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">make_any(创建 any 对象)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">bad_any_cast(当类型不匹配时按值返回形式的 any_cast 所抛出的异常)</a>
 
 ### <h5 id="cpp_headfile_charconv">定义于头文件 <charconv></h5>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">to_chars(转换整数或浮点值到字符序列象)</a>
@@ -538,10 +566,7 @@
 ### <h5 id="cpp_headfile_initializer_list">定义于头文件 <initializer_list></h5>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">empty(检查容器是否为空)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">data(获得指向底层数组的指针)</a>
-  
 
-  
- 
 
 <br/>
 
@@ -644,6 +669,47 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">formatter(定义给定类型的格式化规则的类模板)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">format_error(格式化错误时抛出的异常类型)</a>
 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">basic_format_arg(提供对用户定义格式化器的格式化参数的访问的类模板)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">basic_format_parse_context(格式化字符串分析器状态)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">format_parse_context(格式化字符串分析器状态)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">wformat_parse_context(格式化字符串分析器状态)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">basic_format_context(格式化状态，包括所有格式化参数和输出迭代器)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">format_context(格式化状态，包括所有格式化参数和输出迭代器)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">wformat_context(格式化状态，包括所有格式化参数和输出迭代器)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">visit_format_arg(用户定义格式化器的参数观览接口)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">make_format_args(创建引用所有格式化参数的类型擦除对象，可转换到 format_args)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">make_wformat_args(创建引用所有格式化参数的类型擦除对象，可转换到 format_args)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">basic_format_args(提供对所有格式化参数的访问的类)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">format_args(提供对所有格式化参数的访问的类)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">wformat_args(提供对所有格式化参数的访问的类)</a>
+
+### <h5 id="cpp_headfile_memory">定义于头文件<memory></h5>
+	
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">uninitialized_move(移动一个范围的对象到未初始化的内存区域)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">uninitialized_move_n(移动一定数量对象到未初始化内存区域)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">uninitialized_default_construct(在范围所定义的未初始化的内存区域以默认初始化构造对象)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">uninitialized_default_construct_n(在起始和计数所定义的未初始化内存区域用默认初始化构造对象)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">uninitialized_value_construct(在范围所定义的未初始化内存中用值初始化构造对象)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">uninitialized_value_construct_n(在起始和计数所定义的未初始化内存区域以值初始化构造对象)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">destroy_at(销毁在给定地址的对象)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">destroy(销毁一个范围中的对象)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">destroy_n(销毁范围中一定数量的对象)</a>
+
+	
+	
+### <h5 id="cpp_headfile_concepts">定义于头文件<memory_resource></h5>
+	
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">polymorphic_allocator(以 std::memory_resource 构造，支持基于它的运行时多态的分配器)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">memory_resource(一个抽象接口，用于各种封装内存资源的类)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">new_delete_resource(返回一个静态的程序范围 std::pmr::memory_resource，它使用全局 operator new 与 operator delete 分配和解分配内存</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">null_memory_resource(返回一个不进行任何分配的静态 std::pmr::memory_resource)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">get_default_resource(获取缺省 std::pmr::memory_resource)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">set_default_resource(设置缺省 std::pmr::memory_resource)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">pool_options(一组池资源的构造函数选项)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">synchronized_pool_resource(线程安全的 std::pmr::memory_resource，用于管理具有不同块大小的池中的分配)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">unsynchronized_pool_resource(线程不安全的 std::pmr::memory_resource，用于管理具有不同块大小的池中的分配)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">monotonic_buffer_resource(一种特殊用途的 std::pmr::memory_resource，仅在资源被销毁时才释放所分配内存)</a>	
+	
 ### <h3 id="cpp_20_compare">Concepts library(概念库)</h3>
 
 ### <h5 id="cpp_headfile_concepts">定义于头文件 <concepts></h5>
@@ -681,11 +747,111 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">equivalence_relation(指定 relation 施加等价关系)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">strict_weak_order(指定一个 relation 所强加的是严格弱序)</a>
 
+### <h3 id="cpp_20_memory">动态内存管理</h3>
 
+### <h5 id="cpp_headfile_memory">定义于头文件<memory></h5>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">uses_allocator_construction_args(准备匹配给定类型所要求的使用分配器构造的口味的参数列表)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">make_obj_using_allocator(以使用分配器构造的手段创建给类型的对象)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">uninitialized_construct_using_allocator(以使用分配器构造的手段在指定的内存位置创建给定类型的对象)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">construct_at(在给定地址创建对象)</a>
+	
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">no-throw-input-iterator(指定迭代器、哨位和范围上的某些操作不抛出)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">no-throw-forward-iterator(指定迭代器、哨位和范围上的某些操作不抛出)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">no-throw-sentinel-for(指定迭代器、哨位和范围上的某些操作不抛出)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">no-throw-input-range(指定迭代器、哨位和范围上的某些操作不抛出)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">no-throw-forward-range(指定迭代器、哨位和范围上的某些操作不抛出)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::uninitialized_copy(复制元素范围到未初始化的内存区域)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::uninitialized_copy_n(复制一定量元素到未初始化的内存区域)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::uninitialized_fill(复制一个对象到范围所定义的未初始化的内存区域)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::uninitialized_fill_n(复制一个对象到起始与计数所定义的未初始化的内存区域)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::uninitialized_move(移动对象范围到未初始化的内存区域)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::uninitialized_move_n(移动一定量对象到未初始化的内存区域)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::uninitialized_default_construct(在范围所定义的未初始化的内存区域以默认初始化构造对象)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::uninitialized_default_construct_n(在起始与计数所定义的未初始化的内存区域以默认初始化构造对象)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::uninitialized_value_construct(在范围所定义的未初始化的内存区域以值初始化构造对象)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::uninitialized_value_construct_n(在起始与计数所定义的未初始化的内存区域以值初始化构造对象)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::destroy_at(销毁位于给定地址的元素)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::destroy(销毁范围中的元素)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::destroy_n(销毁范围中一定量的元素)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::construct_at(在给定地址创建对象)</a>
 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">to_address(从指针式类型获得裸指针)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">assume_aligned(告知编译器指针已对齐)</a>
 
+### <h3 id="cpp_20_memory">日期和时间工具</h3>
+
+### <h5 id="cpp_headfile_chrono">定义于头文件<chrono></h5>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">is_clock(确定类型是否为时钟 (Clock))</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">is_clock_v(确定类型是否为时钟 (Clock))</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">utc_clock(协调世界时 (UTC) 的时钟 (Clock))</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">tai_clock(国际原子时 (TAI) 的时钟 (Clock))</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">gps_clock(GPS 时间的时钟 (Clock))</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">file_clock(用于文件时间的时钟 (Clock))</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">local_t(表示本地时间的伪时钟)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">clock_time_conversion(定义如何转换一个时钟的时间点为另一个的特性类)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">clock_cast(转换一个时钟的时间点为另一个)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">time_of_day(表示一日中的时间)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">is_am(在 12 时和 24 时格式当天时刻之间翻译)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">is_pm(在 12 时和 24 时格式当天时刻之间翻译)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">make12(在 12 时和 24 时格式当天时刻之间翻译)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">make24(在 12 时和 24 时格式当天时刻之间翻译)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">last_spec(指示一个月中最后日期或星期的标签类)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">day(表示月之日期)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">month(表示年之月份)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">year(表示格里高利历中的年)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">weekday(表示格里高利历中星期之日)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">weekday_indexed(表示月份的第 n 个 weekday)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">weekday_last(表示月份的最后一个 weekday)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">month_day(表示特定 month 的特定 day)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">month_day_last(表示特定 month 的最后一日)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">month_weekday(表示特定 month 的第 n 个 weekday)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">month_weekday_last(表示特定 month 的最后一个 weekday)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">year_month(表示特定 year 的特定 month)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">year_month_day(表示特定的 year 、 month 和 day)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">year_month_day_last(表示特定 year 和 month 的最后一日)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">year_month_weekday(表示特定 year 和 month 的第 n 个 weekday)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">year_month_weekday_last(表示特定 year 和 month 的最后一个 weekday)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">operator/(创建格里高利历日期的约定语法)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">tzdb(描述 IANA 时区数据库的副本)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">tzdb_list(表示 tzdb 的链表)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">get_tzdb(访问和控制全球时区数据库信息)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">get_tzdb_list(访问和控制全球时区数据库信息)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">reload_tzdb(访问和控制全球时区数据库信息)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">remote_version(访问和控制全球时区数据库信息)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">locate_zone(定位基于其名称的 time_zone)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">current_zone(返回当前的 time_zone)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">time_zone(表示时区)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">sys_info(表示在特定时间点的关于时区的信息)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">local_info(表示关于从本地时间转换到 UNIX 时间的信息)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">choose(选择应如何解析歧义的本地时间)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">zoned_traits(zoned_time 所用的时区指针的特性类)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">zoned_time(表示时区和时间点)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">leap_second(含有关于插入闰秒的信息)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">time_zone_link(表示时区的替用名)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">nonexistent_local_time(抛出以报告本地时间不存在的异常)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ambiguous_local_time(抛出以报告本地时间有歧义的异常)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">parse(从流分析 chrono 对象)</a>
+	
+### <h3 id="cpp_20_string">字符串</h3>
+
+### <h5 id="cpp_headfile_string">定义于头文件<string></h5>
+	
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">starts_with(检查 string 是否始于给定前缀)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ends_with(检查 string 是否终于给定后缀)</a>
+	
+### <h5 id="cpp_headfile_string_view">定义于头文件<string_view></h5>
+	
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">starts_with(检查 string_view 是否始于给定前缀)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ends_with(检查 string_view 是否终于给定后缀)</a>
+	
+### <h5 id="cpp_headfile_cuchar">定义于头文件 <cuchar></h5>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">mbrtoc8(转换窄多字节字符为 UTF-8 编码)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">c8rtomb(转换 UTF-8 字符串为窄多字节编码)</a>	
 	
 	
+
 <br/>
 
 ## <h1 id="cpp_23">C++23新特性</h1>
@@ -696,12 +862,34 @@
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_scoped_enum(检查类型是否为有作用域枚举类型)</a>
 
-### <h5 id="cpp_headfile_utility">定义于头文件 <utility></h5>
+### <h5 id="cpp_headfile_utility">定义于头文件<utility></h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">to_underlying(转换枚举到其底层类型)</a>
 
-### <h5 id="cpp_headfile_stacktrace">定义于头文件 <stacktrace></h5>
+### <h5 id="cpp_headfile_stacktrace">定义于头文件<stacktrace></h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">stacktrace_entry(栈踪中求值的表示)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">basic_stacktrace(由栈踪条目组成的调用序列的近似表示)</a>
+
+### <h3 id="cpp_23_memory">动态内存管理</h3>
+
+### <h5 id="cpp_headfile_memory">定义于头文件<memory></h5>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">out_ptr_t(与外来指针设置器交互，并在析构时重设智能指针)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">out_ptr(以关联的智能指针和重设参数创建 out_ptr_t)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">inout_ptr_t(与外来指针设置器交互，从智能指针获得初始指针值，并在析构时重设它)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">inout_ptr(以关联的智能指针和重设参数创建 inout_ptr_t)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">allocation_result(记录由 allocate_at_least 分配的存储的地址与实际大小)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">allocate_at_least(经由分配器分配至少与请求的大小一样大的存储)</a>
+	
+### <h3 id="cpp_23_string">字符串</h3>
+
+### <h5 id="cpp_headfile_string">定义于头文件<string></h5>
+	
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">contains(检查字符串是否含有给定的子串或字符)</a>
+
+### <h5 id="cpp_headfile_string_view">定义于头文件<string_view></h5>
+	
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">contains(检查字符串视图是否含有给定的子串或字符)</a>
+
+
 
