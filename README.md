@@ -917,7 +917,7 @@
 
 ### <h3 id="cpp_23_memory">动态内存管理</h3>
 
-### <h5 id="cpp_headfile_memory">定义于头文件<memory></h5>
+### <h5 id="cpp_headfile_memory">定义于头文件&lt;memory&gt;</h5>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">out_ptr_t(与外来指针设置器交互，并在析构时重设智能指针)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">out_ptr(以关联的智能指针和重设参数创建 out_ptr_t)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">inout_ptr_t(与外来指针设置器交互，从智能指针获得初始指针值，并在析构时重设它)</a>
@@ -927,11 +927,11 @@
 	
 ### <h3 id="cpp_23_string">字符串</h3>
 
-### <h5 id="cpp_headfile_string">定义于头文件<string></h5>
+### <h5 id="cpp_headfile_string">定义于头文件&lt;string&gt;</h5>
 	
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">contains(检查字符串是否含有给定的子串或字符)</a>
 
-### <h5 id="cpp_headfile_string_view">定义于头文件<string_view></h5>
+### <h5 id="cpp_headfile_string_view">定义于头文件&lt;string_view&gt;</h5>
 	
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">contains(检查字符串视图是否含有给定的子串或字符)</a>
 
