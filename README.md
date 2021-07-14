@@ -457,8 +457,42 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">rend(返回容器或数组的逆向尾迭代器)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">crend(返回容器或数组的逆向尾迭代器)</a>
 
- 
- 
+### <h5 id="cpp_headfile_initializer_list">定义于头文件&lt;iterator&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">定义于命名空间std</h5>
+	
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">make_reverse_iterator(创建拥有从实参推出的类型的 std::reverse_iterator)</a>
+
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;array&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;deque&gt;</h5>	
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;forward_list&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;iterator&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;list&gt;</h5>	
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;map&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;regex&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;set&gt;</h5>	
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;span&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;string&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;string_view&gt;</h5>	
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;unordered_map&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;unordered_set&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;vector&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">定义于命名空间 std</h5>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">begin(返回指向容器或数组起始的迭代器)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">cbegin(返回指向容器或数组起始的迭代器)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">end(返回指向容器或数组结尾的迭代器)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">cend(返回指向容器或数组结尾的迭代器)</a>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">rbegin(返回指向一个容器或数组的逆向迭代器)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">crbegin(返回指向一个容器或数组的逆向迭代器)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">rend(返回容器或数组的逆向尾迭代器)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">crend(返回容器或数组的逆向尾迭代器)</a>	
+	
+
+
+
+
+
 
 <!--	
 * [函数返回值类型推导](https://github.com/0voice/cpp_new_features/blob/main/cpp_14/README.md#cpp_14_01)
@@ -518,7 +552,7 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">in_place_index_t(原位构造标签)</a>
 	
 ### <h5 id="cpp_headfile_tuple">定义于头文件&lt;tuple&gt;</h5>
-	
+
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">apply(以一个实参的元组来调用函数)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">make_from_tuple(以一个实参元组构造对象)</a>
 
@@ -584,7 +618,26 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">extract(从另一容器释出结点)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">merge(从另一容器接合结点)</a>
 
-	
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;array&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;deque&gt;</h5>	
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;forward_list&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;iterator&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;list&gt;</h5>	
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;map&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;regex&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;set&gt;</h5>	
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;span&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;string&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;string_view&gt;</h5>	
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;unordered_map&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;unordered_set&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;vector&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">定义于命名空间 std</h5>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">size(返回容器或数组的大小)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">empty(检查容器是否为空)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">data(获得指向底层数组的指针)</a>
+
 <br/>
 
 ## <h1 id="cpp_20">C++20新特性</h1>
@@ -897,7 +950,140 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">front(访问第一个元素)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">back(访问最后一个元素)</a> 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">dynamic_extent(size_t 类型常量，指明 span 拥有动态长度)</a>
+
+### <h5 id="cpp_headfile_span">定义于命名空间 std</h5>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">indirectly_readable(指定类型通过应用运算符 * 可读)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">indirectly_writable(指定可向迭代器所引用的对象写入值)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">weakly_incrementable(指定 semiregular 类型能以前后自增运算符自增)</a> 	
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">incrementable(指定 weakly_incrementable 类型上的自增操作保持相等性，而且该类型为 equality_comparable)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">input_or_output_iterator(指定该类型对象可以自增且可以解引用)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">sentinel_for(指定类型为某个 input_or_output_iterator 类型的哨位类型)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">sized_sentinel_for(指定可对一个迭代器和一个哨位应用 - 运算符，以在常数时间计算其距离)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">input_iterator(指定类型为输入迭代器，即可读取其所引用的值，且可前/后自增)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">output_iterator(指定类型为给定的值类型的输出迭代器，即可向其写入该类型的值，且可前/后自增)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">forward_iterator(指定 input_iterator 为向前迭代器，支持相等比较与多趟操作)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">bidirectional_iterator(指定 forward_iterator 为双向迭代器，支持向后移动)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">random_access_iterator(指定 bidirectional_iterator 为随机访问迭代器，支持常数时间内的前进和下标访问)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">contiguous_iterator(指定 random_access_iterator 为连续迭代器，指代内存中连续相接的元素)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">indirectly_readable_traits(计算 indirectly_readable 类型的值类型)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">iter_value_t(计算迭代器的关联类型)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">iter_reference_t(计算迭代器的关联类型)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">iter_difference_t(计算迭代器的关联类型)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">iter_rvalue_reference_t(计算迭代器的关联类型)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">iter_common_reference_t(计算迭代器的关联类型)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">iterator_traits(为迭代器各项性质提供统一接口)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">input_iterator_tag(用于指示迭代器类别的空类类型)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">output_iterator_tag(用于指示迭代器类别的空类类型)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">forward_iterator_tag(用于指示迭代器类别的空类类型)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">bidirectional_iterator_tag(用于指示迭代器类别的空类类型)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">random_access_iterator_tag(用于指示迭代器类别的空类类型)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">contiguous_iterator_tag(用于指示迭代器类别的空类类型)</a> 
+
+### <h5 id="cpp_headfile_span">定义于命名空间 std::ranges</h5>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">iter_move(将解引用迭代器的结果转型为其关联的右值引用类型)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">iter_swap(交换两个可解引用对象所引用的值)</a> 
+
+### <h5 id="cpp_headfile_span">定义于命名空间 std</h5>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">indirectly_readable(指定类型通过应用运算符 * 可读)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">indirectly_writable(指定可向迭代器所引用的对象写入值)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">weakly_incrementable(指定 semiregular 类型能以前后自增运算符自增)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">incrementable(指定 weakly_incrementable 类型上的自增操作保持相等性，而且该类型为 equality_comparable)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">input_or_output_iterator(指定该类型对象可以自增且可以解引用)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">sentinel_for(指定类型为某个 input_or_output_iterator 类型的哨位类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">sized_sentinel_for(指定可对一个迭代器和一个哨位应用 - 运算符，以在常数时间计算其距离)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">input_iterator(指定类型为输入迭代器，即可读取其所引用的值，且可前/后自增)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">output_iterator(指定类型为给定的值类型的输出迭代器，即可向其写入该类型的值，且可前/后自增)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">forward_iterator(指定 input_iterator 为向前迭代器，支持相等比较与多趟操作)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">bidirectional_iterator(指定 forward_iterator 为双向迭代器，支持向后移动)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">random_access_iterator(指定 bidirectional_iterator 为随机访问迭代器，支持常数时间内的前进和下标访问)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">contiguous_iterator(指定 random_access_iterator 为连续迭代器，指代内存中连续相接的元素)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">incrementable_traits(计算 weakly_incrementable 类型的差类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">indirectly_readable_traits(计算 indirectly_readable 类型的值类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">iter_value_t(计算迭代器的关联类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">iter_reference_t(计算迭代器的关联类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">iter_difference_t(计算迭代器的关联类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">iter_rvalue_reference_t(计算迭代器的关联类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">iter_common_reference_t(计算迭代器的关联类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">iterator_traits(为迭代器各项性质提供统一接口)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">input_iterator_tag(用于指示迭代器类别的空类类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">output_iterator_tag(用于指示迭代器类别的空类类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">forward_iterator_tag(用于指示迭代器类别的空类类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">bidirectional_iterator_tag(用于指示迭代器类别的空类类型)</a>	
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">random_access_iterator_tag(用于指示迭代器类别的空类类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">contiguous_iterator_tag(用于指示迭代器类别的空类类型)</a>
 	
+### <h5 id="cpp_headfile_span">定义于头文件 <iterator></h5>
+### <h5 id="cpp_headfile_span">定义于命名空间 std</h5>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">indirectly_unary_invocable(指定可调用类型能以解引用某个 indirectly_readable 类型的结果进行调用)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">indirectly_regular_unary_invocable(指定可调用类型能以解引用某个 indirectly_readable 类型的结果进行调用)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">indirect_unary_predicate(指定可调用类型，在以解引用一个 indirectly_readable 类型的结果进行调用时，满足 predicate)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">indirect_binary_predicate(指定可调用类型，在以解引用两个 indirectly_readable 类型的结果进行调用时，满足 predicate)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">indirect_equivalence_relation(指定可调用类型，在以解引用两个 indirectly_readable 类型的结果进行调用时，满足 equivalence_relation)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">indirect_strict_weak_order(指定可调用类型，在以解引用两个 indirectly_readable 类型的结果进行调用时，满足 strict_weak_order)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">indirectly_movable(指定可从 indirectly_readable 类型移动值给 indirectly_writable 类型)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">indirectly_movable_storable(指定可从 indirectly_readable 类型移动值给 indirectly_writable 类型，且该移动可以通过中间对象进行)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">indirectly_copyable(指定可从 indirectly_readable 类型复制值给 indirectly_writable 类型)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">indirectly_copyable_storable(指定可从 indirectly_readable 类型复制值给 indirectly_writable 类型，且该复制可以通过中间对象进行)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">indirectly_swappable(指定能交换两个 indirectly_readable 类型所引用的值)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">indirectly_comparable(指定能比较两个 indirectly_readable 类型所引用的值)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">permutable(指定在原位重排元素的算法的共用要求)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">mergeable(指定通过复制元素将已排序序列归并到输出序列中的算法的要求)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">sortable(指定重排序列为有序序列的算法的共用要求)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">indirect_result_t(计算在解引用某组 indirectly_readable 类型的结果上调用可调用对象的结果)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">projected(用于对接受投影的算法指定约束的辅助模板)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">move_sentinel(用于 std::move_iterator 的哨位适配器)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">common_iterator(适配一个迭代器类型及其哨位为一个公共迭代器类型)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">default_sentinel_t(用于知晓其边界的迭代器的默认哨位)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">counted_iterator(对到范围结尾距离进行跟踪的迭代器适配器)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">unreachable_sentinel_t(始终与任何 weakly_incrementable 类型比较都不相等的哨位)</a> 
+
+### <h5 id="cpp_headfile_span">定义于头文件 <iterator></h5>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::advance(令迭代器前进给定的距离或到给定的边界)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::distance(返回迭代器与哨位间的距离，或范围起始与结尾间的距离)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::next(自增迭代器给定的距离或到边界)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::prev(自减迭代器给定的距离或到边界)</a> 
+
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;array&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;deque&gt;</h5>	
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;forward_list&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;iterator&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;list&gt;</h5>	
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;map&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;regex&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;set&gt;</h5>	
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;span&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;string&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;string_view&gt;</h5>	
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;unordered_map&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;unordered_set&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;vector&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">定义于命名空间 std</h5>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ssize(返回容器或数组的大小)</a> 
+
+### <h5 id="cpp_headfile_span">定义于头文件 <ranges></h5>
+### <h5 id="cpp_headfile_span">定义于头文件 <iterator></h5>
+### <h5 id="cpp_headfile_span">定义于命名空间 std::ranges</h5>
+	
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::begin(返回指向范围起始的迭代器)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::cbegin(返回指向只读范围起始的迭代器)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::end(返回指示范围结尾的哨位)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::cend(返回指示只读范围结尾的哨位)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::rbegin(返回指向范围的逆向迭代器)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::crbegin(返回指向只读范围的逆向迭代器)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::rend(返回指向范围的逆向尾迭代器)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::crend(返回指向只读范围的逆向尾迭代器)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::size(获得能在常数时间内计算大小的范围的大小)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::ssize(获得能在常数时间内计算大小的范围的大小，并将它转换成有符号整数)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::empty(检查范围是否为空)</a> 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::data(获得指向连续范围的起始的指针)</a> 	
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::cdata(获得指向只读连续范围的起始的指针)</a> 
+
+
 <br/>
 
 ## <h1 id="cpp_23">C++23新特性</h1>
