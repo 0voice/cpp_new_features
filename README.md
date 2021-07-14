@@ -440,6 +440,8 @@
 ### <h3 id="cpp_14_RTTI">类型支持（基本类型、RTTI、类型特性）</h3>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_null_pointer.cpp">检查类型是否为 std::nullptr_t</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">is_final(检查类型是否为 final 类类型)</a>
+
 
 
 	
@@ -469,6 +471,28 @@
 ### <h3 id="cpp_17_RTTI">类型支持（基本类型、RTTI、类型特性）</h3>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_byte.cpp">byte(字节类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_aggregate(检查类型是否聚合类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_swappable_with(检查一个类型的对象是否能与同类型或不同类型的对象交换)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_swappable(检查一个类型的对象是否能与同类型或不同类型的对象交换)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_nothrow_swappable_with(检查一个类型的对象是否能与同类型或不同类型的对象交换)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_nothrow_swappable(检查一个类型的对象是否能与同类型或不同类型的对象交换)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_invocable(检查类型能否以给定的实参类型调用（如同以 std::invoke）)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_invocable_r(检查类型能否以给定的实参类型调用（如同以 std::invoke）)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_nothrow_invocable(检查类型能否以给定的实参类型调用（如同以 std::invoke）)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_nothrow_invocable_r(检查类型能否以给定的实参类型调用（如同以 std::invoke）)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">invoke_result(推导以一组实参调用一个可调用对象的结果类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">void_t(变参别名模板)</a>
+
+### <h5 id="cpp_17_RTTI"><type_traits></h5>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">conjunction(变参的逻辑与元函数)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">disjunction(变参的逻辑或元函数)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">negation(逻辑非元函数)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">void_t(变参别名模板)</a>
+
+
+  
+
 
 <br/>
 
@@ -492,7 +516,34 @@
 	
 ### <h3 id="cpp_20_RTTI">类型支持（基本类型、RTTI、类型特性）</h3>
 
-#### <h5 id="cpp_20_RTTI_Primary_type_categories">Primary type categories</h5>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_bounded_array(检查类型是否为有已知边界的数组类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_unbounded_array(检查类型是否为有未知边界的数组类型)</a>
+	
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_layout_compatible(检查二个类型是否布局兼容)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_pointer_interconvertible_base_of(检查一个类型是否为另一类型的指针可互转换（起始）基类)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_pointer_interconvertible_with_class(检查一个类型的对象是否与该类型的指定子对象指针可互转换)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_corresponding_member(检查二个指定成员是否在二个指定类型中的公共起始序列中彼此对应)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_nothrow_convertible(检查是否能转换一个类型为另一类型)</a>
 
-<h1 id="cpp_23">C++23新特性</h1>
-正在抓紧整理中......
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">remove_cvref(将 std::remove_cv 与 std::remove_reference 结合)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">common_reference(确定类型组的共用引用类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">basic_common_reference(确定类型组的共用引用类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">type_identity(返回不更改的类型实参)</a>
+
+
+  
+
+  
+
+<br/>
+
+## <h1 id="cpp_23">C++23新特性</h1>
+
+### <h3 id="cpp_23_RTTI">类型支持（基本类型、RTTI、类型特性）</h3>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_scoped_enum(检查类型是否为有作用域枚举类型)</a>
+
+	
+	
+	
+	
