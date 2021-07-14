@@ -438,11 +438,25 @@
 ## <h1 id="cpp_14">C++14新特性</h1>
 
 ### <h3 id="cpp_14_RTTI">类型支持（基本类型、RTTI、类型特性）</h3>
-
+	
+### <h5 id="cpp_headfile_type_traits">定义于头文件<type_traits></h5>
+	
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_null_pointer.cpp">检查类型是否为 std::nullptr_t</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">is_final(检查类型是否为 final 类类型)</a>
 
+### <h5 id="cpp_headfile_utility">定义于头文件 <utility></h5>
 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">exchange(将实参替换为一个新值，并返回其先前值)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">integer_sequence(实现编译时整数数列)</a>
+
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 <initializer_list></h5>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">rbegin(返回指向一个容器或数组的逆向迭代器)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">crbegin(返回指向一个容器或数组的逆向迭代器)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">rend(返回容器或数组的逆向尾迭代器)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">crend(返回容器或数组的逆向尾迭代器)</a>
+
+ 
+ 
 
 	
 * [函数返回值类型推导](https://github.com/0voice/cpp_new_features/blob/main/cpp_14/README.md#cpp_14_01)
@@ -469,7 +483,9 @@
 * [register](https://github.com/0voice/cpp_new_features/blob/main/cpp_17/001_meaning_keywords_README.md#register)
 	
 ### <h3 id="cpp_17_RTTI">类型支持（基本类型、RTTI、类型特性）</h3>
-
+	
+### <h5 id="cpp_headfile_type_traits">定义于头文件<type_traits></h5>
+	
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_byte.cpp">byte(字节类型)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_aggregate(检查类型是否聚合类型)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_swappable_with(检查一个类型的对象是否能与同类型或不同类型的对象交换)</a>
@@ -483,16 +499,49 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">invoke_result(推导以一组实参调用一个可调用对象的结果类型)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">void_t(变参别名模板)</a>
 
-### <h5 id="cpp_17_RTTI"><type_traits></h5>
-
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">conjunction(变参的逻辑与元函数)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">disjunction(变参的逻辑或元函数)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">negation(逻辑非元函数)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">void_t(变参别名模板)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">bool_constant(具有指定值的指定类型的编译期常量)</a>
 
+### <h5 id="cpp_headfile_utility">定义于头文件 <utility></h5>
 
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">as_const(获得到其实参的 const 引用)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">in_place(原位构造标签)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">in_place_type(原位构造标签)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">in_place_index(原位构造标签)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">in_place_t(原位构造标签)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">in_place_type_t(原位构造标签)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">in_place_index_t(原位构造标签)</a>
+
+	
+### <h5 id="cpp_headfile_tuple">定义于头文件 <tuple></h5>
+	
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">apply(以一个实参的元组来调用函数)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">make_from_tuple(以一个实参元组构造对象)</a>
+
+### <h5 id="cpp_headfile_optional">定义于头文件 <optional></h5>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">optional(可能或可能不保有一个对象的包装器)</a>
+	
+### <h5 id="cpp_headfile_variant">定义于头文件 <variant></h5>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">variant(类型安全的可辨识联合体)</a>
+	
+### <h5 id="cpp_headfile_any">定义于头文件 <any></h5>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">any(可保有任何可复制构造 (CopyConstructible) 类型的实例的对象)</a>
+
+### <h5 id="cpp_headfile_charconv">定义于头文件 <charconv></h5>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">to_chars(转换整数或浮点值到字符序列象)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">from_chars(转换字符序列到整数或浮点值)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">chars_format(指定 std::to_chars 和 std::from_chars 所用的格式)</a>
+
+### <h5 id="cpp_headfile_initializer_list">定义于头文件 <initializer_list></h5>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">empty(检查容器是否为空)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">data(获得指向底层数组的指针)</a>
   
 
+  
+ 
 
 <br/>
 
@@ -516,6 +565,8 @@
 	
 ### <h3 id="cpp_20_RTTI">类型支持（基本类型、RTTI、类型特性）</h3>
 
+### <h5 id="cpp_headfile_type_traits">定义于头文件<type_traits></h5>
+
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_bounded_array(检查类型是否为有已知边界的数组类型)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_unbounded_array(检查类型是否为有未知边界的数组类型)</a>
 	
@@ -529,21 +580,128 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">common_reference(确定类型组的共用引用类型)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">basic_common_reference(确定类型组的共用引用类型)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">type_identity(返回不更改的类型实参)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_constant_evaluated(检测调用是否在常量求值的语境内发生)</a>
+
+### <h3 id="cpp_20_Coroutine">协程支持</h3>
+
+### <h5 id="cpp_headfile_coroutine">定义于头文件 <coroutine></h5>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">coroutine_traits(用于发现协程承诺类型的特征类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">coroutine_handle(用于指代暂停或执行的协程)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">noop_coroutine(创建在等待或销毁时无操作的协程柄)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">noop_coroutine_promise(用于无可观察作用的协程)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">noop_coroutine_handle(std::coroutine_handle<std::noop_coroutine_promise> ，有意用于指代无操作协程)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">suspend_never(指示 await 表达式应该决不暂停)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">suspend_always(指示 await 表达式应该始终暂停)</a>
+
+### <h3 id="cpp_20_compare">三路比较</h3>
+
+### <h5 id="cpp_headfile_compare">定义于头文件 <compare></h5>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">std::coroutine_traits</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">std::coroutine_handle</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">three_way_comparable(指定运算符 <=> 在给定类型上产生一致的结果)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">three_way_comparable_with(指定运算符 <=> 在给定类型上产生一致的结果)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">partial_ordering(三路比较的结果类型，支持所有 6 种运算符，不可替换，并允许不可比较的值)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">weak_ordering(三路比较的结果类型，支持所有 6 种运算符且不可替换)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">strong_ordering(三路比较的结果类型，支持所有 6 种运算符且可替换)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_eq(具名比较函数)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_neq(具名比较函数)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_lt(具名比较函数)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_lteq(具名比较函数)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_gt(具名比较函数)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_gteq(具名比较函数)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">compare_three_way(实现 x <=> y 的函数对象)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">compare_three_way_result(获得三路比较运算符 <=> 在给定类型上的结果)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">common_comparison_category(给定的全部类型都能转换到的最强比较类别)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">strong_order(进行三路比较并产生 std::strong_ordering 类型结果)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">weak_order(进行三路比较并产生 std::weak_ordering 类型结果)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">partial_order(进行三路比较并产生 std::partial_ordering 类型结果)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">compare_strong_order_fallback(进行三路比较并产生 std::strong_ordering 类型的结果，即使 operator<=> 不可用)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">compare_weak_order_fallback(进行三路比较并产生 std::weak_ordering 类型的结果，即使 operator<=> 不可用)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">compare_partial_order_fallback(进行三路比较并产生 std::partial_ordering 类型的结果，即使 operator<=> 不可用</a>
+
+### <h5 id="cpp_headfile_concepts">定义于头文件 <concepts></h5>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">ranges::swap(交换两个对象的值)</a>
+
+### <h5 id="cpp_headfile_utility">定义于头文件 <utility></h5>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">cmp_equal(比较二个整数值，而无转换所致的值更改)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">cmp_not_equal(比较二个整数值，而无转换所致的值更改)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">cmp_less(比较二个整数值，而无转换所致的值更改)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">cmp_less_equal(比较二个整数值，而无转换所致的值更改)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">cmp_greater_equal(比较二个整数值，而无转换所致的值更改)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">in_range(检查整数值是否在给定整数类型的范围内)</a>
+	
+### <h5 id="cpp_headfile_format">定义于头文件 <format></h5>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">format(在新 string 中存储参数的格式化表示)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">format_to(通过输出迭代器写其参数的格式化表示)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">format_to_n(通过输出迭代器写其参数的格式化表示，不超出指定的大小)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">formatted_size(确定存储其参数的格式化表示所需的字符数)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">vformat(std::format 的使用类型擦除的参数表示的非模板变体)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">vformat_to(std::format_to 的使用类型擦除的参数表示的非模板变体)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">formatter(定义给定类型的格式化规则的类模板)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">format_error(格式化错误时抛出的异常类型)</a>
+
+### <h3 id="cpp_20_compare">Concepts library(概念库)</h3>
+
+### <h5 id="cpp_headfile_concepts">定义于头文件 <concepts></h5>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">same_as(指定一个类型与另一类型相同)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">derived_from(指定一个类型派生自另一类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">convertible_to(指定一个类型能隐式转换成另一类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">common_reference_with(指定两个类型共有一个公共引用类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">common_with(指定两个类型共有一个公共类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">integral(指定类型为整型类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">signed_integral(指定类型为有符号的整型类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">unsigned_integral(指定类型为无符号的整型类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">floating_point(指定类型为浮点类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">assignable_from(指定一个类型能从另一类型赋值)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">swappable(指定一个类型能进行交换，或两个类型能彼此交换)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">swappable_with(指定一个类型能进行交换，或两个类型能彼此交换)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">destructible(指定能销毁该类型的对象)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">constructible_from(指定该类型的变量能从一组实参类型进行构造，或绑定到一组实参类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">default_initializable(指定能默认构造一个类型的对象)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">move_constructible(指定能移动构造一个类型的对象)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">copy_constructible(指定能复制构造和移动构造一个类型的对象)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">boolean-testable(指定能用于布尔语境的类型)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">equality_comparable(指定运算符 == 为等价关系)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">equality_comparable_with(指定运算符 == 为等价关系)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">totally_ordered(指定比较运算符在该类型上产生全序)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">totally_ordered_with(指定比较运算符在该类型上产生全序)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">movable(指定能移动及交换一个类型的对象)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">copyable(指定能复制、移动及交换一个类型的对象)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">semiregular(指定能赋值、移动、交换及默认构造一个类型的对象)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">regular(指定类型为正则，即它既为 semiregular 亦为 equality_comparable)</a>	
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">invocable(指定能以给定的一组实参类型调用的可调用类型)</a>	
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">regular_invocable(指定能以给定的一组实参类型调用的可调用类型)</a>	
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">predicate(指定可调用类型为布尔谓词)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">relation(指定可调用类型为二元关系)</a>	
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">equivalence_relation(指定 relation 施加等价关系)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">strict_weak_order(指定一个 relation 所强加的是严格弱序)</a>
 
 
-  
 
-  
 
+	
+	
 <br/>
 
 ## <h1 id="cpp_23">C++23新特性</h1>
 
 ### <h3 id="cpp_23_RTTI">类型支持（基本类型、RTTI、类型特性）</h3>
 
+### <h5 id="cpp_headfile_type_traits">定义于头文件<type_traits></h5>
+
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_scoped_enum(检查类型是否为有作用域枚举类型)</a>
 
-	
-	
-	
-	
+### <h5 id="cpp_headfile_utility">定义于头文件 <utility></h5>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">to_underlying(转换枚举到其底层类型)</a>
+
+### <h5 id="cpp_headfile_stacktrace">定义于头文件 <stacktrace></h5>
+
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">stacktrace_entry(栈踪中求值的表示)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">basic_stacktrace(由栈踪条目组成的调用序列的近似表示)</a>
+
