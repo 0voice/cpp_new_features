@@ -171,8 +171,8 @@
 
 ### <h3 id="cpp_11_RTTI">类型支持（基本类型、RTTI、类型特性）</h3>
 
-#### <h5 id="cpp_11_RTTI_Primary_type_categories">Primary type categories</h5>
-
+#### <h5 id="cpp_11_RTTI_Primary_type_categories">定义于头文件 &lt;cstddef&gt;</h5>
+	
 * [is_void](#cpp_11_is_void)
 * [is_integral](#cpp_11_is_integral)
 * [is_floating_point](#cpp_11_is_floating_point)
@@ -187,8 +187,6 @@
 * [is_member_object_pointer](#cpp_11_is_member_object_pointer)
 * [is_member_function_pointer](#cpp_11_is_member_function_pointer)
 
-#### <h5 id="cpp_11_RTTI_Composite_type_categories">Composite type categories</h5>
-
 * [is_fundamental](#cpp_11_is_fundamental)
 * [is_arithmetic](#cpp_11_is_arithmetic)
 * [is_scalar](#cpp_11_is_scalar)
@@ -196,8 +194,6 @@
 * [is_compound](#cpp_11_is_compound)
 * [is_reference](#cpp_11_is_reference)
 * [is_member_pointer](#cpp_11_is_member_pointer)
-
-#### <h5 id="cpp_11_RTTI_Type_categories">Type categories</h5>
 
 * [is_const](#cpp_11_is_const)
 * [is_volatile](#cpp_11_is_volatile)
@@ -210,8 +206,6 @@
 * [is_abstract](#cpp_11_is_abstract)
 * [is_signed](#cpp_11_is_signed)
 * [is_unsigned](#cpp_11_is_unsigned)
-
-#### <h5 id="cpp_11_RTTI_Supported_operations">Supported operations</h5>
 
 * [is_constructible](#cpp_11_is_constructible)
 * [is_trivially_constructible](#cpp_11_is_trivially_constructible)
@@ -242,7 +236,7 @@
 <br />
 
 ### <h3 id="cpp_11_stl">STL容器</h3>
-
+	
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_std_array.cpp">std::array</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_std_forward_list.cpp">std::forward_list</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_stl_std_begin.cpp">std::begin</a>
