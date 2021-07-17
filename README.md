@@ -48,7 +48,7 @@
 
 ### <h3 id="cpp_11_RTTI">类型支持（基本类型、RTTI、类型特性）</h3>
 
-#### <h5 id="cpp_11_RTTI_Primary_type_categories">定义于头文件 &lt;type_traits&gt;</h5>
+#### <h5 id="cpp_11_RTTI_Primary_type_categories">Defined in header &lt;type_traits&gt;</h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_std_is_void.cpp">is_void</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_std_is_integral.cpp">is_integral</a>
@@ -435,41 +435,41 @@
 
 ### <h3 id="cpp_14_RTTI">类型支持（基本类型、RTTI、类型特性）</h3>
 	
-### <h5 id="cpp_headfile_type_traits">定义于头文件&lt;type_traits&gt;</h5>
+### <h5 id="cpp_headfile_type_traits">Defined in header&lt;type_traits&gt;</h5>
 	
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_null_pointer.cpp">检查类型是否为 std::nullptr_t</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">is_final(检查类型是否为 final 类类型)</a>
 
-### <h5 id="cpp_headfile_utility">定义于头文件&lt;utility&gt;</h5>
+### <h5 id="cpp_headfile_utility">Defined in header&lt;utility&gt;</h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">exchange(将实参替换为一个新值，并返回其先前值)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">integer_sequence(实现编译时整数数列)</a>
 
-### <h5 id="cpp_headfile_initializer_list">定义于头文件&lt;initializer_list&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in header&lt;initializer_list&gt;</h5>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">rbegin(返回指向一个容器或数组的逆向迭代器)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">crbegin(返回指向一个容器或数组的逆向迭代器)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">rend(返回容器或数组的逆向尾迭代器)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">crend(返回容器或数组的逆向尾迭代器)</a>
 
-### <h5 id="cpp_headfile_initializer_list">定义于头文件&lt;iterator&gt;</h5>
-### <h5 id="cpp_headfile_initializer_list">定义于命名空间std</h5>
-	
+### <h5 id="cpp_headfile_initializer_list">Defined in header&lt;iterator&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in namespace std</h5>
+
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">make_reverse_iterator(创建拥有从实参推出的类型的 std::reverse_iterator)</a>
 
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;array&gt;</h5>
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;deque&gt;</h5>	
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;forward_list&gt;</h5>
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;iterator&gt;</h5>
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;list&gt;</h5>	
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;map&gt;</h5>
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;regex&gt;</h5>
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;set&gt;</h5>	
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;span&gt;</h5>
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;string&gt;</h5>
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;string_view&gt;</h5>	
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;unordered_map&gt;</h5>
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;unordered_set&gt;</h5>
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;vector&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;array&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;deque&gt;</h5>	
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;forward_list&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;iterator&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;list&gt;</h5>	
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;map&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;regex&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;set&gt;</h5>	
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;span&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;string&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;string_view&gt;</h5>	
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;unordered_map&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;unordered_set&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;vector&gt;</h5>
 ### <h5 id="cpp_headfile_initializer_list">定义于命名空间 std</h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">begin(返回指向容器或数组起始的迭代器)</a>
@@ -514,7 +514,7 @@
 	
 ### <h3 id="cpp_17_RTTI">类型支持（基本类型、RTTI、类型特性）</h3>
 	
-### <h5 id="cpp_headfile_type_traits">定义于头文件&lt;type_traits&gt;</h5>
+### <h5 id="cpp_headfile_type_traits">Defined in header&lt;type_traits&gt;</h5>
 	
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_byte.cpp">byte(字节类型)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_aggregate(检查类型是否聚合类型)</a>
@@ -535,7 +535,7 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">void_t(变参别名模板)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">bool_constant(具有指定值的指定类型的编译期常量)</a>
 
-### <h5 id="cpp_headfile_utility">定义于头文件&lt;utility&gt;</h5>
+### <h5 id="cpp_headfile_utility">Defined in header&lt;utility&gt;</h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">as_const(获得到其实参的 const 引用)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">in_place(原位构造标签)</a>
@@ -545,12 +545,12 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">in_place_type_t(原位构造标签)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">in_place_index_t(原位构造标签)</a>
 	
-### <h5 id="cpp_headfile_tuple">定义于头文件&lt;tuple&gt;</h5>
+### <h5 id="cpp_headfile_tuple">Defined in header&lt;tuple&gt;</h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">apply(以一个实参的元组来调用函数)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">make_from_tuple(以一个实参元组构造对象)</a>
 
-### <h5 id="cpp_headfile_optional">定义于头文件&lt;optional&gt;</h5>
+### <h5 id="cpp_headfile_optional">Defined in header&lt;optional&gt;</h5>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">optional(可能或可能不保有一个对象的包装器)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">make_optional(创建一个 optional 对象)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">std::swap(std::optional)(特化 std::swap 算法)</a>
@@ -565,7 +565,7 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">in_place_type_t(原位构造标签)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">in_place_index_t(原位构造标签)</a>
 	
-### <h5 id="cpp_headfile_variant">定义于头文件&lt;variant&gt;</h5>
+### <h5 id="cpp_headfile_variant">Defined in header&lt;variant&gt;</h5>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">variant(类型安全的可辨识联合体)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">visit(以一或多个 variant 所保有的各实参调用所提供的函数对象)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">holds_alternative(检查某个 variant 是否当前持有某个给定类型)</a>
@@ -581,51 +581,51 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">std::hash&lt;std::variant&gt;(特化 std::hash 算法)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">variant_npos(非法状态的 variant 的下标)</a>
 	
-### <h5 id="cpp_headfile_any">定义于头文件&lt;any&gt;</h5>
+### <h5 id="cpp_headfile_any">Defined in header&lt;any&gt;</h5>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">any(可保有任何可复制构造 (CopyConstructible) 类型的实例的对象)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">std::swap(std::any)(特化 std::swap 算法)</a>	
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">any_cast(对被容纳对象的类型安全访问)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">make_any(创建 any 对象)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">bad_any_cast(当类型不匹配时按值返回形式的 any_cast 所抛出的异常)</a>
 
-### <h5 id="cpp_headfile_charconv">定义于头文件&lt;charconv&gt;</h5>
+### <h5 id="cpp_headfile_charconv">Defined in header&lt;charconv&gt;</h5>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">to_chars(转换整数或浮点值到字符序列象)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">from_chars(转换字符序列到整数或浮点值)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">chars_format(指定 std::to_chars 和 std::from_chars 所用的格式)</a>
 
-### <h5 id="cpp_headfile_initializer_list">定义于头文件&lt;initializer_list&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in header&lt;initializer_list&gt;</h5>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">empty(检查容器是否为空)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">data(获得指向底层数组的指针)</a>
 
 ### <h3 id="cpp_17_Containers_library">容器库</h3>
-### <h5 id="cpp_headfile_map">定义于头文件&lt;map&gt;</h5>
+### <h5 id="cpp_headfile_map">Defined in header&lt;map&gt;</h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">insert_or_assign(插入元素，或若键已存在则赋值给当前元素)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">try_emplace(若键不存在则原位插入，若键存在则不做任何事)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">extract(从另一容器释出结点)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">merge(从另一容器接合结点)</a>
 
-### <h5 id="cpp_headfile_unordered_map">定义于头文件&lt;unordered_map&gt;</h5>
+### <h5 id="cpp_headfile_unordered_map">Defined in header&lt;unordered_map&gt;</h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">insert_or_assign(插入元素，或若键已存在则赋值给当前元素)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">try_emplace(若键不存在则原位插入，若键存在则不做任何事)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">extract(从另一容器释出结点)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">merge(从另一容器接合结点)</a>
 
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;array&gt;</h5>
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;deque&gt;</h5>	
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;forward_list&gt;</h5>
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;iterator&gt;</h5>
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;list&gt;</h5>	
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;map&gt;</h5>
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;regex&gt;</h5>
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;set&gt;</h5>	
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;span&gt;</h5>
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;string&gt;</h5>
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;string_view&gt;</h5>	
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;unordered_map&gt;</h5>
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;unordered_set&gt;</h5>
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;vector&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;array&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;deque&gt;</h5>	
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;forward_list&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;iterator&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;list&gt;</h5>	
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;map&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;regex&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;set&gt;</h5>	
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;span&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;string&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;string_view&gt;</h5>	
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;unordered_map&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;unordered_set&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;vector&gt;</h5>
 ### <h5 id="cpp_headfile_initializer_list">定义于命名空间 std</h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">size(返回容器或数组的大小)</a>
@@ -654,7 +654,7 @@
 	
 ### <h3 id="cpp_20_RTTI">类型支持（基本类型、RTTI、类型特性）</h3>
 
-### <h5 id="cpp_headfile_type_traits">定义于头文件&lt;type_traits&gt;</h5>
+### <h5 id="cpp_headfile_type_traits">Defined in header&lt;type_traits&gt;</h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_bounded_array(检查类型是否为有已知边界的数组类型)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_unbounded_array(检查类型是否为有未知边界的数组类型)</a>
@@ -673,7 +673,7 @@
 
 ### <h3 id="cpp_20_Coroutine">协程支持</h3>
 
-### <h5 id="cpp_headfile_coroutine">定义于头文件&lt;coroutine&gt;</h5>
+### <h5 id="cpp_headfile_coroutine">Defined in header&lt;coroutine&gt;</h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">coroutine_traits(用于发现协程承诺类型的特征类型)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">coroutine_handle(用于指代暂停或执行的协程)</a>
@@ -685,7 +685,7 @@
 
 ### <h3 id="cpp_20_compare">三路比较</h3>
 
-### <h5 id="cpp_headfile_compare">定义于头文件&lt;compare&gt;</h5>
+### <h5 id="cpp_headfile_compare">Defined in header&lt;compare&gt;</h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">std::coroutine_traits</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">std::coroutine_handle</a>
@@ -710,10 +710,10 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">compare_weak_order_fallback(进行三路比较并产生 std::weak_ordering 类型的结果，即使 operator<=> 不可用)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">compare_partial_order_fallback(进行三路比较并产生 std::partial_ordering 类型的结果，即使 operator<=> 不可用</a>
 
-### <h5 id="cpp_headfile_concepts">定义于头文件&lt;concepts&gt;</h5>
+### <h5 id="cpp_headfile_concepts">Defined in header&lt;concepts&gt;</h5>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">ranges::swap(交换两个对象的值)</a>
 
-### <h5 id="cpp_headfile_utility">定义于头文件&lt;utility&gt;</h5>
+### <h5 id="cpp_headfile_utility">Defined in header&lt;utility&gt;</h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">cmp_equal(比较二个整数值，而无转换所致的值更改)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">cmp_not_equal(比较二个整数值，而无转换所致的值更改)</a>
@@ -722,7 +722,7 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">cmp_greater_equal(比较二个整数值，而无转换所致的值更改)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">in_range(检查整数值是否在给定整数类型的范围内)</a>
 	
-### <h5 id="cpp_headfile_format">定义于头文件&lt;format&gt;</h5>
+### <h5 id="cpp_headfile_format">Defined in header&lt;format&gt;</h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">format(在新 string 中存储参数的格式化表示)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">format_to(通过输出迭代器写其参数的格式化表示)</a>
@@ -747,7 +747,7 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">format_args(提供对所有格式化参数的访问的类)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">wformat_args(提供对所有格式化参数的访问的类)</a>
 
-### <h5 id="cpp_headfile_memory">定义于头文件&lt;memory&gt;</h5>
+### <h5 id="cpp_headfile_memory">Defined in header&lt;memory&gt;</h5>
 	
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">uninitialized_move(移动一个范围的对象到未初始化的内存区域)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">uninitialized_move_n(移动一定数量对象到未初始化内存区域)</a>
@@ -761,7 +761,7 @@
 
 	
 	
-### <h5 id="cpp_headfile_concepts">定义于头文件&lt;memory_resource&gt;</h5>
+### <h5 id="cpp_headfile_concepts">Defined in header&lt;memory_resource&gt;</h5>
 	
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">polymorphic_allocator(以 std::memory_resource 构造，支持基于它的运行时多态的分配器)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">memory_resource(一个抽象接口，用于各种封装内存资源的类)</a>
@@ -776,7 +776,7 @@
 	
 ### <h3 id="cpp_20_compare">Concepts library(概念库)</h3>
 
-### <h5 id="cpp_headfile_concepts">定义于头文件&lt;concepts&gt;</h5>
+### <h5 id="cpp_headfile_concepts">Defined in header&lt;concepts&gt;</h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">same_as(指定一个类型与另一类型相同)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">derived_from(指定一个类型派生自另一类型)</a>
@@ -813,7 +813,7 @@
 
 ### <h3 id="cpp_20_memory">动态内存管理</h3>
 
-### <h5 id="cpp_headfile_memory">定义于头文件&lt;memory&gt;</h5>
+### <h5 id="cpp_headfile_memory">Defined in header&lt;memory&gt;</h5>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">uses_allocator_construction_args(准备匹配给定类型所要求的使用分配器构造的口味的参数列表)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">make_obj_using_allocator(以使用分配器构造的手段创建给类型的对象)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">uninitialized_construct_using_allocator(以使用分配器构造的手段在指定的内存位置创建给定类型的对象)</a>
@@ -844,7 +844,7 @@
 
 ### <h3 id="cpp_20_memory">日期和时间工具</h3>
 
-### <h5 id="cpp_headfile_chrono">定义于头文件&lt;chrono&gt;</h5>
+### <h5 id="cpp_headfile_chrono">Defined in header&lt;chrono&gt;</h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">is_clock(确定类型是否为时钟 (Clock))</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">is_clock_v(确定类型是否为时钟 (Clock))</a>
@@ -899,43 +899,43 @@
 	
 ### <h3 id="cpp_20_string">字符串</h3>
 
-### <h5 id="cpp_headfile_string">定义于头文件&lt;string&gt;</h5>
+### <h5 id="cpp_headfile_string">Defined in header&lt;string&gt;</h5>
 	
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">starts_with(检查 string 是否始于给定前缀)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ends_with(检查 string 是否终于给定后缀)</a>
 	
-### <h5 id="cpp_headfile_string_view">定义于头文件&lt;string_view&gt;</h5>
+### <h5 id="cpp_headfile_string_view">Defined in header&lt;string_view&gt;</h5>
 	
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">starts_with(检查 string_view 是否始于给定前缀)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ends_with(检查 string_view 是否终于给定后缀)</a>
 	
-### <h5 id="cpp_headfile_cuchar">定义于头文件&lt;cuchar&gt;</h5>
+### <h5 id="cpp_headfile_cuchar">Defined in header&lt;cuchar&gt;</h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">mbrtoc8(转换窄多字节字符为 UTF-8 编码)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">c8rtomb(转换 UTF-8 字符串为窄多字节编码)</a>	
 
 ### <h3 id="cpp_20_Containers_library">容器库</h3>
 
-### <h5 id="cpp_headfile_array">定义于头文件&lt;array&gt;</h5>
+### <h5 id="cpp_headfile_array">Defined in header&lt;array&gt;</h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">to_array(从内建数组创建 std::array 对象)</a>
 
-### <h5 id="cpp_headfile_vector">定义于头文件&lt;vector&gt;</h5>
+### <h5 id="cpp_headfile_vector">Defined in header&lt;vector&gt;</h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">erase(std::vector)(擦除所有满足特定判别标准的元素)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">erase_if(std::vector)(擦除所有满足特定判别标准的元素)</a>
 
-### <h5 id="cpp_headfile_map">定义于头文件&lt;map&gt;</h5>
+### <h5 id="cpp_headfile_map">Defined in header&lt;map&gt;</h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">contains(检查容器是否含有带特定键的元素)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">erase_if(std::map)(擦除所有满足特定判别标准的元素)</a>
 
-### <h5 id="cpp_headfile_unordered_map">定义于头文件&lt;unordered_map&gt;</h5>
+### <h5 id="cpp_headfile_unordered_map">Defined in header&lt;unordered_map&gt;</h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">contains(检查容器是否含有带特定键的元素)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">erase_if(std::unordered_map)(擦除所有满足特定判别标准的元素)</a>
 
-### <h5 id="cpp_headfile_span">定义于头文件&lt;span&gt;</h5>
+### <h5 id="cpp_headfile_span">Defined in header&lt;span&gt;</h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">begin(返回指向起始的迭代器)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">end(返回指向末尾的迭代器)</a>
@@ -1008,7 +1008,7 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">random_access_iterator_tag(用于指示迭代器类别的空类类型)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">contiguous_iterator_tag(用于指示迭代器类别的空类类型)</a>
 	
-### <h5 id="cpp_headfile_span">定义于头文件 <iterator></h5>
+### <h5 id="cpp_headfile_span">Defined in header <iterator></h5>
 ### <h5 id="cpp_headfile_span">定义于命名空间 std</h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">indirectly_unary_invocable(指定可调用类型能以解引用某个 indirectly_readable 类型的结果进行调用)</a> 
@@ -1034,33 +1034,33 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">counted_iterator(对到范围结尾距离进行跟踪的迭代器适配器)</a> 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">unreachable_sentinel_t(始终与任何 weakly_incrementable 类型比较都不相等的哨位)</a> 
 
-### <h5 id="cpp_headfile_span">定义于头文件 <iterator></h5>
+### <h5 id="cpp_headfile_span">Defined in header <iterator></h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::advance(令迭代器前进给定的距离或到给定的边界)</a> 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::distance(返回迭代器与哨位间的距离，或范围起始与结尾间的距离)</a> 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::next(自增迭代器给定的距离或到边界)</a> 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::prev(自减迭代器给定的距离或到边界)</a> 
 
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;array&gt;</h5>
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;deque&gt;</h5>	
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;forward_list&gt;</h5>
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;iterator&gt;</h5>
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;list&gt;</h5>	
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;map&gt;</h5>
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;regex&gt;</h5>
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;set&gt;</h5>	
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;span&gt;</h5>
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;string&gt;</h5>
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;string_view&gt;</h5>	
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;unordered_map&gt;</h5>
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;unordered_set&gt;</h5>
-### <h5 id="cpp_headfile_initializer_list">定义于头文件 &lt;vector&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;array&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;deque&gt;</h5>	
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;forward_list&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;iterator&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;list&gt;</h5>	
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;map&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;regex&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;set&gt;</h5>	
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;span&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;string&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;string_view&gt;</h5>	
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;unordered_map&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;unordered_set&gt;</h5>
+### <h5 id="cpp_headfile_initializer_list">Defined in header &lt;vector&gt;</h5>
 ### <h5 id="cpp_headfile_initializer_list">定义于命名空间 std</h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ssize(返回容器或数组的大小)</a> 
 
-### <h5 id="cpp_headfile_span">定义于头文件 &lt;ranges&gt;</h5>
-### <h5 id="cpp_headfile_span">定义于头文件 &lt;iterator&gt;</h5>
+### <h5 id="cpp_headfile_span">Defined in header &lt;ranges&gt;</h5>
+### <h5 id="cpp_headfile_span">Defined in header &lt;iterator&gt;</h5>
 ### <h5 id="cpp_headfile_span">定义于命名空间 std::ranges</h5>
 	
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">ranges::begin(返回指向范围起始的迭代器)</a> 
@@ -1084,22 +1084,22 @@
 
 ### <h3 id="cpp_23_RTTI">类型支持（基本类型、RTTI、类型特性）</h3>
 
-### <h5 id="cpp_headfile_type_traits">定义于头文件&lt;type_traits&gt;</h5>
+### <h5 id="cpp_headfile_type_traits">Defined in header&lt;type_traits&gt;</h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_is_aggregate.cpp">is_scoped_enum(检查类型是否为有作用域枚举类型)</a>
 
-### <h5 id="cpp_headfile_utility">定义于头文件&lt;utility&gt;</h5>
+### <h5 id="cpp_headfile_utility">Defined in header&lt;utility&gt;</h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">to_underlying(转换枚举到其底层类型)</a>
 
-### <h5 id="cpp_headfile_stacktrace">定义于头文件&lt;stacktrace&gt;</h5>
+### <h5 id="cpp_headfile_stacktrace">Defined in header&lt;stacktrace&gt;</h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">stacktrace_entry(栈踪中求值的表示)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">basic_stacktrace(由栈踪条目组成的调用序列的近似表示)</a>
 
 ### <h3 id="cpp_23_memory">动态内存管理</h3>
 
-### <h5 id="cpp_headfile_memory">定义于头文件&lt;memory&gt;</h5>
+### <h5 id="cpp_headfile_memory">Defined in header&lt;memory&gt;</h5>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">out_ptr_t(与外来指针设置器交互，并在析构时重设智能指针)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">out_ptr(以关联的智能指针和重设参数创建 out_ptr_t)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">inout_ptr_t(与外来指针设置器交互，从智能指针获得初始指针值，并在析构时重设它)</a>
@@ -1109,13 +1109,10 @@
 	
 ### <h3 id="cpp_23_string">字符串</h3>
 
-### <h5 id="cpp_headfile_string">定义于头文件&lt;string&gt;</h5>
+### <h5 id="cpp_headfile_string">Defined in header&lt;string&gt;</h5>
 	
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">contains(检查字符串是否含有给定的子串或字符)</a>
 
-### <h5 id="cpp_headfile_string_view">定义于头文件&lt;string_view&gt;</h5>
+### <h5 id="cpp_headfile_string_view">Defined in header&lt;string_view&gt;</h5>
 	
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_14/003_rtti_is_final.cpp">contains(检查字符串视图是否含有给定的子串或字符)</a>
-
-
-
