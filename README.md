@@ -188,87 +188,87 @@
 ### <h3 id="cpp_11_class">类</h3>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_class_type_alias.cpp">类型别名</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_class_type_alias.cpp">类成员初始化</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_class_type_alias.cpp">仿函数(functor)</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_class_type_alias.cpp">委托构造函数</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_class_type_alias.cpp">继承构造函数</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_class_type_alias.cpp">移动构造函数</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_class_type_alias.cpp">移动赋值运算符</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_class_member_init.cpp">类成员初始化</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_class_functor.cpp">仿函数(functor)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_class_delegating_constructors.cpp">委托构造函数</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_class_inheritance_constructor.cpp">继承构造函数</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_class_move_constructor.cpp">移动构造函数</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_class_move_assignment_operator.cpp">移动赋值运算符</a>
 <br />
 
 ### <h3 id="cpp_11_template">模板</h3>
 
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">尖括号“>”</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">别名模板</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">外部模板</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">可变参数模板</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">默认模板参数</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_angle_bracket.cpp">尖括号“>”</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_aliases.cpp">别名模板</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_external_template.cpp">外部模板</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_variable_parameter_template.cpp">可变参数模板</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_default_template_parameters.cpp">默认模板参数</a>
 
 <br />
 
 ### <h3 id="cpp_11_template">原子操作</h3>
 
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;bool&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;char&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;signed char&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;unsigned char&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;short&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;unsigned short&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;int&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;unsigned int&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;long&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;unsigned long&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;long long&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;unsigned long long&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;char8_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;char16_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;char32_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;wchar_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;std::int8_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;std::uint8_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;std::int16_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;std::uint16_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;std::int32_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;std::uint32_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;std::int64_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;std::uint64_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;std::int_least8_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;std::uint_least8_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;std::int_least16_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;std::uint_least16_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;std::int_least32_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;std::uint_least32_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;std::int_least64_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;std::uint_least64_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;std::int_fast8_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;std::uint_fast8_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;std::int_fast16_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;std::uint_fast16_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;std::int_fast32_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;std::uint_fast32_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;std::int_fast64_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;std::uint_fast64_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;std::intptr_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;std::uintptr_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;std::size_t&gt;/a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;std::ptrdiff_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;std::intmax_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic&lt;std::uintmax_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_bool.cpp">std::atomic&lt;bool&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_char.cpp">std::atomic&lt;char&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_signed_char.cpp">std::atomic&lt;signed char&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_unsigned_char.cpp">std::atomic&lt;unsigned char&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_short.cpp">std::atomic&lt;short&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_unsigned_short.cpp">std::atomic&lt;unsigned short&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_int.cpp">std::atomic&lt;int&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_unsigned_int.cpp">std::atomic&lt;unsigned int&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_long.cpp">std::atomic&lt;long&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_unsigned_long.cpp">std::atomic&lt;unsigned long&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_long_long.cpp">std::atomic&lt;long long&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_unsigned_long_long.cpp">std::atomic&lt;unsigned long long&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_char8_t.cpp">std::atomic&lt;char8_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_char16_t.cpp">std::atomic&lt;char16_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_char32_t.cpp">std::atomic&lt;char32_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_wchar_t.cpp">std::atomic&lt;wchar_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std::int8_t.cpp">std::atomic&lt;std::int8_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std::uint8_t.cpp">std::atomic&lt;std::uint8_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std::int16_t.cpp">std::atomic&lt;std::int16_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std::uint16_t.cpp">std::atomic&lt;std::uint16_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std::int32_t.cpp">std::atomic&lt;std::int32_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std::uint32_t.cpp">std::atomic&lt;std::uint32_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std::int64_t.cpp">std::atomic&lt;std::int64_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std::uint64_t.cpp">std::atomic&lt;std::uint64_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std::int_least8_t.cpp">std::atomic&lt;std::int_least8_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std::uint_least8_t.cpp">std::atomic&lt;std::uint_least8_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std::int_least16_t.cpp">std::atomic&lt;std::int_least16_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std::uint_least16_t.cpp">std::atomic&lt;std::uint_least16_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std::int_least32_t.cpp">std::atomic&lt;std::int_least32_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std::uint_least32_t.cpp">std::atomic&lt;std::uint_least32_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std::int_least64_t.cpp">std::atomic&lt;std::int_least64_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std::uint_least64_t.cpp">std::atomic&lt;std::uint_least64_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std::int_fast8_t.cpp">std::atomic&lt;std::int_fast8_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std::uint_fast8_t.cpp">std::atomic&lt;std::uint_fast8_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std::int_fast16_t.cpp">std::atomic&lt;std::int_fast16_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std::uint_fast16_t.cpp">std::atomic&lt;std::uint_fast16_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std::int_fast32_t.cpp">std::atomic&lt;std::int_fast32_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std::uint_fast32_t.cpp">std::atomic&lt;std::uint_fast32_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std::int_fast64_t.cpp">std::atomic&lt;std::int_fast64_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std::uint_fast64_t.cpp">std::atomic&lt;std::uint_fast64_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std::intptr_t.cpp">std::atomic&lt;std::intptr_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std::uintptr_t.cpp">std::atomic&lt;std::uintptr_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std::size_t.cpp">std::atomic&lt;std::size_t&gt;/a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std::ptrdiff_t.cpp">std::atomic&lt;std::ptrdiff_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std_intmax_t.cpp">std::atomic&lt;std::intmax_t&gt;</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std_uintmax_t.cpp">std::atomic&lt;std::uintmax_t&gt;</a>
 
 <br />
 
 ### <h3 id="cpp_11_template">线程</h3>
 
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::thread</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::mutex</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::lock</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::call_once</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::atomic</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::condition_variable</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">async</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">volatile</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::future</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::thread_local</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_thread_std_thread.cpp">std::thread</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_thread_std_mutex.cpp">std::mutex</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_thread_std_lock.cpp">std::lock</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_thread_std_call_once.cpp">std::call_once</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_thread_std_atomic.cpp">std::atomic</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_thread_std_cond_ition_variable.cpp">std::cond_ition_variable</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_thread_async.cpp">async</a_>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_thread_volatile.cpp">volatile</a_>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_thread_std_future.cpp">std::future</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_thread_std_thread_local.cpp">std::thread_local</a>
 
 <br />
 
@@ -295,16 +295,6 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_error_std_errc.cpp">std::errc</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_error_std_error_code.cpp">std::error_code</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_error_std_system_error.cpp">std::system_error</a>
-<!-- 
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">错误类别的基类</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">鉴别通用错误类别</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">鉴别操作系统错误类别</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">保有可移植的错误码</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">列出所有标准<cerrno>宏常量的std::error_condition枚举</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">std::condition_variable</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">保有依赖于平台的错误码</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_std_unique_ptr.cpp">用于报告拥有error_code的错误条件的异常类</a>
--->
 
 <br/>
 
