@@ -1,4 +1,7 @@
-<h2>C++14新特性</h2>
+## <h1 id="cpp_14">C++14新特性</h1>
+
+![C++14思维导图](https://www.0voice.com/uiwebsite/cpp_new_features/C++14_new_features.png)
+-----------
 
 <h4 id="cpp_14_01">函数返回值类型推导</h4>
 
