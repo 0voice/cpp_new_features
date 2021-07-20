@@ -265,8 +265,8 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_thread_std_call_once.cpp">std::call_once</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_thread_std_atomic.cpp">std::atomic</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_thread_std_cond_ition_variable.cpp">std::cond_ition_variable</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_thread_async.cpp">async</a_>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_thread_volatile.cpp">volatile</a_>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_thread_async.cpp">std::async</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_thread_volatile.cpp">volatile</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_thread_std_future.cpp">std::future</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_thread_std_thread_local.cpp">std::thread_local</a>
 
