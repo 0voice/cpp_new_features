@@ -11,14 +11,14 @@ void threadfun1()
 {
     for(int i =0; i< 1000; i++)
     {
-        printf("longCount:%d\r\n",  longCount);
+        printf("longCount:%ld\r\n",  longCount);
     }    
 }
 void threadfun2()
 {
     for(int i =0; i< 1000; i++)
     {
-        printf("longCount:%d\r\n",  longCount);
+        printf("longCount:%ld\r\n",  longCount);
     }    
 }
 
@@ -40,6 +40,6 @@ int main()
     }
 
     int x = longCount.load(memory_order_relaxed);
-    printf("finally longCount:%d\r\n",  x);
+    printf("finally longCount:%ld\r\n",  x);
 }
 
