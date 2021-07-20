@@ -250,7 +250,7 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std_uint_fast64_t.cpp">std::atomic&lt;std::uint_fast64_t&gt;</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std_intptr_t.cpp">std::atomic&lt;std::intptr_t&gt;</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std_uintptr_t.cpp">std::atomic&lt;std::uintptr_t&gt;</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std_size_t.cpp">std::atomic&lt;std::size_t&gt;/a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std_size_t.cpp">std::atomic&lt;std::size_t&gt;</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std_ptrdiff_t.cpp">std::atomic&lt;std::ptrdiff_t&gt;</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std_intmax_t.cpp">std::atomic&lt;std::intmax_t&gt;</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std_uintmax_t.cpp">std::atomic&lt;std::uintmax_t&gt;</a>
