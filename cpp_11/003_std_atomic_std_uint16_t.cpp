@@ -5,20 +5,20 @@
 
 using namespace std;
 
-atomic_int16_t int16_tCount(0);
+atomic_uint16_t uint16_tCount(0);
 
 void threadfun1()
 {
     for(int i =0; i< 1000; i++)
     {
-        printf("int16_tCount:%d\r\n",  int16_tCount);
+        printf("uint16_tCount:%d\r\n",  uint16_tCount);
     }    
 }
 void threadfun2()
 {
     for(int i =0; i< 1000; i++)
     {
-        printf("int16_tCount:%d\r\n",  int16_tCount);
+        printf("uint16_tCount:%d\r\n",  uint16_tCount);
     }    
 }
 
@@ -39,8 +39,8 @@ int main()
         th.join();
     }
 
-    int x = int16_tCount.load(memory_order_relaxed);
-    printf("finally int16_tCount:%d\r\n",  x);
+    int x = uint16_tCount.load(memory_order_relaxed);
+    printf("finally uint16_tCount:%d\r\n",  x);
 }
 
 
