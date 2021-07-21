@@ -625,17 +625,17 @@
 
 #### <h5 id="cpp_20_new_keywords">新增关键字</h5>
 
-* [char8_t](https://github.com/0voice/cpp_new_features/blob/main/cpp_20/001_new_keywords_README.md#char8_t)
-* [concept](https://github.com/0voice/cpp_new_features/blob/main/cpp_20/001_new_keywords_README.md#concept)
-* [consteval](https://github.com/0voice/cpp_new_features/blob/main/cpp_20/001_new_keywords_README.md#consteval)
-* [co_await](https://github.com/0voice/cpp_new_features/blob/main/cpp_20/001_new_keywords_README.md#co_await)
-* [co_return](https://github.com/0voice/cpp_new_features/blob/main/cpp_20/001_new_keywords_README.md#co_return)
-* [co_yield](https://github.com/0voice/cpp_new_features/blob/main/cpp_20/001_new_keywords_README.md#co_yield)
-* [requires](https://github.com/0voice/cpp_new_features/blob/main/cpp_20/001_new_keywords_README.md#requires)
+* [char8_t](https://github.com/0voice/cpp_new_features/blob/main/cpp_20/001_keywords_README.md#char8_t)
+* [concept](https://github.com/0voice/cpp_new_features/blob/main/cpp_20/001_keywords_README.md#concept)
+* [consteval](https://github.com/0voice/cpp_new_features/blob/main/cpp_20/001_keywords_README.md#consteval)
+* [co_await](https://github.com/0voice/cpp_new_features/blob/main/cpp_20/001_keywords_README.md#co_await)
+* [co_return](https://github.com/0voice/cpp_new_features/blob/main/cpp_20/001_keywords_README.md#co_return)
+* [co_yield](https://github.com/0voice/cpp_new_features/blob/main/cpp_20/001_keywords_README.md#co_yield)
+* [requires](https://github.com/0voice/cpp_new_features/blob/main/cpp_20/001_keywords_README.md#requires)
 	
 #### <h5 id="cpp_20_meaning_changed__OR__new_meaning_added">含义变化或者新增含义关键字（meaning changed or new meaning added）</h5>
 
-* [export](https://github.com/0voice/cpp_new_features/blob/main/cpp_20/001_meaning_keywords_README.md#export)
+* [export](https://github.com/0voice/cpp_new_features/blob/main/cpp_20/001_keywords_README.md#export)
 	
 ### <h3 id="cpp_20_RTTI">类型支持（基本类型、RTTI、类型特性）</h3>
 
