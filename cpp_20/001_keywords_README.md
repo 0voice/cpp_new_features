@@ -147,6 +147,179 @@ auto g = []<my_concept auto v> () {
   // ...
 };
 ```
+###### <h6 id="concept">concept的组合(与或非)</h6>
+concept的本质是一个模板的编译期的bool变量，因此它可以使用C++的与或非三个操作符。例如，我们可以在定义concept的时候，使用其他concept或者表达式，进行逻辑操作。
+```C++
+template <typename T>
+concept Integral = std::is_integral<T>::value;
+template <typename T>
+concept SignedIntegral = Integral<T> && std::is_signed<T>::value;
+template <typename T>
+concept UnsignedIntegral = Integral<T> && !SignedIntegral<T>;
+```
+当然，我们也可以在使用concept的时候使用 逻辑操作符。
+```C++
+template <typename T>
+requires Integral<T> && std::is_signed_v<T>
+T add(T a, T b);
+```
+
+##### <h4 id="requires">requires</h4>
+
+###### <h6 id="concept">requires关键字的其他用法</h6>
+
+requires关键字不仅能用在concept的使用上，也可以用在定义中。 例如
+```C++
+// requires用在使用concept时
+template <typename T>
+  requires my_concept<T>
+void f(T);
+
+// requires用在concept的定义，它表达了类型T的参数f，必须符合大括号内的模式，也就是能被调用。
+// 也就是它是一个函数或者一个重载了operator()的类型
+template <typename T>
+concept callable = requires (T f) { f(); }; 
+
+template <typename T>
+  requires requires (T x) { x + x; } // `requires` 同时使用在concept的定义和使用上
+T add(T a, T b) {
+  return a + b;
+}
+``
+requires的语法理解：requires后接的东西本质上是一个表达式
+```C++
+// requires后面接的是一个正在被eval的concept，用在上面的concept的使用中。
+requires evaled-concept
+
+// 本质上，concept在evaluate时，是一个编译期返回结果为bool的表达式。这种其实等价于上面那种。
+requires expression
+
+// 例如 下面这种就是requires后直接接个bool表达式了
+template <typename T>
+requires std::is_integral_v<T>
+T add(T a, T b) {
+    return a + b;
+}
+```
+
+###### <h6 id="concept">使用requires关键字进行约束嵌套或组合</h6>
+
+为了提高concept定义的能力，requires支持用大括号的语法，进行多个约束分开表达，这些约束之间的关系是与的关系。
+
+requires的这种方式的语法形式是
+```C++
+requires { requirement-seq }
+requires ( parameter-list(optional) ) { requirement-seq }
+```
+这里每个requirement-seq是可以由多行约束组成，每一行之间以分号分隔。 这些约束的形式有以下几种
+
+* 简单约束(Simple Requirements)
+* 类型约束(Type Requirements)
+* 复合约束(Compound Requirements)
+* 嵌套约束(Nested Requirements)
+
+1) 简单约束
+简单约束就是一个任意的表达式，编译器对这个约束的检查就是检查这个表达式是否是合法的。注意，不是说这个表达式在编译期运行返回true或者false。而是这个表达式是否合法。 例如
+```C++
+template<typename T>
+concept Addable =
+requires (T a, T b) {
+    a + b; // "the expression a+b is a valid expression that will compile"
+};
+
+// example constraint from the standard library (ranges TS)
+template <class T, class U = T>
+concept Swappable = requires(T&& t, U&& u) {
+    swap(std::forward<T>(t), std::forward<U>(u));
+    swap(std::forward<U>(u), std::forward<T>(t));
+};
+```
+2) 类型约束
+类型的约束是类似模板里面的参数一样，在typename后接一个类型。这个约束表达的含义是该类型在该concept进行evaluate时，必须是存在的。 如下面的例子：
+```C++
+struct foo {
+    int foo;
+};
+
+struct bar {
+    using value = int;
+    value data;
+};
+
+struct baz {
+    using value = int;
+    value data;
+};
+
+// Using SFINAE, enable if `T` is a `baz`.
+template <typename T, typename = std::enable_if_t<std::is_same_v<T, baz>>>
+struct S {};
+
+template <typename T>
+using Ref = T&;
+
+template <typename T>
+concept C = requires {
+    // Requirements on type `T`:
+    typename T::value;  // A) has an inner member named `value`
+    typename S<T>;     // B) must have a valid class template specialization for `S`
+    typename Ref<T>;   // C) must be a valid alias template substitution
+};
+
+template <C T>
+void g(T a);
+
+g(foo{}); // ERROR: Fails requirement A.
+g(bar{}); // ERROR: Fails requirement B.
+g(baz{}); // PASS.
+```
+
+3) 复合约束
+复合约束用于约束表达式的返回值的类型。它的写法形式为：
+```C++
+// 这里 ->和type-constraint是可选的.
+{expression} noexcept(optional) -> type-constraint;
+```
+
+这里的约束的行为主要有三点,并且约束进行evaluate的顺序按照以下顺序
+
+* 模板类型代换到表达式中是否使得表达式合法
+* 如果用了noexcept,表达式必须不能可能抛出异常.
+* 如果用了->后的类型约束, 则按照以下步骤进行evaluate
+* 代换模板类型到 type-constraint中,
+* 并且 decltype((expression))的类型必须满足type-constraint的约束.
+
+上述步骤任何一个失败,则evaluate的结果是false.
+
+```C++
+template <typename T>
+concept C = requires(T x) {
+  {*x} -> typename T::inner; // the type of the expression `*x` is convertible to `T::inner`
+  {x + 1} -> std::same_as<int>; // the expression `x + 1` satisfies `std::same_as<decltype((x + 1))>`
+  {x * 1} -> T; // the type of the expression `x * 1` is convertible to `T`
+};
+```
+
+4) 嵌套约束
+
+requires内部还可以嵌套requires. 这种方式被称为嵌套的约束.它的形式为
+```C++
+requires constraint-expression ;
+```
+例如
+```C++
+template <class T>
+concept Semiregular = DefaultConstructible<T> &&
+    CopyConstructible<T> && Destructible<T> && CopyAssignable<T> &&
+requires(T a, size_t n) {  
+    requires Same<T*, decltype(&a)>;  // nested: "Same<...> evaluates to true"
+    { a.~T() } noexcept;  // compound: "a.~T()" is a valid expression that doesn't throw
+    requires Same<T*, decltype(new T)>; // nested: "Same<...> evaluates to true"
+    requires Same<T*, decltype(new T[n])>; // nested
+    { delete new T };  // compound
+    { delete new T[n] }; // compound
+};
+```
 
 
 ##### <h4 id="consteval">consteval</h4>
@@ -155,7 +328,7 @@ auto g = []<my_concept auto v> () {
 
 ##### <h4 id="co_yield">co_yield</h4>
 
-##### <h4 id="requires">requires</h4>
+
 
 #### <h2 id="cpp_20_meaning_keywords">C++20含义变化或者新增含义关键字</h2>
 
