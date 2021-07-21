@@ -324,12 +324,40 @@ requires(T a, size_t n) {
 
 ##### <h4 id="consteval">consteval</h4>
 
+consteval关键字，用来修饰函数时常量值的表达式，而且是强制性的。如果函数本身不是常量值的表达式的话则会编译失败。
+constexpr修饰函数时其实只是告诉编译器该函数可以按常量值的表达式去优化，但是如果函数本身不是常量值的表达式的话依然能够编译通过。
+```C++
+
+constexpr int add100_constexpr(int n) {
+  return n + 100;
+}
+ 
+consteval int add100_consteval(int n) {
+  return n + 100;
+}
+ 
+void test() {
+    constexpr int c_constexpr = add100_consteval(200);
+    int x = 200;
+    // int d_consteval = add100_consteval(x);   // 编译失败
+    int d_constexpr = add100_constexpr(x);      //编译成功，constexpr并非强制限定为常量表达式
+}
+```
+
 ##### <h4 id="co_await">co_await</h4>
+
+co_await可以挂起和恢复函数的执行，是主要需要学习的一个关键字。
 
 ##### <h4 id="co_yield">co_yield</h4>
 
+co_yield可以在不结束协程的情况下从协程返回一些值。因此，可以用它来编写无终止条件的生成器函数。
 
+##### <h4 id="co_return">co_return</h4>
+
+co_return允许从协程返回一些值，不过这需要我们稍加定制。
 
 #### <h2 id="cpp_20_meaning_keywords">C++20含义变化或者新增含义关键字</h2>
 
 ##### <h5 id="export">export</h5>
+
+C++20不使用并保留该关键词。
