@@ -248,12 +248,14 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std_uint_fast32_t.cpp">std::atomic&lt;std::uint_fast32_t&gt;</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std_int_fast64_t.cpp">std::atomic&lt;std::int_fast64_t&gt;</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std_uint_fast64_t.cpp">std::atomic&lt;std::uint_fast64_t&gt;</a>
+<!--
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std_intptr_t.cpp">std::atomic&lt;std::intptr_t&gt;</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std_uintptr_t.cpp">std::atomic&lt;std::uintptr_t&gt;</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std_size_t.cpp">std::atomic&lt;std::size_t&gt;</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std_ptrdiff_t.cpp">std::atomic&lt;std::ptrdiff_t&gt;</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std_intmax_t.cpp">std::atomic&lt;std::intmax_t&gt;</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std_uintmax_t.cpp">std::atomic&lt;std::uintmax_t&gt;</a>
+-->
 
 <br />
 
@@ -651,8 +653,10 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_20/002_rtti_is_nothrow_convertible.cpp">is_nothrow_convertible(检查是否能转换一个类型为另一类型)</a>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_20/002_rtti_remove_cvref.cpp">remove_cvref(将 std::remove_cv 与 std::remove_reference 结合)</a>
+<!--
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_20/002_rtti_common_reference.cpp">common_reference(确定类型组的共用引用类型)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_20/002_rtti_basic_common_reference.cpp">basic_common_reference(确定类型组的共用引用类型)</a>
+-->
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_20/002_rtti_type_identity.cpp">type_identity(返回不更改的类型实参)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_20/002_rtti_is_constant_evaluated.cpp">is_constant_evaluated(检测调用是否在常量求值的语境内发生)</a>
 
