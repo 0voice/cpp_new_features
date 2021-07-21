@@ -346,7 +346,7 @@ void test() {
 
 ##### <h4 id="co_await">co_await</h4>
 
-co_await可以挂起和恢复函数的执行，是主要需要学习的一个关键字。
+co_await可以挂起和恢复函数的执行。
 
 ##### <h4 id="co_yield">co_yield</h4>
 
@@ -354,7 +354,7 @@ co_yield可以在不结束协程的情况下从协程返回一些值。因此，
 
 ##### <h4 id="co_return">co_return</h4>
 
-co_return允许从协程返回一些值，不过这需要我们稍加定制。
+co_return允许从协程返回一些值，需要自行定制。
 
 #### <h2 id="cpp_20_meaning_keywords">C++20含义变化或者新增含义关键字</h2>
 
