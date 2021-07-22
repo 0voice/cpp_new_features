@@ -524,12 +524,14 @@
 ### <h5 id="cpp_headfile_utility">Defined in header&lt;utility&gt;</h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_17/003_utility_as_const.cpp">as_const(获得到其实参的 const 引用)</a>
+<!--
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_17/003_utility_in_place.cpp">in_place(原位构造标签)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_17/003_utility_in_place_type.cpp">in_place_type(原位构造标签)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_17/003_utility_in_place_index.cpp">in_place_index(原位构造标签)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_17/003_utility_in_place_t.cpp">in_place_t(原位构造标签)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_17/003_utility_in_place_type_t.cpp">in_place_type_t(原位构造标签)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_17/003_utility_in_place_index_t.cpp">in_place_index_t(原位构造标签)</a>
+-->
 	
 ### <h5 id="cpp_headfile_tuple">Defined in header&lt;tuple&gt;</h5>
 
@@ -544,12 +546,6 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_17/005_optional_nullopt_t.cpp">nullopt_t(带未初始化状态的 optional 类型的指示器)</a>	
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_17/005_optional_bad_optional_access.cpp">bad_optional_access(指示进行了到不含值的 optional 的有检查访问的异常)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_17/005_optional_nullopt.cpp">nullopt(nullopt_t 类型对象)</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_17/005_optional_in_place.cpp">in_place(原位构造标签)</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_17/005_optional_in_place_type.cpp">in_place_type(原位构造标签)</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_17/005_optional_in_place_index.cpp">in_place_index(原位构造标签)</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_17/005_optional_in_place_t.cpp">in_place_t(原位构造标签)</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_17/005_optional_in_place_type_t.cpp">in_place_type_t(原位构造标签)</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_17/005_optional_in_place_index_t.cpp">in_place_index_t(原位构造标签)</a>
 
 ### <h5 id="cpp_headfile_variant">Defined in header&lt;variant&gt;</h5>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_17/006_variant_variant.cpp">variant(类型安全的可辨识联合体)</a>
