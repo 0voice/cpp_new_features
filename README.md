@@ -519,8 +519,7 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_17/002_type_traits_conjunction.cpp">conjunction(变参的逻辑与元函数)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_17/002_type_traits_disjunction.cpp">disjunction(变参的逻辑或元函数)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_17/002_type_traits_ndisjunctionegation.cpp">ndisjunctionegation(逻辑非元函数)</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_17/002_type_traits_void_t.cpp">void_t(变参别名模板)</a>
-* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_17/002_type_traits_bool_constant.cpp">bool_constant(具有指定值的指定类型的编译期常量)</a>
+* <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_17/002_type_traits_integral_constant.cpp">integral_constant(具有指定值的指定类型的编译期常量)</a>
 
 ### <h5 id="cpp_headfile_utility">Defined in header&lt;utility&gt;</h5>
 
