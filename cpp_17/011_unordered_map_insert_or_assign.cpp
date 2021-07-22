@@ -1,31 +1,24 @@
-#include <algorithm>
 #include <iostream>
 #include <unordered_map>
+#include <string>
+ 
+auto print_node = [](const auto &node) {
+    std::cout << "[" << node.first << "] = " << node.second << '\n';
+};
+ 
+auto print_result = [](auto const &pair) {
+    std::cout << (pair.second ? "inserted: " : "assigned: ");
+    print_node(*pair.first);
+};
  
 int main()
 {
-    std::unordered_map<int, char> cont{{1, 'a'}, {2, 'b'}, {3, 'c'}};
+    std::unordered_map<std::string, std::string> myMap;
  
-    auto print = [](std::pair<const int, char>& n) { 
-        std::cout << " " << n.first << '(' << n.second << ')'; 
-    };
+    print_result( myMap.insert_or_assign("a", "apple"     ) );
+    print_result( myMap.insert_or_assign("b", "banana"    ) );
+    print_result( myMap.insert_or_assign("c", "cherry"    ) );
+    print_result( myMap.insert_or_assign("c", "clementine") );
  
-    std::cout << "Start:";
-    std::for_each(cont.begin(), cont.end(), print);
-    std::cout << '\n';
- 
-    // Extract node handle and change key
-    auto nh = cont.extract(1);
-    nh.key() = 4; 
- 
-    std::cout << "After extract and before insert:";
-    std::for_each(cont.begin(), cont.end(), print);
-    std::cout << '\n';
- 
-    // Insert node handle back
-    cont.insert(move(nh));
- 
-    std::cout << "End:";
-    std::for_each(cont.begin(), cont.end(), print);
-    std::cout << '\n';
+    for (const auto &node : myMap) { print_node(node); }
 }
