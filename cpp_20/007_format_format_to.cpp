@@ -20,7 +20,7 @@ auto main() -> int
         "std",                      //< arg {0}
         "format_to()",              //< arg {1}
         "\n",                       //< arg {2}
-        "extra param(s)...");       //< 不使用
+        "extra param(s)...");       //< unused
     std::cout << buffer;
  
     std::wstring wbuffer;
@@ -30,7 +30,7 @@ auto main() -> int
         L"\n",                      //< arg {0}
         L"format_to()",             //< arg {1}
         L"std",                     //< arg {2}
-        L"...is not..."             //< 不使用
-        L"...an error!");           //< 不使用
+        L"...is not..."             //< unused
+        L"...an error!");           //< unused
     std::wcout << wbuffer;
 }
