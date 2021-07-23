@@ -705,7 +705,8 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_20/006_utility_cmp_less_equal.cpp">cmp_less_equal(比较二个整数值，而无转换所致的值更改)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_20/006_utility_cmp_greater_equal.cpp">cmp_greater_equal(比较二个整数值，而无转换所致的值更改)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_20/006_utility_in_range.cpp">in_range(检查整数值是否在给定整数类型的范围内)</a>
-	
+
+<!--
 ### <h5 id="cpp_headfile_format">Defined in header&lt;format&gt;</h5>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_20/007_format_format.cpp">format(在新 string 中存储参数的格式化表示)</a>
@@ -730,6 +731,7 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_20/007_format_basic_format_args.cpp">basic_format_args(提供对所有格式化参数的访问的类)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_20/007_format_format_args.cpp">format_args(提供对所有格式化参数的访问的类)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_20/007_format_wformat_args.cpp">wformat_args(提供对所有格式化参数的访问的类)</a>
+-->
 
 ### <h5 id="cpp_headfile_memory">Defined in header&lt;memory&gt;</h5>
 	
@@ -744,7 +746,7 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_20/008_memory_destroy_n.cpp">destroy_n(销毁范围中一定数量的对象)</a>
 
 	
-	
+<!--
 ### <h5 id="cpp_headfile_concepts">Defined in header&lt;memory_resource&gt;</h5>
 	
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_20/009_memory_resource_polymorphic_allocator.cpp">polymorphic_allocator(以 std::memory_resource 构造，支持基于它的运行时多态的分配器)</a>
@@ -757,7 +759,8 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_20/009_memory_resource_synchronized_pool_resource.cpp">synchronized_pool_resource(线程安全的 std::pmr::memory_resource，用于管理具有不同块大小的池中的分配)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_20/009_memory_resource_unsynchronized_pool_resource.cpp">unsynchronized_pool_resource(线程不安全的 std::pmr::memory_resource，用于管理具有不同块大小的池中的分配)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_20/009_memory_resource_monotonic_buffer_resource.cpp">monotonic_buffer_resource(一种特殊用途的 std::pmr::memory_resource，仅在资源被销毁时才释放所分配内存)</a>	
-	
+-->
+
 ### <h3 id="cpp_20_compare">Concepts library(概念库)</h3>
 
 ### <h5 id="cpp_headfile_concepts">Defined in header&lt;concepts&gt;</h5>
