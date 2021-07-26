@@ -20,18 +20,9 @@ Write something....
 
 ---
 
-<h2 id="nav_1">
-<img src="https://img12.360buyimg.com/ddimg/jfs/t1/192169/2/12820/11155/60ed0f51E6286134a/535d82747007c63e.png">
+<h2 id="nav_1">🔥🔥🔥
   音视频开发
 </h2>
-
-===
-
-* [WebRTC](#anchor_point_1)
-* [FFmpeg](#anchor_point_2)
-* [RTSP](#anchor_point_3)
-
-<br/>
 
 
 ### 1 WerRTC方向
