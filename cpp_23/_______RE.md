@@ -1,6 +1,8 @@
 <div align=center>
   
-  # 🔥🔥🔥音视频，webrtc,ffimapg,。
+# 🔥🔥🔥音视频开发，webrtc,ffimapg。
+
+“技术深度” 与 “技术广度”是对开发者来说最为重要的两个维度，本项目致力于从源码层面，剖析和挖掘音视频行业主流技术的底层实现原理，为广大开发者 “提升技术深度” 提供便利。
     
 </div>
 <div align=center>
