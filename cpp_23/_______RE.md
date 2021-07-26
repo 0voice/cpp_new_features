@@ -28,6 +28,14 @@
 
 ##### 1.1.1 面试必聊的排序与KMP
 
+|── 访问频率统计 Nginx handler 模块的实现
+|──── Nginx Handler模块运行原理
+|──── ngx_module_t/ngx_http_module_t的讲解
+|──── ngx_http_top_body_filter/ngx_http_top_header_filter的原理
+|──── ngx_rbtree_t的使用方法
+|──── ngx_rbtree自定义添加方法
+|──── 模块性能测试
+
 * 插入排序
 * 插入排序
 * 快速排序
