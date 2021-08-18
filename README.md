@@ -1,4 +1,4 @@
-# cpp_new_features
+# 
 2021年最新整理，500个c++11/14/17/20/23的新特性代码案例，包含lambda匿名函数，右值引用，auto，coroutine库，synchronization库，持续更新中......
 
 -----------
@@ -17,8 +17,8 @@
 
 📢 重磅消息 —— 更多资源repo：
 
-[500+份音视频流媒体文章，论文，视频，实践项目，开源框架，协议，业界大神名单](https://github.com/0voice/audio_video_streaming)
-[500个常用数据结构，算法，实战项目，经典游戏含代码，可拷贝代码直接运行](https://github.com/0voice/algorithm-structure#nav_01)
+* [500+份音视频流媒体文章，论文，视频，实践项目，开源框架，协议，业界大神名单](https://github.com/0voice/audio_video_streaming)
+* [500个常用数据结构，算法，实战项目，经典游戏含代码，可拷贝代码直接运行](https://github.com/0voice/algorithm-structure#nav_01)
 
 <br/>
 <br/>
