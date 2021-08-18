@@ -12,6 +12,17 @@
 * [C++23新特性(正在更新中...)](#cpp_23)
 
 <br/>
+<br/>
+<br/>
+
+📢 重磅消息 —— 更多资源repo：
+
+[500+份音视频流媒体文章，论文，视频，实践项目，开源框架，协议，业界大神名单](https://github.com/0voice/audio_video_streaming)
+[500个常用数据结构，算法，实战项目，经典游戏含代码，可拷贝代码直接运行](https://github.com/0voice/algorithm-structure#nav_01)
+
+<br/>
+<br/>
+<br/>
 
 ## <h1 id="cpp_11">C++11新特性</h1>
 ### <h3 id="cpp_11_keywords">关键字</h3>
