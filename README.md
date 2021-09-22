@@ -12,8 +12,12 @@
 
 </div>
 
+<div align=center>
+	
+<img width="30%" height="30%" src="https://user-images.githubusercontent.com/87457873/134301566-dfe24e96-44a5-48b7-9294-f72c49010c2f.jpg"/>
 
-## <h1 id="cpp_11">C++11新特性</h1>
+</div>
+
 ### <h3 id="cpp_11_keywords">关键字</h3>
 
 #### <h5 id="cpp_11_new_keywords">新增关键字</h5>
