@@ -425,8 +425,9 @@
 ####  <h5 id="cpp_11_SFINAE">一般化的SFINAE规则(generalized SFINAE rules)</h5>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/002_grammar_SFINAE.cpp">generalized SFINAE rules</a>
 	
-<br/>
 
+-----	
+	
 <div  id="cpp_14" align=center>
 	
 <img width="30%" height="30%" src="https://user-images.githubusercontent.com/87457873/134302218-7e6d1586-7210-4121-8aa0-244ddb37572a.jpg"/>
@@ -498,15 +499,14 @@
 * [std::quoted](https://github.com/0voice/cpp_new_features/blob/main/cpp_14/README.md#cpp_14_11)
 -->
 	
-<br/>
+-----
 
-<div align=center>
+<div id="cpp_17" align=center>
 	
 <img width="30%" height="30%" src="https://user-images.githubusercontent.com/87457873/134302312-2c3ddfc0-7942-4263-9b02-4cec08c18e2f.jpg"/>
 
 </div>	
 	
-## <h1 id="cpp_17">C++17新特性</h1>
 
 ### <h3 id="cpp_17_keywords">关键字</h3>
 
@@ -629,15 +629,13 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_17/012_stl_empty.cpp">empty(检查容器是否为空)</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_17/012_stl_data.cpp">data(获得指向底层数组的指针)</a>
 
-<br/>
+---- 
 	
-<div align=center>
+<div id="cpp_20" align=center>
 	
 <img width="30%" height="30%" src="https://user-images.githubusercontent.com/87457873/134302390-53b4bfe7-eb75-4325-8376-dabd620c3a9d.jpg"/>
 
 </div>		
-
-## <h1 id="cpp_20">C++20新特性</h1>
 	
 ### <h3 id="cpp_20_keywords">关键字</h3>
 
@@ -1086,17 +1084,14 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_20/027_ranges_ranges_cdata.cpp">ranges::cdata(获得指向只读连续范围的起始的指针)</a> 
 
 
-<br/>
+-----
 	
-<div align=center>
+<div id="cpp_23" align=center>
 	
 <img width="30%" height="30%" src="https://user-images.githubusercontent.com/87457873/134302554-85d6bf7c-1e1d-4579-8141-8a4c3e8d92e2.jpg"/>
 
 </div>		
 	
-
-## <h1 id="cpp_23">C++23新特性</h1>
-
 ### <h3 id="cpp_23_RTTI">类型支持（基本类型、RTTI、类型特性）</h3>
 
 ### <h5 id="cpp_headfile_type_traits">Defined in header&lt;type_traits&gt;</h5>
