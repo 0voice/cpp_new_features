@@ -20,6 +20,7 @@
 
 ### <h3>文章推荐</h3>
 * [每个c++开发人员都应该使用的10个c++ 11特性](https://github.com/0voice/cpp_new_features/blob/main/%E6%AF%8F%E4%B8%AAc%2B%2B%E5%BC%80%E5%8F%91%E4%BA%BA%E5%91%98%E9%83%BD%E5%BA%94%E8%AF%A5%E4%BD%BF%E7%94%A8%E7%9A%8410%E4%B8%AAc%2B%2B%2011%E7%89%B9%E6%80%A7.md)
+* [在c++项目中你必须真正使用的15个c++11特性](https://github.com/0voice/cpp_new_features/blob/main/%E5%9C%A8c%2B%2B%E9%A1%B9%E7%9B%AE%E4%B8%AD%E4%BD%A0%E5%BF%85%E9%A1%BB%E7%9C%9F%E6%AD%A3%E4%BD%BF%E7%94%A8%E7%9A%8415%E4%B8%AAc%2B%2B%E7%89%B9%E6%80%A7.md)
 
 ### <h3 id="cpp_11_keywords">关键字</h3>
 
