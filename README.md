@@ -4,7 +4,7 @@
 
 <div align=center>
 	
-![image](https://user-images.githubusercontent.com/87457873/134297801-d13053cc-0a5d-4efd-9f02-9343b513fc33.png)
+<img width="70%" height="70%" src="https://user-images.githubusercontent.com/87457873/134297801-d13053cc-0a5d-4efd-9f02-9343b513fc33.png"/>
 	
 ## 🚀 直达 [（# C++11）](#cpp_11) [（# C++14）](#cpp_14) [（# C++17）](#cpp_17) [（# C++20）](#cpp_20) [（# C++23）](#cpp_23)
 
