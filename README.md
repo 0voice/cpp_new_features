@@ -427,6 +427,12 @@
 	
 <br/>
 
+<div align=center>
+	
+<img width="30%" height="30%" src="https://user-images.githubusercontent.com/87457873/134302218-7e6d1586-7210-4121-8aa0-244ddb37572a.jpg"/>
+
+</div>		
+	
 ## <h1 id="cpp_14">C++14新特性</h1>
 
 ### <h3 id="cpp_14_RTTI">类型支持（基本类型、RTTI、类型特性）</h3>
@@ -495,6 +501,12 @@
 	
 <br/>
 
+<div align=center>
+	
+<img width="30%" height="30%" src="https://user-images.githubusercontent.com/87457873/134302312-2c3ddfc0-7942-4263-9b02-4cec08c18e2f.jpg"/>
+
+</div>	
+	
 ## <h1 id="cpp_17">C++17新特性</h1>
 
 ### <h3 id="cpp_17_keywords">关键字</h3>
@@ -619,6 +631,12 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_17/012_stl_data.cpp">data(获得指向底层数组的指针)</a>
 
 <br/>
+	
+<div align=center>
+	
+<img width="30%" height="30%" src="https://user-images.githubusercontent.com/87457873/134302390-53b4bfe7-eb75-4325-8376-dabd620c3a9d.jpg"/>
+
+</div>		
 
 ## <h1 id="cpp_20">C++20新特性</h1>
 	
@@ -1070,6 +1088,13 @@
 
 
 <br/>
+	
+<div align=center>
+	
+<img width="30%" height="30%" src="https://user-images.githubusercontent.com/87457873/134302554-85d6bf7c-1e1d-4579-8141-8a4c3e8d92e2.jpg"/>
+
+</div>		
+	
 
 ## <h1 id="cpp_23">C++23新特性</h1>
 
