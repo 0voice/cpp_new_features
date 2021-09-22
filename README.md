@@ -1,7 +1,6 @@
 
-# 2021年最新整理，500个c++11/14/17/20/23的新特性代码案例，包含lambda匿名函数，右值引用，auto，coroutine库，synchronization库
+# 🌞🌞🌞 2021年最新整理，500个 C++ 11 / 14 / 17 / 20 / 23 的新特性代码案例，包含lambda匿名函数，右值引用，auto，coroutine库，synchronization库
 
------------
 
 # C++新特性
 
