@@ -427,13 +427,12 @@
 	
 <br/>
 
-<div align=center>
+<div  id="cpp_14" align=center>
 	
 <img width="30%" height="30%" src="https://user-images.githubusercontent.com/87457873/134302218-7e6d1586-7210-4121-8aa0-244ddb37572a.jpg"/>
 
 </div>		
 	
-## <h1 id="cpp_14">C++14新特性</h1>
 
 ### <h3 id="cpp_14_RTTI">类型支持（基本类型、RTTI、类型特性）</h3>
 	
