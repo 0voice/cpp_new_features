@@ -18,6 +18,9 @@
 
 </div>
 
+### <h3>文章推荐</h3>
+* [每个c++开发人员都应该使用的10个c++ 11特性](https://github.com/0voice/cpp_new_features/blob/main/%E6%AF%8F%E4%B8%AAc%2B%2B%E5%BC%80%E5%8F%91%E4%BA%BA%E5%91%98%E9%83%BD%E5%BA%94%E8%AF%A5%E4%BD%BF%E7%94%A8%E7%9A%8410%E4%B8%AAc%2B%2B%2011%E7%89%B9%E6%80%A7.md)
+
 ### <h3 id="cpp_11_keywords">关键字</h3>
 
 #### <h5 id="cpp_11_new_keywords">新增关键字</h5>
