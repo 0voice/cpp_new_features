@@ -22,6 +22,16 @@
 * [每个c++开发人员都应该使用的10个c++11特性](https://github.com/0voice/cpp_new_features/blob/main/%E6%AF%8F%E4%B8%AAc%2B%2B%E5%BC%80%E5%8F%91%E4%BA%BA%E5%91%98%E9%83%BD%E5%BA%94%E8%AF%A5%E4%BD%BF%E7%94%A8%E7%9A%8410%E4%B8%AAc%2B%2B%2011%E7%89%B9%E6%80%A7.md)
 * [在c++项目中你必须真正使用的15个c++11特性](https://github.com/0voice/cpp_new_features/blob/main/%E5%9C%A8c%2B%2B%E9%A1%B9%E7%9B%AE%E4%B8%AD%E4%BD%A0%E5%BF%85%E9%A1%BB%E7%9C%9F%E6%AD%A3%E4%BD%BF%E7%94%A8%E7%9A%8415%E4%B8%AAc%2B%2B%E7%89%B9%E6%80%A7.md)
 * [如何在 C++11 中使用 Lambda 表达式](https://github.com/0voice/cpp_new_features/blob/main/%E5%A6%82%E4%BD%95%E5%9C%A8%20C%2B%2B11%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20Lambda%20%E8%A1%A8%E8%BE%BE%E5%BC%8F.md)
+* [深入理解C++11](https://github.com/0voice/cpp_new_features/blob/main/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3C%2B%2B11.md)
+* [吐血整理：C++11新特性](https://github.com/0voice/cpp_new_features/blob/main/%E5%90%90%E8%A1%80%E6%95%B4%E7%90%86%EF%BC%9AC%2B%2B11%E6%96%B0%E7%89%B9%E6%80%A7.md)
+* [C++11新特性之auto和decltype知识点](https://github.com/0voice/cpp_new_features/blob/main/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9AC++%2011%E6%96%B0%E7%89%B9%E6%80%A7.md#c11%E6%96%B0%E7%89%B9%E6%80%A7%E4%B9%8Bauto%E5%92%8Cdecltype%E7%9F%A5%E8%AF%86%E7%82%B9)
+* [C++11新特性之左值引用、右值引用、移动语义、完美转发](https://github.com/0voice/cpp_new_features/blob/main/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9AC++%2011%E6%96%B0%E7%89%B9%E6%80%A7.md#c11%E6%96%B0%E7%89%B9%E6%80%A7%E4%B9%8B%E5%B7%A6%E5%80%BC%E5%BC%95%E7%94%A8%E5%8F%B3%E5%80%BC%E5%BC%95%E7%94%A8%E7%A7%BB%E5%8A%A8%E8%AF%AD%E4%B9%89%E5%AE%8C%E7%BE%8E%E8%BD%AC%E5%8F%91)
+* [C++11新特性之列表初始化](https://github.com/0voice/cpp_new_features/blob/main/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9AC++%2011%E6%96%B0%E7%89%B9%E6%80%A7.md#c11%E6%96%B0%E7%89%B9%E6%80%A7%E4%B9%8B%E5%88%97%E8%A1%A8%E5%88%9D%E5%A7%8B%E5%8C%96)
+* [C++11新特性std::function和lambda表达式](https://github.com/0voice/cpp_new_features/blob/main/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9AC++%2011%E6%96%B0%E7%89%B9%E6%80%A7.md#c11%E6%96%B0%E7%89%B9%E6%80%A7stdfunction%E5%92%8Clambda%E8%A1%A8%E8%BE%BE%E5%BC%8F)
+* [C++11新特性之模板改进](https://github.com/0voice/cpp_new_features/blob/main/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9AC++%2011%E6%96%B0%E7%89%B9%E6%80%A7.md#c11%E6%96%B0%E7%89%B9%E6%80%A7%E4%B9%8B%E6%A8%A1%E6%9D%BF%E6%94%B9%E8%BF%9B)
+* [C++11新特性之线程相关知识点](https://github.com/0voice/cpp_new_features/blob/main/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9AC++%2011%E6%96%B0%E7%89%B9%E6%80%A7.md#c11%E6%96%B0%E7%89%B9%E6%80%A7%E4%B9%8B%E7%BA%BF%E7%A8%8B%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86%E7%82%B9)
+* [C++11 的异步操作-async](https://github.com/0voice/cpp_new_features/blob/main/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9AC++%2011%E6%96%B0%E7%89%B9%E6%80%A7.md#c11-%E7%9A%84%E5%BC%82%E6%AD%A5%E6%93%8D%E4%BD%9C-async)
+* [C++11新特性之智能指针](https://github.com/0voice/cpp_new_features/blob/main/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9AC++%2011%E6%96%B0%E7%89%B9%E6%80%A7.md#c11%E6%96%B0%E7%89%B9%E6%80%A7%E4%B9%8B%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88)
 
 ### <h3>书籍推荐</h3>
 
