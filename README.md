@@ -48,8 +48,6 @@
 * [struct](https://github.com/0voice/cpp_new_features/blob/main/cpp_11/001_meaning_keywords_README.md#struct)
 * [using](https://github.com/0voice/cpp_new_features/blob/main/cpp_11/001_meaning_keywords_README.md#using)
 
-<br />
-
 ### <h3 id="cpp_11_RTTI">类型支持（基本类型、RTTI、类型特性）</h3>
 
 #### <h5 id="cpp_11_RTTI_Primary_type_categories">Defined in header &lt;type_traits&gt;</h5>
@@ -115,7 +113,6 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_std_is_nothrow_destructible.cpp">is_nothrow_destructible</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_rtti_std_has_virtual_destructor.cpp">has_virtual_destructor</a>
 
-<br />
 
 ### <h3 id="cpp_11_stl">STL容器</h3>
 
@@ -208,7 +205,6 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_variable_parameter_template.cpp">可变参数模板</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_template_default_template_parameters.cpp">默认模板参数</a>
 
-<br />
 
 ### <h3 id="cpp_11_template">原子操作</h3>
 
@@ -261,7 +257,6 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_atomic_std_uintmax_t.cpp">std::atomic&lt;std::uintmax_t&gt;</a>
 -->
 
-<br />
 
 ### <h3 id="cpp_11_template">线程</h3>
 
@@ -276,7 +271,6 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_thread_std_future.cpp">std::future</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_std_thread_std_thread_local.cpp">std::thread_local</a>
 
-<br />
 
 ### <h3 id="cpp_11_exception">异常</h3>
 
@@ -291,8 +285,6 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_exception_std_noexcept.cpp">std::noexcept</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_exception_std_terminate_handler.cpp">std::terminate_handler</a>
 -->
-<br />
-
 ### <h3 id="cpp_11_error">错误</h3>
 
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_error_std_error_category.cpp">std::error_category</a>
@@ -302,7 +294,6 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_error_std_error_code.cpp">std::error_code</a>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/003_error_std_system_error.cpp">std::system_error</a>
 
-<br/>
 
 ### <h3 id="cpp_11_keywords">新语法</h3>
 
@@ -425,7 +416,6 @@
 ####  <h5 id="cpp_11_SFINAE">一般化的SFINAE规则(generalized SFINAE rules)</h5>
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_11/002_grammar_SFINAE.cpp">generalized SFINAE rules</a>
 	
-
 -----	
 	
 <div  id="cpp_14" align=center>
@@ -1128,13 +1118,6 @@
 * <a href="https://github.com/0voice/cpp_new_features/blob/main/cpp_23/005_string_view_contains.cpp">contains(检查字符串视图是否含有给定的子串或字符)</a>
 
 ---
-	
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 
 <h2  id="11">🤝 鸣谢</h2>
 
