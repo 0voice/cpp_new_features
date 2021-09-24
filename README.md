@@ -12,7 +12,7 @@
 
 </div>
 
-# C++ 发展历程
+# 🌋 C++ 发展历程
 
 * C++ 编程语言的历史可以追溯到 **1979 年**，当时 Bjarne Stroustrup 为博士学位论文进行了一些开发。在 Stroustrup 可以使用的所有语言中，有一种被称为 Simula 的语言，顾名思义，它可能是一种主要为仿真而设计的语言。Simula 67 语言是 Stroustrup 使用的变体，被认为是支持面向对象编程范例的主要语言。Stroustrup 发现这种范例对包装开发很有帮助。但是，Simula 语言对于实践和实际使用而言太慢了。
 随后不久，Bjarne Stroustrup 希望通过支持面向对象范例来增强 C。他深入研究了 Smalltalk 的 OO 实现，以获取有关实现的想法。但是他不愿意为此放弃性能，因此他开始从事 “C with Classes (带有类的 C）” 的工作，希望 C++ 代码运行时应具有与 C 代码相似（或更好）的性能。
@@ -53,7 +53,7 @@
 
 
 
-## 入门教程 
+# 🚪 入门教程 
 ### [C++ 入门教程（41课时） - 阿里云大学](https://github.com/0voice/cpp_new_features/blob/main/C%2B%2B%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B%EF%BC%8841%E8%AF%BE%E6%97%B6%EF%BC%89%20-%20%E9%98%BF%E9%87%8C%E4%BA%91%E5%A4%A7%E5%AD%A6.md)
 * [C++ 教程](https://github.com/0voice/cpp_new_features/blob/main/C%2B%2B%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B%EF%BC%8841%E8%AF%BE%E6%97%B6%EF%BC%89%20-%20%E9%98%BF%E9%87%8C%E4%BA%91%E5%A4%A7%E5%AD%A6.md#c-%E6%95%99%E7%A8%8B)
 * [C++ 简介](https://github.com/0voice/cpp_new_features/blob/main/C%2B%2B%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B%EF%BC%8841%E8%AF%BE%E6%97%B6%EF%BC%89%20-%20%E9%98%BF%E9%87%8C%E4%BA%91%E5%A4%A7%E5%AD%A6.md#c-%E7%AE%80%E4%BB%8B)
@@ -97,7 +97,7 @@
 * [C++ STL 教程](https://github.com/0voice/cpp_new_features/blob/main/C%2B%2B%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B%EF%BC%8841%E8%AF%BE%E6%97%B6%EF%BC%89%20-%20%E9%98%BF%E9%87%8C%E4%BA%91%E5%A4%A7%E5%AD%A6.md#c-stl-%E6%95%99%E7%A8%8B)
 * [C++ 标准库](https://github.com/0voice/cpp_new_features/blob/main/C%2B%2B%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B%EF%BC%8841%E8%AF%BE%E6%97%B6%EF%BC%89%20-%20%E9%98%BF%E9%87%8C%E4%BA%91%E5%A4%A7%E5%AD%A6.md#c-%E6%A0%87%E5%87%86%E5%BA%93)
 
-## 书籍推荐
+# 📚 书籍推荐
 
 * [《深入理解C++11：C++11新特性解析与应用》](https://www.aliyundrive.com/s/LKc1X2mL9G9)
 * [《C++入门经典（第10版）》](https://book.douban.com/subject/30247747/)
@@ -122,7 +122,7 @@
 * [《深度探索C++ 对象模型》](https://book.douban.com/subject/1091086/)
 * [《泛型编程与STL》](https://book.douban.com/subject/1241423/)
 
-## 文章推荐
+# 📰 文章推荐
 * [每个c++开发人员都应该使用的10个c++11特性](https://github.com/0voice/cpp_new_features/blob/main/%E6%AF%8F%E4%B8%AAc%2B%2B%E5%BC%80%E5%8F%91%E4%BA%BA%E5%91%98%E9%83%BD%E5%BA%94%E8%AF%A5%E4%BD%BF%E7%94%A8%E7%9A%8410%E4%B8%AAc%2B%2B%2011%E7%89%B9%E6%80%A7.md)
 * [在c++项目中你必须真正使用的15个c++11特性](https://github.com/0voice/cpp_new_features/blob/main/%E5%9C%A8c%2B%2B%E9%A1%B9%E7%9B%AE%E4%B8%AD%E4%BD%A0%E5%BF%85%E9%A1%BB%E7%9C%9F%E6%AD%A3%E4%BD%BF%E7%94%A8%E7%9A%8415%E4%B8%AAc%2B%2B%E7%89%B9%E6%80%A7.md)
 * [如何在 C++11 中使用 Lambda 表达式](https://github.com/0voice/cpp_new_features/blob/main/%E5%A6%82%E4%BD%95%E5%9C%A8%20C%2B%2B11%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20Lambda%20%E8%A1%A8%E8%BE%BE%E5%BC%8F.md)
@@ -139,12 +139,12 @@
 * [C++14新特性浅谈](https://github.com/0voice/cpp_new_features/blob/main/%E3%80%8CNotes%E3%80%8DC%2B%2B14%E6%96%B0%E7%89%B9%E6%80%A7%E6%B5%85%E8%B0%88.md)
 * [C++14新特性的所有知识点全在这儿啦](https://github.com/0voice/cpp_new_features/blob/main/C%2B%2B14%E6%96%B0%E7%89%B9%E6%80%A7%E7%9A%84%E6%89%80%E6%9C%89%E7%9F%A5%E8%AF%86%E7%82%B9%E5%85%A8%E5%9C%A8%E8%BF%99%E5%84%BF%E5%95%A6%EF%BC%81.md)
 
-## 教学视频
+# ▶ 教学视频
 
-## 干货铺
+# 🌰 干货铺
 
 
-## 部分代码案例
+# 🖥 部分代码案例
 
 ### <h3 id="cpp_11_keywords">关键字</h3>
 
