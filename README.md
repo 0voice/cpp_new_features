@@ -72,6 +72,27 @@
 ### <h3>书籍推荐</h3>
 
 * [《深入理解C++11：C++11新特性解析与应用》](https://www.aliyundrive.com/s/LKc1X2mL9G9)
+* [《C++入门经典（第10版）》](https://book.douban.com/subject/30247747/)
+* [《C++ Primer Plus 第6版 中文版(异步图书出品)》](https://www.epubit.com/bookDetails?id=UB7209840d845c9)
+* [《清华计算机图书译丛：精通C++（第9版）》](https://item.jd.com/12432130.html)
+* [《C++高级编程(第4版)》](http://www.tup.tsinghua.edu.cn/booksCenter/book_07894801.html)
+* [《C++游戏编程入门（第4版）(异步图书出品)》](https://item.jd.com/13265350.html)
+* [《STL源码剖析》](https://book.douban.com/subject/1110934/)
+* [《C++程序设计:原理与实践(基础篇)(原书第2版)》](https://book.douban.com/subject/27023080/)
+* [《Accelerated C++中文版》](https://book.douban.com/subject/2280545//)
+* [《C++编程思想(两卷合订本)》](https://book.douban.com/subject/6558198/)
+* [《中文版Effective STL:50条有效使用STL的经验》](https://book.douban.com/subject/1792179/)
+* [《C++编程剖析:问题、方案和设计准则》](https://book.douban.com/subject/5367371/)
+* [《C++ Templates中文版》](https://book.douban.com/subject/1144020/)
+* [《C++设计新思维》](https://book.douban.com/subject/1103566/)
+* [《C++模板元编程》](https://book.douban.com/subject/4136223/)
+* [《C++并发编程实战》](https://book.douban.com/subject/26386925/)
+* [《C++程序设计语言(第1-3部分)(原书第4版)》](https://book.douban.com/subject/26857943/)
+* [《C++标准库(第2版)》](https://book.douban.com/subject/26419721/)
+* [《Essential C++》](https://book.douban.com/subject/24868427/)
+* [《C++ 语言的设计与演化》](https://book.douban.com/subject/1096216/)
+* [《深度探索C++ 对象模型》](https://book.douban.com/subject/1091086/)
+* [《泛型编程与STL》](https://book.douban.com/subject/1241423/)
 
 ### <h3 id="cpp_11_keywords">关键字</h3>
 
