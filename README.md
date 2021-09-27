@@ -137,6 +137,12 @@
 * [Free Country](https://www.thefreecountry.com/sourcecode/cpp.shtml?spm=5176.10731542.0.0.4fc35bde2jHhz4) − Free Country 提供了免费的 C++ 源代码和 C++ 库，这些源代码和库涵盖了压缩、存档、游戏编程、标准模板库和 GUI 编程等 C++ 编程领域。
 * [C and C++ Users Group](http://www.hal9k.com/cug/?spm=5176.10731542.0.0.4fc35bde2jHhz4) − C 和 C++ 的用户团体提供了免费的涵盖各种编程领域 C++ 项目的源代码，包括 AI、动画、编译器、数据库、调试、加密、游戏、图形、GUI、语言工具、系统编程等
 * [LearnCpp](https://www.learncpp.com/) - 免费学习c++编程
+* [CodeCogs](https://www.codecogs.com/) - CodeCogs是一项协作的开放源码库，C/C++的数值方面的组件
+* [codeproject](https://www.codeproject.com/) - codeproject提供的C/C++资源代码项目
+* [thoughtco](https://www.thoughtco.com/c-and-c-plus-programming-4133470) - 游戏有关的C++源代码
+* [Free C/C++ Libraries](https://www.programmerworld.net/resources/c_library.htm) - 免费C++源代码和其它有用的工具
+* [The C++ Standard Library](http://www.josuttis.com/libbook/examples.html) - 这是一个收集了数C/C++网站链接列表的网页
+* [cplusplus](http://www.cplusplus.com/) - C++学习网站
 
 <div id="cpp_11" align=center>
 	
