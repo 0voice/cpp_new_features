@@ -131,6 +131,7 @@
 * [C++11常用新特性（二）](https://github.com/0voice/cpp_new_features/blob/main/C++11%E5%B8%B8%E7%94%A8%E6%96%B0%E7%89%B9%E6%80%A7%EF%BC%88%E4%BA%8C%EF%BC%89.md)
 * [C++14新特性浅谈](https://github.com/0voice/cpp_new_features/blob/main/%E3%80%8CNotes%E3%80%8DC%2B%2B14%E6%96%B0%E7%89%B9%E6%80%A7%E6%B5%85%E8%B0%88.md)
 * [C++14新特性的所有知识点全在这儿啦](https://github.com/0voice/cpp_new_features/blob/main/C%2B%2B14%E6%96%B0%E7%89%B9%E6%80%A7%E7%9A%84%E6%89%80%E6%9C%89%E7%9F%A5%E8%AF%86%E7%82%B9%E5%85%A8%E5%9C%A8%E8%BF%99%E5%84%BF%E5%95%A6%EF%BC%81.md)
+* [总结归纳：C++17新特性](https://github.com/0voice/cpp_new_features/blob/main/%E6%80%BB%E7%BB%93%E5%BD%92%E7%BA%B3%EF%BC%9AC%2B%2B17%E6%96%B0%E7%89%B9%E6%80%A7.md)
 
 
 # ▶ 教学视频
@@ -177,6 +178,10 @@
 
 
 # 🌰 干货铺
+* [C++ Standard Library](http://en.wikipedia.org/wiki/C%2B%2B_Standard_Library) - 一系列类和函数的集合，使用核心语言编写，也是C++ISO自身标准的一部分
+* [Standard Template Library](https://en.wikipedia.org/wiki/Standard_Template_Library) - 标准模板库
+* [C POSIX library](https://en.wikipedia.org/wiki/C_POSIX_library) - POSIX系统的C标准库规范
+* [ISO C++ Standards Committee](https://github.com/cplusplus) - C++标准委员会
 * [C++ FAQ](http://www.cs.wustl.edu/~schmidt/C++/?spm=5176.10731542.0.0.4fc35bde2jHhz4) − C++ 常见问题
 * [Free Country](https://www.thefreecountry.com/sourcecode/cpp.shtml?spm=5176.10731542.0.0.4fc35bde2jHhz4) − Free Country 提供了免费的 C++ 源代码和 C++ 库，这些源代码和库涵盖了压缩、存档、游戏编程、标准模板库和 GUI 编程等 C++ 编程领域。
 * [C and C++ Users Group](http://www.hal9k.com/cug/?spm=5176.10731542.0.0.4fc35bde2jHhz4) − C 和 C++ 的用户团体提供了免费的涵盖各种编程领域 C++ 项目的源代码，包括 AI、动画、编译器、数据库、调试、加密、游戏、图形、GUI、语言工具、系统编程等
