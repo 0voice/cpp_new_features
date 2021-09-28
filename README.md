@@ -129,6 +129,8 @@
 * [C++11新特性之智能指针](https://github.com/0voice/cpp_new_features/blob/main/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9AC++%2011%E6%96%B0%E7%89%B9%E6%80%A7.md#c11%E6%96%B0%E7%89%B9%E6%80%A7%E4%B9%8B%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88)
 * [C++14新特性浅谈](https://github.com/0voice/cpp_new_features/blob/main/%E3%80%8CNotes%E3%80%8DC%2B%2B14%E6%96%B0%E7%89%B9%E6%80%A7%E6%B5%85%E8%B0%88.md)
 * [C++14新特性的所有知识点全在这儿啦](https://github.com/0voice/cpp_new_features/blob/main/C%2B%2B14%E6%96%B0%E7%89%B9%E6%80%A7%E7%9A%84%E6%89%80%E6%9C%89%E7%9F%A5%E8%AF%86%E7%82%B9%E5%85%A8%E5%9C%A8%E8%BF%99%E5%84%BF%E5%95%A6%EF%BC%81.md)
+* [C++11常用新特性（一）](https://github.com/0voice/cpp_new_features/blob/main/C%2B%2B11%E5%B8%B8%E7%94%A8%E6%96%B0%E7%89%B9%E6%80%A7%EF%BC%88%E4%B8%80%EF%BC%89.md)
+* [C++11常用新特性（二）](https://github.com/0voice/cpp_new_features/blob/main/C++11%E5%B8%B8%E7%94%A8%E6%96%B0%E7%89%B9%E6%80%A7%EF%BC%88%E4%BA%8C%EF%BC%89.md)
 
 # ▶ 教学视频
 
