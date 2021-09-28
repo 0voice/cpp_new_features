@@ -132,6 +132,20 @@
 
 # ▶ 教学视频
 
+#### [【GeekBand】侯捷 - C++面向对象高级编程](https://www.aliyundrive.com/s/HapPXxjQ1U7)
+
+* [P1 C++编程简介](https://www.aliyundrive.com/s/HapPXxjQ1U7)
+* [P2 头文件与类的声明](https://www.aliyundrive.com/s/HapPXxjQ1U7)
+* [P3 构造函数](https://www.aliyundrive.com/s/HapPXxjQ1U7)
+* [P4 参数传递与返回值](https://www.aliyundrive.com/s/HapPXxjQ1U7)
+* [P5 操作符重载与临时对象](https://www.aliyundrive.com/s/HapPXxjQ1U7)
+* [P6 复习Complex类的实现过程](https://www.aliyundrive.com/s/HapPXxjQ1U7)
+* [P7 三大函数：拷贝构造，拷贝复制，析构](https://www.aliyundrive.com/s/HapPXxjQ1U7)
+* [P8 堆，栈与内存管理](https://www.aliyundrive.com/s/HapPXxjQ1U7)
+* [P9 复习String类的实现过程](https://www.aliyundrive.com/s/HapPXxjQ1U7)
+* [P10 扩展补充：类模板，函数模板，及其他](https://www.aliyundrive.com/s/HapPXxjQ1U7)
+
+
 # 🌰 干货铺
 * [C++ FAQ](http://www.cs.wustl.edu/~schmidt/C++/?spm=5176.10731542.0.0.4fc35bde2jHhz4) − C++ 常见问题
 * [Free Country](https://www.thefreecountry.com/sourcecode/cpp.shtml?spm=5176.10731542.0.0.4fc35bde2jHhz4) − Free Country 提供了免费的 C++ 源代码和 C++ 库，这些源代码和库涵盖了压缩、存档、游戏编程、标准模板库和 GUI 编程等 C++ 编程领域。
