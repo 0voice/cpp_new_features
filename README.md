@@ -186,7 +186,7 @@
 * [Standard Template Library](https://en.wikipedia.org/wiki/Standard_Template_Library) - 标准模板库
 * [C POSIX library](https://en.wikipedia.org/wiki/C_POSIX_library) - POSIX系统的C标准库规范
 * [ISO C++ Standards Committee](https://github.com/cplusplus) - C++标准委员会
-* [C++ FAQ](http://www.cs.wustl.edu/~schmidt/C++/?spm=5176.10731542.0.0.4fc35bde2jHhz4) − C++ 常见问题
+* [C++ FAQ](https://isocpp.org/faq) − C++ 常见问题
 * [Free Country](https://www.thefreecountry.com/sourcecode/cpp.shtml?spm=5176.10731542.0.0.4fc35bde2jHhz4) − Free Country 提供了免费的 C++ 源代码和 C++ 库，这些源代码和库涵盖了压缩、存档、游戏编程、标准模板库和 GUI 编程等 C++ 编程领域。
 * [C and C++ Users Group](http://www.hal9k.com/cug/?spm=5176.10731542.0.0.4fc35bde2jHhz4) − C 和 C++ 的用户团体提供了免费的涵盖各种编程领域 C++ 项目的源代码，包括 AI、动画、编译器、数据库、调试、加密、游戏、图形、GUI、语言工具、系统编程等
 * [LearnCpp](https://www.learncpp.com/) - 免费学习c++编程
