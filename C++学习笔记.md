@@ -557,10 +557,6 @@ int main() {
 }
 ```
 
-总结：当数组名传入到函数作为参数时，被退化为指向首元素的指针[📎C++基础入门.md](https://www.yuque.com/attachments/yuque/0/2021/md/2797977/1627436046064-540c0619-9180-4a2a-9e34-d81e7b18e5b4.md)
-
-
-
 ### 8、结构体
 
 
@@ -750,7 +746,46 @@ int main() {
 **示例：**
 
 ```cpp
-//学生结构体定义struct student{	//成员列表	string name;  //姓名	int age;      //年龄	int score;    //分数};//值传递void printStudent(student stu ){	stu.age = 28;	cout << "子函数中 姓名：" << stu.name << " 年龄： " << stu.age  << " 分数：" << stu.score << endl;}//地址传递void printStudent2(student *stu){	stu->age = 28;	cout << "子函数中 姓名：" << stu->name << " 年龄： " << stu->age  << " 分数：" << stu->score << endl;}int main() {	student stu = { "张三",18,100};	//值传递	printStudent(stu);	cout << "主函数中 姓名：" << stu.name << " 年龄： " << stu.age << " 分数：" << stu.score << endl;	cout << endl;	//地址传递	printStudent2(&stu);	cout << "主函数中 姓名：" << stu.name << " 年龄： " << stu.age  << " 分数：" << stu.score << endl;	system("pause");	return 0;}
+//学生结构体定义
+struct student
+{
+	//成员列表
+	string name;  //姓名
+	int age;      //年龄
+	int score;    //分数
+};
+
+//值传递
+void printStudent(student stu )
+{
+	stu.age = 28;
+	cout << "子函数中 姓名：" << stu.name << " 年龄： " << stu.age  << " 分数：" << stu.score << endl;
+}
+
+//地址传递
+void printStudent2(student *stu)
+{
+	stu->age = 28;
+	cout << "子函数中 姓名：" << stu->name << " 年龄： " << stu->age  << " 分数：" << stu->score << endl;
+}
+
+int main() {
+
+	student stu = { "张三",18,100};
+	//值传递
+	printStudent(stu);
+	cout << "主函数中 姓名：" << stu.name << " 年龄： " << stu.age << " 分数：" << stu.score << endl;
+
+	cout << endl;
+
+	//地址传递
+	printStudent2(&stu);
+	cout << "主函数中 姓名：" << stu.name << " 年龄： " << stu.age  << " 分数：" << stu.score << endl;
+
+	system("pause");
+
+	return 0;
+}
 ```
 
 总结：如果不想修改主函数中的数据，用值传递，反之用地址传递
@@ -764,24 +799,40 @@ int main() {
 **示例：**
 
 ```cpp
-//学生结构体定义struct student{	//成员列表	string name;  //姓名	int age;      //年龄	int score;    //分数};//const使用场景void printStudent(const student *stu) //加const防止函数体中的误操作{	//stu->age = 100; //操作失败，因为加了const修饰	cout << "姓名：" << stu->name << " 年龄：" << stu->age << " 分数：" << stu->score << endl;}int main() {	student stu = { "张三",18,100 };	printStudent(&stu);	system("pause");	return 0;}
+//学生结构体定义
+struct student
+{
+	//成员列表
+	string name;  //姓名
+	int age;      //年龄
+	int score;    //分数
+};
+
+//const使用场景
+void printStudent(const student *stu) //加const防止函数体中的误操作
+{
+	//stu->age = 100; //操作失败，因为加了const修饰
+	cout << "姓名：" << stu->name << " 年龄：" << stu->age << " 分数：" << stu->score << endl;
+
+}
+
+int main() {
+
+	student stu = { "张三",18,100 };
+
+	printStudent(&stu);
+
+	system("pause");
+
+	return 0;
+}
 ```
-
-
-
-
-
-
-
-
-
-
 
 ## 二、核心编程
 
 C++中的面向对象编程（笑）
 
-## [📎C++核心编程.md](https://www.yuque.com/attachments/yuque/0/2021/md/2797977/1627442047784-64c25968-4ca7-4ed9-a15e-67454e084590.md)
+## [📎C++核心编程.md](https://github.com/0voice/cpp_new_features/blob/main/C%2B%2B%E6%A0%B8%E5%BF%83%E7%BC%96%E7%A8%8B.md)
 
 
 
@@ -1224,7 +1275,23 @@ int main() {
 讲解示例：
 
 ```cpp
-//发现是引用，转换为 int* const ref = &a;void func(int& ref){	ref = 100; // ref是引用，转换为*ref = 100}int main(){	int a = 10;        //自动转换为 int* const ref = &a; 指针常量是指针指向不可改，也说明为什么引用不可更改	int& ref = a; 	ref = 20; //内部发现ref是引用，自动帮我们转换为: *ref = 20;    	cout << "a:" << a << endl;	cout << "ref:" << ref << endl;    	func(a);	return 0;}
+//发现是引用，转换为 int* const ref = &a;
+void func(int& ref){
+	ref = 100; // ref是引用，转换为*ref = 100
+}
+int main(){
+	int a = 10;
+    
+    //自动转换为 int* const ref = &a; 指针常量是指针指向不可改，也说明为什么引用不可更改
+	int& ref = a; 
+	ref = 20; //内部发现ref是引用，自动帮我们转换为: *ref = 20;
+    
+	cout << "a:" << a << endl;
+	cout << "ref:" << ref << endl;
+    
+	func(a);
+	return 0;
+}
 ```
 
 结论：C++推荐用引用技术，因为语法方便，引用本质是指针常量，但是所有的指针操作编译器都帮我们做了
